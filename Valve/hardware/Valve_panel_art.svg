@@ -31,13 +31,13 @@
      inkscape:window-height="1057"
      id="namedview1061"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="135.81878"
-     inkscape:cy="265.59824"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="179.14238"
+     inkscape:cy="250.90308"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g822"
      units="mm"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -600,6 +600,45 @@
          d="M 205.49291,480.37795 V 468.28346"
          inkscape:connector-curvature="0" />
     </g>
+    <g
+       transform="matrix(0.12244634,0,0,0.12244634,70.260562,460.8259)"
+       id="g822">
+      <path
+         inkscape:export-ydpi="1205.39"
+         inkscape:export-xdpi="1205.39"
+         style="display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.99738479;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 351.92296,96.361672 c -12.54195,1.35036 -24.88692,3.26902 -36.66828,7.397048 -6.64739,2.22747 -13.38999,5.33373 -17.96596,11.07787 -3.09748,4.08283 -3.83936,9.33571 -2.42507,13.88263 1.7711,5.39178 5.36958,9.6359 8.82333,13.01976 9.99104,9.90527 22.58997,16.87495 30.40297,21.07642 11.34807,5.54688 18.14836,8.8033 18.14836,8.8033 0,0 -6.51541,-3.80177 -17.44741,-10.06507 -7.46427,-4.68037 -19.5688,-12.38097 -28.55081,-22.26244 -3.08888,-3.4401 -6.20427,-7.37408 -7.34072,-11.77059 -0.9082,-3.27288 -0.19144,-7.13582 2.05809,-9.75856 3.60128,-4.51061 9.59647,-6.80486 15.99332,-8.992 11.26517,-3.67167 23.18133,-5.3128 35.59594,-6.6793 0.001,-8e-5 0.002,-2.4e-4 0.004,-4e-4 31.46081,-3.424458 47.6757,-9.356798 54.57979,-18.121412 6.90418,-8.7646 2.1387,-19.43306 -6.02276,-28.01712 -8.16154,-8.583978 -20.00622,-16.408318 -29.86649,-22.201442 -4.93005,-2.896645 -9.35972,-5.270586 -12.56416,-6.9244 -1.60231,-0.826886 -2.89814,-1.473676 -3.79668,-1.91529 -0.89855,-0.441281 -0.41274,-0.21243 -1.41263,-0.684183 a 17863.773,17863.773 0 0 0 -4.11066,-1.937191 v 4.545024 c 0,72.392266 2.88154,144.784504 2.88154,144.784504 0,0 2.88145,-72.392238 2.88145,-144.784504 v -0.0015 l -4.11036,2.606348 c 0.94886,0.447077 0.46016,0.217347 1.32841,0.643787 0.86763,0.426439 2.13035,1.056606 3.6956,1.864408 3.13033,1.615614 7.47209,3.942626 12.28789,6.772091 9.6316,5.658772 21.17708,13.386698 28.60913,21.203543 7.43213,7.81692 10.46331,14.39801 5.67236,20.48003 -4.79103,6.08209 -19.76314,12.593539 -50.67632,15.958469 -10e-4,8e-5 -0.002,2.5e-4 -0.004,4.1e-4 z"
+         id="path8034-2-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscc"
+         inkscape:original-d="m 113.11963,479.87164 c 0,0 -15.297718,-7.12804 0,-8.7932 15.15247,-1.64934 0,-8.79318 0,-8.79318 z" />
+      <text
+         inkscape:export-ydpi="1205.39"
+         inkscape:export-xdpi="1205.39"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07775079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="95.100975"
+         y="83.595398"
+         id="text2315-1-7"><tspan
+           sodipodi:role="line"
+           id="tspan2313-9-6"
+           x="95.100975"
+           y="83.595398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:87.81704712px;line-height:1.25;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:4.93970823px;stroke-width:0.07775079px">Coriolis</tspan></text>
+      <text
+         inkscape:export-ydpi="1205.39"
+         inkscape:export-xdpi="1205.39"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07775079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="389.18234"
+         y="158.95502"
+         id="text2315-8-9-8"><tspan
+           sodipodi:role="line"
+           id="tspan2313-5-3-4"
+           x="389.18234"
+           y="158.95502"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.83991241px;line-height:1.25;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:1.75634074px;baseline-shift:baseline;stroke-width:0.07775079px">Instruments</tspan></text>
+    </g>
   </g>
   <g
      style="display:inline"
@@ -1091,40 +1130,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Quesha;-inkscape-font-specification:Quesha;text-align:center;text-anchor:middle;stroke-width:1.34097886"
          id="tspan4997-1">Clip</tspan>
     </text>
-    <g
-       transform="translate(0,2.2499853)"
-       id="g9373">
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.99738479;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 113.08129,470.73055 c -1.52341,0.16402 -3.02288,0.39707 -4.4539,0.89848 -0.80742,0.27056 -1.62641,0.64786 -2.18223,1.34557 -0.37624,0.49592 -0.46635,1.13396 -0.29456,1.68625 0.21513,0.65491 0.65221,1.17042 1.07172,1.58144 1.21356,1.20314 2.74389,2.04971 3.69289,2.56004 1.37839,0.67375 2.20438,1.06929 2.20438,1.06929 0,0 -0.79139,-0.46178 -2.11924,-1.22255 -0.90665,-0.5685 -2.37692,-1.50385 -3.46792,-2.7041 -0.37519,-0.41785 -0.7536,-0.89569 -0.89163,-1.42971 -0.11032,-0.39754 -0.0233,-0.86675 0.24998,-1.18532 0.43743,-0.54788 1.16563,-0.82655 1.94262,-1.09221 1.36832,-0.44598 2.81572,-0.64532 4.32365,-0.8113 1.5e-4,-10e-6 3e-4,-3e-5 4.5e-4,-5e-5 3.82138,-0.41595 5.79091,-1.13652 6.62952,-2.20111 0.83861,-1.06459 0.25977,-2.36043 -0.73156,-3.40309 -0.99133,-1.04265 -2.43004,-1.99303 -3.62772,-2.69669 -0.59883,-0.35184 -1.13687,-0.64019 -1.5261,-0.84107 -0.19462,-0.10044 -0.35202,-0.179 -0.46116,-0.23264 -0.10914,-0.0536 -0.0501,-0.0258 -0.17159,-0.0831 a 2169.817,2169.817 0 0 0 -0.49926,-0.2353 l 0,0.55206 c 0,8.7931 0.35,17.5862 0.35,17.5862 0,0 0.35,-8.7931 0.35,-17.5862 v -1.8e-4 l -0.49926,0.31658 c 0.11525,0.0543 0.0559,0.0264 0.16135,0.0782 0.10542,0.0518 0.25876,0.12834 0.44888,0.22646 0.38023,0.19624 0.9076,0.47889 1.49255,0.82257 1.1699,0.68734 2.57227,1.62601 3.475,2.57548 0.90274,0.94948 1.27092,1.74885 0.68899,2.4876 -0.58194,0.73876 -2.40052,1.52967 -6.15538,1.93839 -1.6e-4,10e-6 -3.1e-4,3e-5 -4.7e-4,5e-5 z"
-         id="path8034-2"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cscc"
-         inkscape:original-d="m 113.11963,479.87164 c 0,0 -15.297718,-7.12804 0,-8.7932 15.15247,-1.64934 0,-8.79318 0,-8.79318 z"
-         inkscape:path-effect="#path-effect854" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.29341793px;line-height:125%;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07775079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="81.901649"
-         y="469.1799"
-         id="text2315-1"><tspan
-           sodipodi:role="line"
-           id="tspan2313-9"
-           x="81.901649"
-           y="469.1799"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:0.59999996px;stroke-width:0.07775079px">Coriolis</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:Quesha;-inkscape-font-specification:Quesha;letter-spacing:0.2px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07775079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-         x="117.62215"
-         y="478.33344"
-         id="text2315-8-9"><tspan
-           sodipodi:role="line"
-           id="tspan2313-5-3"
-           x="117.62215"
-           y="478.33344"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;font-family:Quesha;-inkscape-font-specification:Quesha;baseline-shift:baseline;stroke-width:0.07775079px;letter-spacing:0.2px;">Instruments</tspan></text>
-    </g>
     <circle
        r="0.63908964"
        cy="285.84055"
