@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\LFO\hardware\LFO\LFO.sch)
-    (date "14-1-2018 22:21:43")
+    (date "15-1-2018 22:19:31")
     (tool "Eeschema (2018-01-11 revision 6f2beebf2)-makepkg")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -117,7 +117,7 @@
       (tstamp 5A5B69D7))
     (comp (ref F_COARSE1)
       (value ALPHA_30MM_ILLUM_FADER_100K)
-      (footprint MusicThingModular:ALPHA_ILL_FADER_30MM)
+      (footprint Coriolis-KiCad:ALPHA_ILL_FADER_45MM)
       (libsource (lib LFO-eagle-import) (part ALPHA_30MM_ILLUM_FADER_))
       (sheetpath (names "/LFO front board/") (tstamps /5A5B5D57/))
       (tstamp 5A5BF824))
