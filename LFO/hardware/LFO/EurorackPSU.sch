@@ -28,7 +28,7 @@ $EndComp
 Wire Wire Line
 	2500 1750 2650 1750
 Wire Wire Line
-	2650 1750 2650 1850
+	2650 1750 2650 1800
 Wire Wire Line
 	2650 1950 2500 1950
 Wire Wire Line
@@ -48,46 +48,17 @@ Connection ~ 2650 1850
 Wire Wire Line
 	2650 1850 2650 1950
 Wire Wire Line
-	2000 1650 1800 1650
-Wire Wire Line
-	1800 1650 1800 1350
-Wire Wire Line
-	1800 1350 2700 1350
-Wire Wire Line
 	2700 1350 2700 1650
 Wire Wire Line
 	2700 1650 2500 1650
-Wire Wire Line
-	2000 2050 1800 2050
-Wire Wire Line
-	1800 2050 1800 2250
-Wire Wire Line
-	1800 2250 2700 2250
 Wire Wire Line
 	2700 2250 2700 2050
 Wire Wire Line
 	2700 2050 2500 2050
 Wire Wire Line
-	2650 1850 2800 1850
-Wire Wire Line
-	2800 1850 2800 2350
-Wire Wire Line
-	2800 2350 1700 2350
-Wire Wire Line
-	1700 2350 1700 1850
-Wire Wire Line
-	1700 1850 1800 1850
-Wire Wire Line
 	2700 2250 3050 2250
-Connection ~ 2700 2250
 Wire Wire Line
 	2700 1350 3050 1350
-Connection ~ 2700 1350
-Wire Wire Line
-	2800 1850 2800 1800
-Wire Wire Line
-	2800 1800 3050 1800
-Connection ~ 2800 1850
 $Comp
 L diode:1N4001 D3
 U 1 1 5A677764
@@ -224,7 +195,7 @@ Connection ~ 4250 1800
 Wire Wire Line
 	4250 1800 4250 1900
 Text Notes 6500 1350 2    50   ~ 0
-To the modules (up to 4?)
+To the back boards (2x)
 Text Notes 2600 1200 2    50   ~ 0
 Input from busboard
 Text Notes 4750 1800 0    50   ~ 0
@@ -244,11 +215,11 @@ Wire Wire Line
 	4950 2250 4250 2250
 Connection ~ 4250 2250
 Wire Wire Line
-	4950 1700 5400 1700
+	4950 1700 5300 1700
 Wire Wire Line
-	4950 1900 5400 1900
+	4950 1900 5200 1900
 Wire Wire Line
-	4250 1800 5400 1800
+	4250 1800 5250 1800
 $Comp
 L conn:Conn_01x03_Female J9
 U 1 1 5A66D293
@@ -260,4 +231,59 @@ F 3 "~" H 5600 1800 50  0001 C CNN
 	1    5600 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2000 1750 2500 1750
+Connection ~ 2000 1750
+Connection ~ 2500 1750
+Wire Wire Line
+	2500 1850 2000 1850
+Connection ~ 2500 1850
+Connection ~ 2000 1850
+Wire Wire Line
+	2000 1950 2500 1950
+Connection ~ 2000 1950
+Connection ~ 2500 1950
+Wire Wire Line
+	2650 1800 3050 1800
+Connection ~ 2650 1800
+Wire Wire Line
+	2650 1800 2650 1850
+Wire Wire Line
+	2500 1650 2000 1650
+Connection ~ 2500 1650
+Wire Wire Line
+	2000 2050 2500 2050
+Connection ~ 2500 2050
+$Comp
+L conn:Conn_01x03_Female J10
+U 1 1 5A63DF39
+P 5600 2300
+F 0 "J10" H 5750 2300 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6050 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 2300 50  0001 C CNN
+F 3 "~" H 5600 2300 50  0001 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2200 5300 2200
+Wire Wire Line
+	5300 2200 5300 1700
+Connection ~ 5300 1700
+Wire Wire Line
+	5300 1700 5400 1700
+Wire Wire Line
+	5400 2300 5250 2300
+Wire Wire Line
+	5250 2300 5250 1800
+Connection ~ 5250 1800
+Wire Wire Line
+	5250 1800 5400 1800
+Wire Wire Line
+	5400 2400 5200 2400
+Wire Wire Line
+	5200 2400 5200 1900
+Connection ~ 5200 1900
+Wire Wire Line
+	5200 1900 5400 1900
 $EndSCHEMATC

@@ -533,10 +533,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 1550 2400 1550
 $Comp
-L conn:Conn_01x03_Male J1
+L conn:Conn_01x03_Male J_PWR1
 U 1 1 5A6795DA
 P 8650 1000
-F 0 "J1" H 8756 1278 50  0000 C CNN
+F 0 "J_PWR1" H 8756 1278 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 8756 1187 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8650 1000 50  0001 C CNN
 F 3 "~" H 8650 1000 50  0001 C CNN
@@ -544,10 +544,10 @@ F 3 "~" H 8650 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x06_Male J2
+L conn:Conn_01x06_Male J_TO_BB1
 U 1 1 5A67968B
 P 8650 1600
-F 0 "J2" H 8756 1978 50  0000 C CNN
+F 0 "J_TO_BB1" H 8756 1978 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 8756 1887 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8650 1600 50  0001 C CNN
 F 3 "~" H 8650 1600 50  0001 C CNN
@@ -555,10 +555,10 @@ F 3 "~" H 8650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x06_Male J4
+L conn:Conn_01x06_Male J_FROM_BB1
 U 1 1 5A679707
 P 8650 2400
-F 0 "J4" H 8756 2778 50  0000 C CNN
+F 0 "J_FROM_BB1" H 8756 2778 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 8756 2687 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8650 2400 50  0001 C CNN
 F 3 "~" H 8650 2400 50  0001 C CNN

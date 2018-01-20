@@ -288,10 +288,10 @@ Connection ~ 3850 950
 Wire Wire Line
 	3850 950  5050 950 
 $Comp
-L conn:Conn_01x06_Female J6
+L conn:Conn_01x06_Female J_TO_FB1
 U 1 1 5A5F7EB5
 P 1000 3550
-F 0 "J6" H 1028 3526 50  0000 L CNN
+F 0 "J_TO_FB1" H 1028 3526 50  0000 L CNN
 F 1 "Conn_01x06_Female" V 1200 3100 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1000 3550 50  0001 C CNN
 F 3 "~" H 1000 3550 50  0001 C CNN
@@ -325,10 +325,10 @@ Connection ~ 2900 750
 Connection ~ 2850 850 
 Connection ~ 2800 950 
 $Comp
-L conn:Conn_01x06_Female J5
+L conn:Conn_01x06_Female J_FROM_FB1
 U 1 1 5A63650E
 P 1000 2200
-F 0 "J5" H 1028 2176 50  0000 L CNN
+F 0 "J_FROM_FB1" H 1028 2176 50  0000 L CNN
 F 1 "Conn_01x06_Female" V 1200 1650 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1000 2200 50  0001 C CNN
 F 3 "~" H 1000 2200 50  0001 C CNN
@@ -358,10 +358,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 2500 4850 2200
 $Comp
-L conn:Conn_01x03_Female J7
+L conn:Conn_01x03_Female J_PWR_TO_FB1
 U 1 1 5A655074
 P 1100 1550
-F 0 "J7" H 1128 1576 50  0000 L CNN
+F 0 "J_PWR_TO_FB1" H 1128 1576 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 900 1300 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1100 1550 50  0001 C CNN
 F 3 "~" H 1100 1550 50  0001 C CNN
@@ -381,10 +381,10 @@ GND
 Text Label 1500 950  0    50   ~ 0
 -12V
 $Comp
-L conn:Conn_01x03_Male J8
+L conn:Conn_01x03_Male J_PWR_IN1
 U 1 1 5A65F683
 P 1150 850
-F 0 "J8" H 1050 850 50  0000 C CNN
+F 0 "J_PWR_IN1" H 900 850 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 1000 700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1150 850 50  0001 C CNN
 F 3 "~" H 1150 850 50  0001 C CNN
