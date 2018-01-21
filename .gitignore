@@ -1,5 +1,8 @@
 *.bak
+*.kicad_pcb-bak
+*.*bak
 *.bck
 *.b#*
 *.s#*
 _*
+*.kicad_pcb-bak
