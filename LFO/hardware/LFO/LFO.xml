@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\LFO\hardware\LFO\LFO.sch</source>
+    <date>21-1-2018 16:35:27</date>
+    <tool>Eeschema (2018-01-16 revision 495c4125f)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LFO</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>LFO.sch</source>
+        <comment number="1" value="Module overview"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LFO front board/" tstamps="/5A5B5D57/">
+      <title_block>
+        <title>LFO Single channel front</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>LFO_frontboard.sch</source>
+        <comment number="1" value="Holds all components behind the panel (jacks, pots, etc.)"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LFO back board/" tstamps="/5A5B67A2/">
+      <title_block>
+        <title>Back board overview</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>LFO_backboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/">
+      <title_block>
+        <title>Lineair voltage to logarithmic current converter</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>linVoltLogCurConverter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/">
+      <title_block>
+        <title>Integrator</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>Integrator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/">
+      <title_block>
+        <title>Triangle to sine wave converter</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>TriToSin.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/">
+      <title_block>
+        <title>To Ramp And Saw Converter</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>ToRamp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/">
+      <title_block>
+        <title>Ramp To Square (with PW) Converter</title>
+        <company>Coriolis Instruments</company>
+        <rev>1</rev>
+        <date>2018-01-13</date>
+        <source>RampToSqr.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Eurorack Power Supply/" tstamps="/5A676648/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EurorackPSU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F_FINE1">
+      <value>100K</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK09K_Horizontal</footprint>
+      <libsource lib="LFO-eagle-import" part="EVUF2K"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5B690C</tstamp>
+    </comp>
+    <comp ref="JCK_OUT_SIN1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5B69D7</tstamp>
+    </comp>
+    <comp ref="F_COARSE1">
+      <value>ALPHA_30MM_ILLUM_FADER_100K</value>
+      <footprint>Coriolis-KiCad:ALPHA_ILL_FADER_45MM</footprint>
+      <libsource lib="LFO-eagle-import" part="ALPHA_30MM_ILLUM_FADER_"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5BF824</tstamp>
+    </comp>
+    <comp ref="JCK_OUT_SQR1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5C9683</tstamp>
+    </comp>
+    <comp ref="JCK_OUT_TRI1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5C97C1</tstamp>
+    </comp>
+    <comp ref="SQR_PW1">
+      <value>100K</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK09K_Horizontal</footprint>
+      <libsource lib="LFO-eagle-import" part="EVUF2K"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5C9922</tstamp>
+    </comp>
+    <comp ref="JCK_OUT_SAW1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5C9C8C</tstamp>
+    </comp>
+    <comp ref="JCK_OUT_RMP1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5C9DB2</tstamp>
+    </comp>
+    <comp ref="JCK_IN_CV_F1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CA0D0</tstamp>
+    </comp>
+    <comp ref="JCK_IN_CV_PW1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CA0F8</tstamp>
+    </comp>
+    <comp ref="JCK_IN_SYNC1">
+      <value>THONKICONNNEW</value>
+      <footprint>Coriolis-KiCad:WQP-PJ301M-12_JACK</footprint>
+      <libsource lib="LFO-eagle-import" part="THONKICONNNEW"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CB2D9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CCF1F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CD59F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CD5D7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>27K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5CF515</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>27K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D033B</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D2881</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>3M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D346C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D5B2B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D5C31</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D5DCA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D8048</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D80B6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D8159</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D81C1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5D8230</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5EF257</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5F06BE</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A5F2601</tstamp>
+    </comp>
+    <comp ref="J_PWR1">
+      <value>Conn_01x03_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A6795DA</tstamp>
+    </comp>
+    <comp ref="J_TO_BB1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06_Male"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A67968B</tstamp>
+    </comp>
+    <comp ref="J_FROM_BB1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06_Male"/>
+      <sheetpath names="/LFO front board/" tstamps="/5A5B5D57/"/>
+      <tstamp>5A679707</tstamp>
+    </comp>
+    <comp ref="J_TO_FB1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06_Female"/>
+      <sheetpath names="/LFO back board/" tstamps="/5A5B67A2/"/>
+      <tstamp>5A5F7EB5</tstamp>
+    </comp>
+    <comp ref="J_FROM_FB1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06_Female"/>
+      <sheetpath names="/LFO back board/" tstamps="/5A5B67A2/"/>
+      <tstamp>5A63650E</tstamp>
+    </comp>
+    <comp ref="J_PWR_TO_FB1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03_Female"/>
+      <sheetpath names="/LFO back board/" tstamps="/5A5B67A2/"/>
+      <tstamp>5A655074</tstamp>
+    </comp>
+    <comp ref="J_PWR_IN1">
+      <value>Conn_01x03_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/LFO back board/" tstamps="/5A5B67A2/"/>
+      <tstamp>5A65F683</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A681DA9</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC557</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="BC557"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A681DAA</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC547</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A5FA119</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A681DAC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100pF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A5FAA9C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A5FAE07</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A5FB89D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A5FC853</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="linear" part="LM2902"/>
+      <sheetpath names="/LFO back board/Lineair Voltage to Log Current Converter/" tstamps="/5A5B67A2/5A5F989C/"/>
+      <tstamp>5A606D8F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM13700</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm13700.pdf</datasheet>
+      <libsource lib="linear" part="LM13700"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A681DB2</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>39K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DAC</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DB4</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100K</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3296W</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DBF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DCB</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DD2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DDD</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DE4</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>120K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603DFB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.02uF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A603E03</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TL074</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="linear" part="LM2902"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A681DBD</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>270K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A681DBE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10pF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A681DBF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A6078E8</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A607981</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A607A19</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A607A89</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MPF102</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="device" part="Q_NJFET_DSG"/>
+      <sheetpath names="/LFO back board/Integrator/" tstamps="/5A5B67A2/5A603BA9/"/>
+      <tstamp>5A60CB08</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>110K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A611A6E</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A681DCC</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>680K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A681DCD</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A61242B</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>4.7K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A681DCF</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>2M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A681DD0</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>180K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Triangle To Sine/" tstamps="/5A5B67A2/5A611A40/"/>
+      <tstamp>5A681DD1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TL074</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="linear" part="LM2902"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A613ED1</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>20K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A613FD9</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>2K</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3296W</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A614097</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MPF102</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="device" part="Q_NJFET_DSG"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DD9</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MPF102</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="device" part="Q_NJFET_DSG"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDA</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>47K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDB</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>20K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDC</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>47K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDD</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDE</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DDF</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>9.1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE0</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE1</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>15K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE2</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>15K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE3</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>30K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A614DDF</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>30K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A6150FF</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>47K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE6</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A617BFE</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A617C4A</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A681DE9</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/To Ramp Converter/" tstamps="/5A5B67A2/5A6136CB/"/>
+      <tstamp>5A617D1F</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>1M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A621CE0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10pF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A621D6F</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>100K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A681DF0</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>4.7M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A681DF1</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>27K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A681DF2</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/LFO back board/Ramp to Square Converter/" tstamps="/5A5B67A2/5A621CAE/"/>
+      <tstamp>5A62214A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_02x05_Odd_Even"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A6766CA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="diode" part="1N4001"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A677764</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="diode" part="1N4001"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A6777D7</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A67785D</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Polyfuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A6778C2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A679FE8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A67A05E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A67BD6C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A67BDBC</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03_Female"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A66D293</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03_Female"/>
+      <sheetpath names="/Eurorack Power Supply/" tstamps="/5A676648/"/>
+      <tstamp>5A63DF39</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+        <fp>D*DO?204AL*</fp>
+        <fp>D*SOD81*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diodes_THT:D_DO-41_SOD81_Horizontal_RM10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LFO-eagle-import" part="ALPHA_30MM_ILLUM_FADER_">
+      <fields>
+        <field name="Value">ALPHA_30MM_ILLUM_FADER_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="B" name="A" type="passive"/>
+        <pin num="E" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+        <alias>BC337</alias>
+        <alias>BC338</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+        <alias>BC327</alias>
+        <alias>BC328</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC557.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LFO-eagle-import" part="EVUF2K">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">EVUF2K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM13700">
+      <aliases>
+        <alias>LM13600</alias>
+      </aliases>
+      <description>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm13700.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM13700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AMP_BIAS_INPUT" type="input"/>
+        <pin num="2" name="DIODE_BIAS" type="input"/>
+        <pin num="3" name="INPUT(+)" type="input"/>
+        <pin num="4" name="INPUT(-)" type="input"/>
+        <pin num="5" name="OUTPUT" type="output"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="BUFFER_INPUT" type="input"/>
+        <pin num="8" name="BUFFER_OUTPUT" type="output"/>
+        <pin num="9" name="BUFFER_OUTPUT" type="output"/>
+        <pin num="10" name="BUFFER_INPUT" type="input"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="OUTPUT" type="output"/>
+        <pin num="13" name="INPUT(-)" type="input"/>
+        <pin num="14" name="INPUT(+)" type="input"/>
+        <pin num="15" name="DIODE_BIAS" type="input"/>
+        <pin num="16" name="AMP_BIAS_INPUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33179</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*Pitch0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*Pitch0.65mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT_TRIM">
+      <description>Trim-Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NJFET_DSG">
+      <description>Transistor N-JFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LFO-eagle-import" part="THONKICONNNEW">
+      <fields>
+        <field name="Value">THONKICONNNEW</field>
+      </fields>
+      <pins>
+        <pin num="P$1_TIP" name="TIP" type="passive"/>
+        <pin num="P$2_SWITCH" name="SWITCH" type="passive"/>
+        <pin num="P$3_SLEEVE" name="SLEEVE" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LFO-eagle-import">
+      <uri>C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\LFO\hardware\LFO/LFO-eagle-import.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/device.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/diode.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/linear.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library/transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R12-Pad1)">
+      <node ref="SQR_PW1" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="2" name="Net-(F_COARSE1-PadB)">
+      <node ref="Q1" pin="3"/>
+      <node ref="F_COARSE1" pin="B"/>
+    </net>
+    <net code="3" name="/LFO front board/GND_FB">
+      <node ref="JCK_OUT_SAW1" pin="P$3_SLEEVE"/>
+      <node ref="J_PWR1" pin="2"/>
+      <node ref="JCK_OUT_TRI1" pin="P$3_SLEEVE"/>
+      <node ref="JCK_OUT_SQR1" pin="P$3_SLEEVE"/>
+      <node ref="F_COARSE1" pin="E"/>
+      <node ref="JCK_OUT_SIN1" pin="P$3_SLEEVE"/>
+      <node ref="JCK_IN_SYNC1" pin="P$3_SLEEVE"/>
+      <node ref="JCK_IN_CV_PW1" pin="P$3_SLEEVE"/>
+      <node ref="JCK_IN_CV_F1" pin="P$3_SLEEVE"/>
+      <node ref="JCK_OUT_RMP1" pin="P$3_SLEEVE"/>
+    </net>
+    <net code="4" name="/LFO front board/SIN_FB">
+      <node ref="J_FROM_BB1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="5" name="/LFO front board/SQR_FB">
+      <node ref="R5" pin="1"/>
+      <node ref="J_FROM_BB1" pin="3"/>
+    </net>
+    <net code="6" name="/LFO front board/TRI_FB">
+      <node ref="R6" pin="1"/>
+      <node ref="J_FROM_BB1" pin="4"/>
+    </net>
+    <net code="7" name="/LFO front board/SAW_FB">
+      <node ref="R7" pin="1"/>
+      <node ref="J_FROM_BB1" pin="5"/>
+    </net>
+    <net code="8" name="/LFO front board/RMP_FB">
+      <node ref="R8" pin="1"/>
+      <node ref="J_FROM_BB1" pin="6"/>
+    </net>
+    <net code="9" name="/LFO front board/+12V_FB">
+      <node ref="R11" pin="2"/>
+      <node ref="F_FINE1" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J_PWR1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R11-Pad1)">
+      <node ref="SQR_PW1" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="11" name="/LFO front board/-12V_FB">
+      <node ref="F_FINE1" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J_PWR1" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R14-Pad1)">
+      <node ref="SQR_PW1" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="13" name="/LFO front board/V_PW_FB">
+      <node ref="R14" pin="2"/>
+      <node ref="J_TO_BB1" pin="3"/>
+    </net>
+    <net code="14" name="/LFO front board/V_FF_FB">
+      <node ref="J_TO_BB1" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="15" name="Net-(JCK_OUT_TRI1-PadP$1_TIP)">
+      <node ref="R6" pin="2"/>
+      <node ref="JCK_OUT_TRI1" pin="P$1_TIP"/>
+    </net>
+    <net code="16" name="Net-(JCK_OUT_SAW1-PadP$1_TIP)">
+      <node ref="JCK_OUT_SAW1" pin="P$1_TIP"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="17" name="Net-(JCK_OUT_RMP1-PadP$1_TIP)">
+      <node ref="JCK_OUT_RMP1" pin="P$1_TIP"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="18" name="Net-(JCK_IN_CV_F1-PadP$1_TIP)">
+      <node ref="R1" pin="2"/>
+      <node ref="JCK_IN_CV_F1" pin="P$1_TIP"/>
+    </net>
+    <net code="19" name="Net-(JCK_IN_CV_PW1-PadP$1_TIP)">
+      <node ref="R2" pin="2"/>
+      <node ref="JCK_IN_CV_PW1" pin="P$1_TIP"/>
+    </net>
+    <net code="20" name="Net-(JCK_IN_SYNC1-PadP$1_TIP)">
+      <node ref="JCK_IN_SYNC1" pin="P$1_TIP"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(JCK_OUT_SQR1-PadP$1_TIP)">
+      <node ref="R5" pin="2"/>
+      <node ref="JCK_OUT_SQR1" pin="P$1_TIP"/>
+    </net>
+    <net code="22" name="Net-(JCK_OUT_RMP1-PadP$2_SWITCH)">
+      <node ref="JCK_OUT_RMP1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="23" name="Net-(JCK_OUT_SAW1-PadP$2_SWITCH)">
+      <node ref="JCK_OUT_SAW1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="24" name="Net-(JCK_OUT_TRI1-PadP$2_SWITCH)">
+      <node ref="JCK_OUT_TRI1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="25" name="Net-(JCK_OUT_SQR1-PadP$2_SWITCH)">
+      <node ref="JCK_OUT_SQR1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="26" name="Net-(JCK_OUT_SIN1-PadP$2_SWITCH)">
+      <node ref="JCK_OUT_SIN1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="27" name="Net-(JCK_IN_SYNC1-PadP$2_SWITCH)">
+      <node ref="JCK_IN_SYNC1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="28" name="Net-(JCK_IN_CV_PW1-PadP$2_SWITCH)">
+      <node ref="JCK_IN_CV_PW1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="29" name="Net-(JCK_IN_CV_F1-PadP$2_SWITCH)">
+      <node ref="JCK_IN_CV_F1" pin="P$2_SWITCH"/>
+    </net>
+    <net code="30" name="Net-(JCK_OUT_SIN1-PadP$1_TIP)">
+      <node ref="JCK_OUT_SIN1" pin="P$1_TIP"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="31" name="/LFO front board/V_CV_F_FB">
+      <node ref="J_TO_BB1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="32" name="/LFO front board/V_CV_PW_FB">
+      <node ref="R2" pin="1"/>
+      <node ref="J_TO_BB1" pin="5"/>
+    </net>
+    <net code="33" name="/LFO front board/LED_RATE_FB">
+      <node ref="J_FROM_BB1" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="34" name="Net-(Q1-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="36" name="/LFO front board/V_SYNC_FB">
+      <node ref="R3" pin="1"/>
+      <node ref="J_TO_BB1" pin="6"/>
+    </net>
+    <net code="37" name="Net-(F_COARSE1-Pad3)">
+      <node ref="R9" pin="2"/>
+      <node ref="F_COARSE1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(F_COARSE1-Pad1)">
+      <node ref="F_COARSE1" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="39" name="/LFO front board/V_CF_FB">
+      <node ref="J_TO_BB1" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="40" name="Net-(F_COARSE1-Pad2)">
+      <node ref="F_COARSE1" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="41" name="Net-(F_FINE1-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="F_FINE1" pin="2"/>
+    </net>
+    <net code="42" name="/LFO back board/LED_RATE">
+      <node ref="R42" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J_TO_FB1" pin="1"/>
+    </net>
+    <net code="43" name="/LFO back board/RMP">
+      <node ref="R56" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="R53" pin="1"/>
+      <node ref="J_TO_FB1" pin="6"/>
+    </net>
+    <net code="44" name="/LFO back board/V_CV_PW">
+      <node ref="J_FROM_FB1" pin="5"/>
+      <node ref="J_FROM_FB1" pin="3"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="45" name="/LFO back board/V_CF">
+      <node ref="U1" pin="2"/>
+      <node ref="J_FROM_FB1" pin="4"/>
+      <node ref="J_FROM_FB1" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J_FROM_FB1" pin="2"/>
+    </net>
+    <net code="46" name="/LFO back board/V_SYNC">
+      <node ref="R23" pin="2"/>
+      <node ref="J_FROM_FB1" pin="6"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="47" name="/LFO back board/Integrator/SQR_RAW">
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="48" name="/LFO back board/-12V">
+      <node ref="U1" pin="11"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R37" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J_PWR_IN1" pin="3"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="J_PWR_TO_FB1" pin="3"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="49" name="/LFO back board/TRI">
+      <node ref="C2" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="J_TO_FB1" pin="4"/>
+    </net>
+    <net code="50" name="/LFO back board/SAW">
+      <node ref="J_TO_FB1" pin="5"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="51" name="/LFO back board/SQR">
+      <node ref="U4" pin="8"/>
+      <node ref="J_TO_FB1" pin="3"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="52" name="/LFO back board/Integrator/BIAS_INPUT">
+      <node ref="R21" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="53" name="/LFO back board/SIN">
+      <node ref="J_TO_FB1" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="54" name="/LFO back board/GND">
+      <node ref="R22" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R34" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R52" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="J_PWR_TO_FB1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J_PWR_IN1" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D3-Pad1)">
+      <node ref="F1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="56" name="Net-(D4-Pad2)">
+      <node ref="J3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C5-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="59" name="Net-(C6-Pad2)">
+      <node ref="J10" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="F2" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="61" name="Net-(C1-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q3-Pad1)">
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="63" name="Net-(Q4-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C1-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="66" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="68" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="69" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="70" name="Net-(R24-Pad2)">
+      <node ref="R25" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D2-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="73" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="74" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C3-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C2-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R34-Pad2)">
+      <node ref="R36" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="78" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="79" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="81" name="Net-(R32-Pad1)">
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="82" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+      <node ref="R55" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R49-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="84" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="85" name="Net-(R39-Pad1)">
+      <node ref="R41" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="86" name="Net-(Q6-Pad2)">
+      <node ref="R41" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="87" name="Net-(Q6-Pad3)">
+      <node ref="R43" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="88" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="89" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="90" name="Net-(R45-Pad1)">
+      <node ref="R47" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="91" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="92" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R50-Pad1)">
+      <node ref="R50" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="94" name="Net-(R40-Pad1)">
+      <node ref="R42" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R52-Pad1)">
+      <node ref="U3" pin="13"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="96" name="Net-(C4-Pad2)">
+      <node ref="R56" pin="1"/>
+      <node ref="R58" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="97" name="Net-(C4-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="98" name="+12V">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="4"/>
+      <node ref="J_PWR_IN1" pin="1"/>
+      <node ref="J_PWR_TO_FB1" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R47" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="99" name="Net-(R59-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R60" pin="2"/>
+    </net>
+  </nets>
+</export>

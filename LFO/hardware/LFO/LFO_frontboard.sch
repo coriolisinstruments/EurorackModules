@@ -1,0 +1,568 @@
+EESchema Schematic File Version 4
+LIBS:LFO-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 9
+Title "LFO Single channel front"
+Date "2018-01-13"
+Rev "1"
+Comp "Coriolis Instruments"
+Comment1 "Holds all components behind the panel (jacks, pots, etc.)"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LFO-eagle-import:EVUF2K F_FINE1
+U 1 1 5A5B690C
+P 5750 1000
+F 0 "F_FINE1" H 5597 1053 59  0000 R CNN
+F 1 "100K" H 5597 948 59  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 5750 1000 50  0001 C CNN
+F 3 "" H 5750 1000 50  0001 C CNN
+	1    5750 1000
+	1    0    0    1   
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_OUT_SIN1
+U 1 1 5A5B69D7
+P 1850 2350
+F 0 "JCK_OUT_SIN1" H 2187 2350 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 2350 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 2350 50  0001 C CNN
+F 3 "" H 1850 2350 50  0001 C CNN
+	1    1850 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:ALPHA_30MM_ILLUM_FADER_ F_COARSE1
+U 1 1 5A5BF824
+P 4250 1450
+F 0 "F_COARSE1" V 3950 1700 59  0000 R CNN
+F 1 "ALPHA_30MM_ILLUM_FADER_100K" V 3850 2100 59  0000 R CNN
+F 2 "Coriolis-KiCad:ALPHA_ILL_FADER_45MM" H 4250 1450 50  0001 C CNN
+F 3 "" H 4250 1450 50  0001 C CNN
+	1    4250 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L LFO-eagle-import:ALPHA_30MM_ILLUM_FADER_ F_COARSE1
+U 2 1 5A5BF871
+P 6300 3050
+F 0 "F_COARSE1" H 6377 3053 59  0000 L CNN
+F 1 "ALPHA_30MM_ILLUM_FADER_100K" H 6377 2948 59  0000 L CNN
+F 2 "Coriolis-KiCad:ALPHA_ILL_FADER_45MM" H 6300 3050 50  0001 C CNN
+F 3 "" H 6300 3050 50  0001 C CNN
+	2    6300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_OUT_SQR1
+U 1 1 5A5C9683
+P 1850 2700
+F 0 "JCK_OUT_SQR1" H 2187 2700 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 2700 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 2700 50  0001 C CNN
+F 3 "" H 1850 2700 50  0001 C CNN
+	1    1850 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_OUT_TRI1
+U 1 1 5A5C97C1
+P 1850 3050
+F 0 "JCK_OUT_TRI1" H 2187 3050 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 3050 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 3050 50  0001 C CNN
+F 3 "" H 1850 3050 50  0001 C CNN
+	1    1850 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:EVUF2K SQR_PW1
+U 1 1 5A5C9922
+P 4300 3700
+F 0 "SQR_PW1" H 4147 3753 59  0000 R CNN
+F 1 "100K" H 4147 3648 59  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 4300 3700 50  0001 C CNN
+F 3 "" H 4300 3700 50  0001 C CNN
+	1    4300 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_OUT_SAW1
+U 1 1 5A5C9C8C
+P 1850 3400
+F 0 "JCK_OUT_SAW1" H 2187 3400 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 3400 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 3400 50  0001 C CNN
+F 3 "" H 1850 3400 50  0001 C CNN
+	1    1850 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_OUT_RMP1
+U 1 1 5A5C9DB2
+P 1850 3750
+F 0 "JCK_OUT_RMP1" H 2187 3750 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 3750 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 3750 50  0001 C CNN
+F 3 "" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_IN_CV_F1
+U 1 1 5A5CA0D0
+P 1850 900
+F 0 "JCK_IN_CV_F1" H 2187 900 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 900 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 900 50  0001 C CNN
+F 3 "" H 1850 900 50  0001 C CNN
+	1    1850 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_IN_CV_PW1
+U 1 1 5A5CA0F8
+P 1850 1250
+F 0 "JCK_IN_CV_PW1" H 2187 1250 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 1250 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 1250 50  0001 C CNN
+F 3 "" H 1850 1250 50  0001 C CNN
+	1    1850 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1000 2150 1000
+Wire Wire Line
+	2050 1350 2150 1350
+Wire Wire Line
+	2050 2450 2150 2450
+Wire Wire Line
+	2050 2800 2150 2800
+Wire Wire Line
+	2050 3150 2150 3150
+Wire Wire Line
+	2050 3500 2150 3500
+Wire Wire Line
+	2050 3850 2150 3850
+$Comp
+L LFO-eagle-import:THONKICONNNEW JCK_IN_SYNC1
+U 1 1 5A5CB2D9
+P 1850 1650
+F 0 "JCK_IN_SYNC1" H 2187 1650 59  0000 L CNN
+F 1 "THONKICONNNEW" H 1850 1650 50  0001 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 1850 1650 50  0001 C CNN
+F 3 "" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1750 2150 1750
+$Comp
+L device:R R1
+U 1 1 5A5CCF1F
+P 2550 800
+F 0 "R1" V 2343 800 50  0000 C CNN
+F 1 "100K" V 2434 800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 800 50  0001 C CNN
+F 3 "" H 2550 800 50  0001 C CNN
+	1    2550 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R2
+U 1 1 5A5CD59F
+P 2550 1150
+F 0 "R2" V 2343 1150 50  0000 C CNN
+F 1 "10K" V 2434 1150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 1150 50  0001 C CNN
+F 3 "" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R3
+U 1 1 5A5CD5D7
+P 2550 1550
+F 0 "R3" V 2343 1550 50  0000 C CNN
+F 1 "100K" V 2434 1550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 1550 50  0001 C CNN
+F 3 "" H 2550 1550 50  0001 C CNN
+	1    2550 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 800  5750 700 
+Wire Wire Line
+	4250 800  4250 700 
+$Comp
+L device:R R9
+U 1 1 5A5CF515
+P 4250 950
+F 0 "R9" H 4319 996 50  0000 L CNN
+F 1 "27K" H 4319 905 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4180 950 50  0001 C CNN
+F 3 "" H 4250 950 50  0001 C CNN
+	1    4250 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1100 4250 1150
+$Comp
+L device:R R10
+U 1 1 5A5D033B
+P 4250 1950
+F 0 "R10" H 4319 1996 50  0000 L CNN
+F 1 "27K" H 4319 1905 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4180 1950 50  0001 C CNN
+F 3 "" H 4250 1950 50  0001 C CNN
+	1    4250 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1750 4250 1800
+Wire Wire Line
+	4250 2100 4250 2200
+Wire Wire Line
+	5750 1200 5750 1300
+Wire Wire Line
+	2700 800  2800 800 
+Wire Wire Line
+	2700 1150 2800 1150
+Wire Wire Line
+	2700 1550 2800 1550
+$Comp
+L device:R R13
+U 1 1 5A5D2881
+P 4700 1450
+F 0 "R13" V 4907 1450 50  0000 C CNN
+F 1 "100K" V 4816 1450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 1450 50  0001 C CNN
+F 3 "" H 4700 1450 50  0001 C CNN
+	1    4700 1450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4550 1450 4450 1450
+Wire Wire Line
+	4850 1450 4950 1450
+$Comp
+L device:R R17
+U 1 1 5A5D346C
+P 6200 1000
+F 0 "R17" V 6407 1000 50  0000 C CNN
+F 1 "3M" V 6316 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6130 1000 50  0001 C CNN
+F 3 "" H 6200 1000 50  0001 C CNN
+	1    6200 1000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5950 1000 6050 1000
+Wire Wire Line
+	6350 1000 6450 1000
+$Comp
+L device:R R16
+U 1 1 5A5D5B2B
+P 5700 2650
+F 0 "R16" V 5907 2650 50  0000 C CNN
+F 1 "100K" V 5816 2650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+	1    5700 2650
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R R15
+U 1 1 5A5D5C31
+P 5700 2300
+F 0 "R15" V 5907 2300 50  0000 C CNN
+F 1 "2K" V 5816 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 2300 50  0001 C CNN
+F 3 "" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L transistors:BC547 Q1
+U 1 1 5A5D5DCA
+P 6200 2650
+F 0 "Q1" H 6391 2696 50  0000 L CNN
+F 1 "BC547" H 6391 2605 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 6400 2575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6200 2650 50  0001 L CNN
+	1    6200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2300 5450 2300
+Wire Wire Line
+	5550 2650 5450 2650
+Wire Wire Line
+	5850 2650 6000 2650
+Wire Wire Line
+	5850 2300 6300 2300
+Wire Wire Line
+	6300 2300 6300 2450
+$Comp
+L device:R R4
+U 1 1 5A5D8048
+P 2550 2250
+F 0 "R4" V 2343 2250 50  0000 C CNN
+F 1 "1K" V 2434 2250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R5
+U 1 1 5A5D80B6
+P 2550 2600
+F 0 "R5" V 2343 2600 50  0000 C CNN
+F 1 "1K" V 2434 2600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 2600 50  0001 C CNN
+F 3 "" H 2550 2600 50  0001 C CNN
+	1    2550 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R6
+U 1 1 5A5D8159
+P 2550 2950
+F 0 "R6" V 2343 2950 50  0000 C CNN
+F 1 "1K" V 2434 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 2950 50  0001 C CNN
+F 3 "" H 2550 2950 50  0001 C CNN
+	1    2550 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R7
+U 1 1 5A5D81C1
+P 2550 3300
+F 0 "R7" V 2343 3300 50  0000 C CNN
+F 1 "1K" V 2434 3300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 3300 50  0001 C CNN
+F 3 "" H 2550 3300 50  0001 C CNN
+	1    2550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R8
+U 1 1 5A5D8230
+P 2550 3650
+F 0 "R8" V 2343 3650 50  0000 C CNN
+F 1 "1K" V 2434 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 3650 50  0001 C CNN
+F 3 "" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 2250 2850 2250
+Wire Wire Line
+	2700 2600 2850 2600
+Wire Wire Line
+	2700 2950 2850 2950
+Wire Wire Line
+	2700 3300 2850 3300
+Wire Wire Line
+	2700 3650 2850 3650
+Text Label 2150 2800 0    50   ~ 0
+GND_FB
+Text Label 2150 2450 0    50   ~ 0
+GND_FB
+Text Label 2150 3150 0    50   ~ 0
+GND_FB
+Text Label 2150 3500 0    50   ~ 0
+GND_FB
+Text Label 2150 3850 0    50   ~ 0
+GND_FB
+Text Label 2150 1000 0    50   ~ 0
+GND_FB
+Text Label 2150 1350 0    50   ~ 0
+GND_FB
+Text Label 2150 1750 0    50   ~ 0
+GND_FB
+Text Label 2800 800  0    50   ~ 0
+V_CV_F_FB
+Text Label 2800 1150 0    50   ~ 0
+V_CV_PW_FB
+Text Label 2800 1550 0    50   ~ 0
+V_SYNC_FB
+Text Label 4250 700  2    50   ~ 0
++12V_FB
+Text Label 4950 1450 0    50   ~ 0
+V_CF_FB
+Text Label 4250 2200 0    50   ~ 0
+-12V_FB
+Text Label 5750 700  2    50   ~ 0
++12V_FB
+Text Label 6450 1000 0    50   ~ 0
+V_FF_FB
+Text Label 5750 1300 0    50   ~ 0
+-12V_FB
+Text Label 5450 2300 2    50   ~ 0
++12V_FB
+Text Label 5450 2650 2    50   ~ 0
+LED_RATE_FB
+Text Label 6300 3400 0    50   ~ 0
+GND_FB
+Wire Wire Line
+	6300 2950 6300 2850
+Wire Wire Line
+	6300 3250 6300 3400
+Text Label 2850 2250 0    50   ~ 0
+SIN_FB
+Text Label 2850 2600 0    50   ~ 0
+SQR_FB
+Text Label 2850 2950 0    50   ~ 0
+TRI_FB
+Text Label 2850 3300 0    50   ~ 0
+SAW_FB
+Text Label 2850 3650 0    50   ~ 0
+RMP_FB
+Wire Wire Line
+	4300 3050 4300 2950
+Text Label 4300 2950 2    50   ~ 0
++12V_FB
+$Comp
+L device:R R11
+U 1 1 5A5EF257
+P 4300 3200
+F 0 "R11" H 4231 3154 50  0000 R CNN
+F 1 "100K" H 4231 3245 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 3200 50  0001 C CNN
+F 3 "" H 4300 3200 50  0001 C CNN
+	1    4300 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L device:R R12
+U 1 1 5A5F06BE
+P 4300 4250
+F 0 "R12" H 4369 4296 50  0000 L CNN
+F 1 "100K" H 4369 4205 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 4250 50  0001 C CNN
+F 3 "" H 4300 4250 50  0001 C CNN
+	1    4300 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4400 4300 4500
+Text Label 4300 4500 0    50   ~ 0
+-12V_FB
+Wire Wire Line
+	4300 3350 4300 3500
+Wire Wire Line
+	4300 3900 4300 4100
+$Comp
+L device:R R14
+U 1 1 5A5F2601
+P 4750 3700
+F 0 "R14" V 4543 3700 50  0000 C CNN
+F 1 "10K" V 4634 3700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4680 3700 50  0001 C CNN
+F 3 "" H 4750 3700 50  0001 C CNN
+	1    4750 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4600 3700 4500 3700
+Wire Wire Line
+	4900 3700 5000 3700
+Text Label 5000 3700 0    50   ~ 0
+V_PW_FB
+Text Label 8850 900  0    50   ~ 0
++12V_FB
+Text Label 8850 1000 0    50   ~ 0
+GND_FB
+Text Label 8850 1100 0    50   ~ 0
+-12V_FB
+Text Label 8850 2700 0    50   ~ 0
+RMP_FB
+Text Label 8850 2600 0    50   ~ 0
+SAW_FB
+Text Label 8850 2500 0    50   ~ 0
+TRI_FB
+Text Label 8850 2400 0    50   ~ 0
+SQR_FB
+Text Label 8850 2300 0    50   ~ 0
+SIN_FB
+Text Label 8850 2200 0    50   ~ 0
+LED_RATE_FB
+Text Label 8850 1900 0    50   ~ 0
+V_SYNC_FB
+Text Label 8850 1800 0    50   ~ 0
+V_CV_PW_FB
+Text Label 8850 1700 0    50   ~ 0
+V_CV_F_FB
+Text Label 8850 1600 0    50   ~ 0
+V_PW_FB
+Text Label 8850 1500 0    50   ~ 0
+V_FF_FB
+Text Label 8850 1400 0    50   ~ 0
+V_CF_FB
+NoConn ~ 2050 3750
+NoConn ~ 2050 3400
+NoConn ~ 2050 3050
+NoConn ~ 2050 2700
+NoConn ~ 2050 2350
+NoConn ~ 2050 1650
+NoConn ~ 2050 1250
+NoConn ~ 2050 900 
+Wire Wire Line
+	2050 2250 2400 2250
+Wire Wire Line
+	2050 2600 2400 2600
+Wire Wire Line
+	2050 2950 2400 2950
+Wire Wire Line
+	2050 3300 2400 3300
+Wire Wire Line
+	2050 3650 2400 3650
+Wire Wire Line
+	2050 800  2400 800 
+Wire Wire Line
+	2050 1150 2400 1150
+Wire Wire Line
+	2050 1550 2400 1550
+$Comp
+L conn:Conn_01x03_Male J_PWR1
+U 1 1 5A6795DA
+P 8650 1000
+F 0 "J_PWR1" H 8756 1278 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 8756 1187 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8650 1000 50  0001 C CNN
+F 3 "~" H 8650 1000 50  0001 C CNN
+	1    8650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x06_Male J_TO_BB1
+U 1 1 5A67968B
+P 8650 1600
+F 0 "J_TO_BB1" H 8756 1978 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 8756 1887 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8650 1600 50  0001 C CNN
+F 3 "~" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x06_Male J_FROM_BB1
+U 1 1 5A679707
+P 8650 2400
+F 0 "J_FROM_BB1" H 8756 2778 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 8756 2687 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8650 2400 50  0001 C CNN
+F 3 "~" H 8650 2400 50  0001 C CNN
+	1    8650 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
