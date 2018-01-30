@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Corona-rescue)(type Legacy)(uri ${KIPRJMOD}/Corona-rescue.lib)(options "")(descr ""))
+)

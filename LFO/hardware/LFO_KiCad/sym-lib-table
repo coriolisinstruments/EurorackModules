@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name LFO-eagle-import)(type Legacy)(uri ${KIPRJMOD}/LFO-eagle-import.lib)(options "")(descr ""))
-  (lib (name LFO-rescue)(type Legacy)(uri ${KIPRJMOD}/LFO-rescue.lib)(options "")(descr ""))
-)
