@@ -5,8 +5,8 @@ EELAYER END
 $Descr User 15706 11526
 encoding utf-8
 Sheet 2 3
-Title "Valve"
-Date "2018-01-22"
+Title "Corona"
+Date "2018-02-11"
 Rev "1"
 Comp "Coriolis Instruments"
 Comment1 "Based on Matsumin's Valvecaster stompbox."
@@ -33,9 +33,6 @@ Wire Wire Line
 	4550 1950 4550 1850
 Wire Wire Line
 	3850 1950 3850 1850
-Connection ~ 7300 7900
-Wire Wire Line
-	7300 7900 7300 8100
 Text Label 7600 1500 2    70   ~ 0
 GND
 Connection ~ 6200 8200
@@ -63,7 +60,7 @@ Wire Wire Line
 Connection ~ 3250 2350
 Text Label 5050 1350 0    70   ~ 0
 +12V
-Text Label 8300 6700 0    70   ~ 0
+Text Label 8300 6500 0    70   ~ 0
 +12V
 Text Label 1500 6200 2    70   ~ 0
 +12V
@@ -91,7 +88,7 @@ Wire Wire Line
 	3850 2250 3850 2350
 Wire Wire Line
 	4550 2250 4550 2350
-Text Label 8300 7300 3    70   ~ 0
+Text Label 8300 7100 3    70   ~ 0
 -12V
 Text Label 7600 1200 2    70   ~ 0
 -12V
@@ -142,22 +139,12 @@ TUBE_3
 Text Label 2800 7900 0    70   ~ 0
 TUBE_3
 Connection ~ 6200 6900
-Connection ~ 7300 6900
 Wire Wire Line
 	5800 6900 6200 6900
 Wire Wire Line
-	6200 6900 7300 6900
+	6200 6900 7100 6900
 Wire Wire Line
 	6200 7000 6200 6900
-Wire Wire Line
-	8100 6900 7300 6900
-Connection ~ 8000 7900
-Wire Wire Line
-	8100 7100 8000 7100
-Wire Wire Line
-	8000 7100 8000 7900
-Wire Wire Line
-	9100 7900 8000 7900
 Connection ~ 7900 3250
 Text Label 8600 3250 0    70   ~ 0
 CLEAN
@@ -165,7 +152,7 @@ Wire Wire Line
 	7600 3250 7900 3250
 Wire Wire Line
 	7900 2750 7900 3250
-Text Label 8300 4350 0    70   ~ 0
+Text Label 8100 4350 0    70   ~ 0
 TUBE_IN
 Text Label 1500 7600 2    70   ~ 0
 TUBE_IN
@@ -173,20 +160,8 @@ Wire Wire Line
 	1700 7600 1500 7600
 Text Label 9300 4350 2    70   ~ 0
 TUBE_OUT
-Text Label 9300 7000 0    70   ~ 0
+Text Label 9500 6800 0    70   ~ 0
 TUBE_OUT
-Connection ~ 9100 7000
-Connection ~ 9100 7100
-Wire Wire Line
-	9100 7000 9300 7000
-Wire Wire Line
-	9100 7100 9100 7000
-Wire Wire Line
-	9100 7000 8700 7000
-Wire Wire Line
-	9400 7400 9400 7100
-Wire Wire Line
-	9400 7100 9100 7100
 Text Label 10900 7000 2    70   ~ 0
 TUBE_OUT
 Connection ~ 12300 7200
@@ -238,10 +213,10 @@ Text Notes 950  1250 0    59   ~ 0
 Powersupply
 Text Notes 7200 800  0    59   ~ 0
 Connection to tube board
-Text Notes 5600 2850 0    59   ~ 0
+Text Notes 6350 2450 0    59   ~ 0
 OVERVIEW
-Text Notes 6800 6700 0    59   ~ 0
-After-tube gain circuit\n\nGain = 1 + (R7/R6)\nie. now limited to 1+(10k/1k)\n= 11 =  20.8 dB
+Text Notes 8250 8450 0    59   ~ 0
+After-tube gain circuit\n\nGain = 1 + (R7/R6)\nie. now limited to 1+(500k/1k)\n= 501 =  50+ dB!!!
 Text Notes 1700 5600 0    59   ~ 0
 TUBE OVERDRIVE
 Text Notes 11300 6100 0    59   ~ 0
@@ -260,8 +235,8 @@ Wire Wire Line
 	3250 2350 3400 2350
 Wire Wire Line
 	3700 2350 3850 2350
-NoConn ~ 13800 4450
-NoConn ~ 5900 3750
+NoConn ~ 13600 4450
+NoConn ~ 5900 3250
 Wire Wire Line
 	2450 1950 2450 1850
 Wire Wire Line
@@ -285,21 +260,17 @@ Wire Wire Line
 	2300 1850 2450 1850
 Wire Wire Line
 	2300 1750 2450 1750
-Text Label 10550 3750 0    70   ~ 0
-GND
 Text Label 7000 3350 2    70   ~ 0
 GND
-Text Label 5500 3950 2    70   ~ 0
+Text Label 5500 3450 2    70   ~ 0
 GND
-Text Label 7000 4450 2    70   ~ 0
+Text Label 12100 5250 2    70   ~ 0
 GND
-Text Label 12300 5250 2    70   ~ 0
-GND
-Text Label 14200 4650 3    70   ~ 0
+Text Label 14000 4650 3    70   ~ 0
 GND
 Text Label 12300 8200 3    70   ~ 0
 GND
-Text Label 7300 8100 3    70   ~ 0
+Text Label 8100 6700 1    70   ~ 0
 GND
 Text Label 6200 8800 3    70   ~ 0
 GND
@@ -318,14 +289,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 6650 3200 6900
 Wire Wire Line
-	7300 6900 7300 7250
-Wire Wire Line
-	7300 7550 7300 7900
-Wire Wire Line
-	7850 7900 8000 7900
-Wire Wire Line
-	7300 7900 7550 7900
-Wire Wire Line
 	5100 6200 5100 6350
 Wire Wire Line
 	5100 6650 5100 6900
@@ -333,10 +296,6 @@ Wire Wire Line
 	2200 7600 2200 8050
 Wire Wire Line
 	2200 8350 2200 9200
-Wire Wire Line
-	7550 2750 7900 2750
-Wire Wire Line
-	7900 3250 9750 3250
 Wire Wire Line
 	12300 7200 12550 7200
 Wire Wire Line
@@ -355,12 +314,6 @@ Wire Wire Line
 	10900 7000 11100 7000
 Wire Wire Line
 	13600 6800 13600 7000
-Wire Wire Line
-	9100 7550 9100 7900
-Wire Wire Line
-	9250 7400 9400 7400
-Wire Wire Line
-	9100 7100 9100 7250
 Text Notes 5350 8950 0    50   ~ 0
 3=up
 Wire Wire Line
@@ -370,64 +323,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 2350 4850 2350
 Wire Wire Line
-	12300 4500 12300 5250
+	12100 4500 12100 5250
 Wire Wire Line
-	12450 4350 13250 4350
+	12250 4350 13050 4350
 Wire Wire Line
-	13550 4350 13800 4350
+	13350 4350 13600 4350
 Wire Wire Line
-	14200 4550 14200 4650
-Wire Wire Line
-	11900 3150 12050 3150
-Wire Wire Line
-	12300 3150 12300 4200
-Wire Wire Line
-	11300 3050 11150 3050
-Wire Wire Line
-	11150 3050 11150 2650
-Wire Wire Line
-	11150 2650 11450 2650
-Wire Wire Line
-	11750 2650 12050 2650
-Wire Wire Line
-	12050 2650 12050 3150
-Connection ~ 12050 3150
-Wire Wire Line
-	12050 3150 12300 3150
-Wire Wire Line
-	10850 4350 11050 4350
-Wire Wire Line
-	11050 4350 11050 3250
-Wire Wire Line
-	11050 3250 11300 3250
-Wire Wire Line
-	11050 3250 10750 3250
-Connection ~ 11050 3250
-Wire Wire Line
-	10450 3750 10550 3750
-Wire Wire Line
-	10050 4350 10300 4350
-Wire Wire Line
-	10300 3900 10300 4350
-Connection ~ 10300 4350
-Wire Wire Line
-	10300 4350 10550 4350
-Wire Wire Line
-	10050 3250 10300 3250
-Wire Wire Line
-	10300 3600 10300 3250
-Connection ~ 10300 3250
-Wire Wire Line
-	10300 3250 10450 3250
-Wire Wire Line
-	9750 4350 9600 4350
+	14000 4550 14000 4650
 Wire Wire Line
 	8850 5250 9000 5250
-Wire Wire Line
-	9600 5250 9600 4350
-Connection ~ 9600 4350
-Wire Wire Line
-	9600 4350 9300 4350
 Wire Wire Line
 	8700 5100 8700 5000
 Wire Wire Line
@@ -436,54 +340,20 @@ Wire Wire Line
 	9000 5000 9000 5250
 Connection ~ 9000 5250
 Wire Wire Line
-	9000 5250 9600 5250
+	7900 4850 7900 5250
 Wire Wire Line
-	8100 4850 8100 5250
+	8100 4350 7900 4350
 Wire Wire Line
-	8100 5250 8550 5250
-Wire Wire Line
-	8300 4350 8100 4350
-Wire Wire Line
-	8100 4550 8100 4350
-Connection ~ 8100 4350
-Wire Wire Line
-	8100 4350 7800 4350
-Wire Wire Line
-	7550 3850 7800 3850
-Wire Wire Line
-	7800 3850 7800 4350
-Connection ~ 7800 4350
-Wire Wire Line
-	7800 4350 7600 4350
-Wire Wire Line
-	7000 4250 6900 4250
-Wire Wire Line
-	6700 4250 6700 3650
-Wire Wire Line
-	6700 3650 6450 3650
-Wire Wire Line
-	7250 3850 6900 3850
-Wire Wire Line
-	6900 3850 6900 4250
-Connection ~ 6900 4250
-Wire Wire Line
-	6900 4250 6700 4250
+	7900 4550 7900 4350
 Wire Wire Line
 	7000 3150 6900 3150
-Wire Wire Line
-	6700 3150 6700 3650
-Connection ~ 6700 3650
-Wire Wire Line
-	7250 2750 6900 2750
 Wire Wire Line
 	6900 2750 6900 3150
 Connection ~ 6900 3150
 Wire Wire Line
-	6900 3150 6700 3150
+	5900 3150 6150 3150
 Wire Wire Line
-	5900 3650 6150 3650
-Wire Wire Line
-	5500 3850 5500 3950
+	5500 3350 5500 3450
 Wire Wire Line
 	7600 1200 7750 1200
 Wire Wire Line
@@ -685,123 +555,57 @@ $EndComp
 $Comp
 L Corona-rescue:Audio-Jack-2_Switch-conn J_IN1
 U 1 1 5A6EE36D
-P 5700 3750
-F 0 "J_IN1" H 5676 4075 50  0000 C CNN
-F 1 "Audio-Jack-2_Switch" H 5676 3984 50  0000 C CNN
-F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 5950 3850 50  0001 C CNN
-F 3 "~" H 5950 3850 50  0001 C CNN
-	1    5700 3750
+P 5700 3250
+F 0 "J_IN1" H 5676 3575 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 5676 3484 50  0000 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 5950 3350 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5700 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:R-device R5
 U 1 1 5A6EEB0D
-P 6300 3650
-F 0 "R5" V 6093 3650 50  0000 C CNN
-F 1 "10K" V 6184 3650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6230 3650 50  0001 C CNN
-F 3 "" H 6300 3650 50  0001 C CNN
-	1    6300 3650
+P 6300 3150
+F 0 "R5" V 6093 3150 50  0000 C CNN
+F 1 "10K" V 6184 3150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6230 3150 50  0001 C CNN
+F 3 "" H 6300 3150 50  0001 C CNN
+	1    6300 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L Corona-rescue:Audio-Jack-2_Switch-conn J_OUT1
 U 1 1 5A6EEFB9
-P 14000 4450
-F 0 "J_OUT1" H 13977 4775 50  0000 C CNN
-F 1 "Audio-Jack-2_Switch" H 13977 4684 50  0000 C CNN
-F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 14250 4550 50  0001 C CNN
-F 3 "~" H 14250 4550 50  0001 C CNN
-	1    14000 4450
+P 13800 4450
+F 0 "J_OUT1" H 13777 4775 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 13777 4684 50  0000 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 14050 4550 50  0001 C CNN
+F 3 "~" H 14050 4550 50  0001 C CNN
+	1    13800 4450
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:R-device R7
-U 1 1 5A6EF74D
-P 7400 2750
-F 0 "R7" V 7193 2750 50  0000 C CNN
-F 1 "10K" V 7284 2750 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7330 2750 50  0001 C CNN
-F 3 "" H 7400 2750 50  0001 C CNN
-	1    7400 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R8
-U 1 1 5A6EF7D7
-P 7400 3850
-F 0 "R8" V 7193 3850 50  0000 C CNN
-F 1 "10K" V 7284 3850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7330 3850 50  0001 C CNN
-F 3 "" H 7400 3850 50  0001 C CNN
-	1    7400 3850
-	0    1    1    0   
 $EndComp
 $Comp
 L Corona-rescue:C-device C9
 U 1 1 5A6EFA57
-P 8100 4700
-F 0 "C9" H 8215 4746 50  0000 L CNN
-F 1 "100nF" H 8215 4655 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8138 4550 50  0001 C CNN
-F 3 "" H 8100 4700 50  0001 C CNN
-	1    8100 4700
+P 7900 4700
+F 0 "C9" H 8015 4746 50  0000 L CNN
+F 1 "100nF" H 8015 4655 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 7938 4550 50  0001 C CNN
+F 3 "" H 7900 4700 50  0001 C CNN
+	1    7900 4700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:R-device R10
-U 1 1 5A6EFDE1
-P 9900 3250
-F 0 "R10" V 9693 3250 50  0000 C CNN
-F 1 "15K" V 9784 3250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9830 3250 50  0001 C CNN
-F 3 "" H 9900 3250 50  0001 C CNN
-	1    9900 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R11
-U 1 1 5A6EFEB2
-P 9900 4350
-F 0 "R11" V 9693 4350 50  0000 C CNN
-F 1 "15K" V 9784 4350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9830 4350 50  0001 C CNN
-F 3 "" H 9900 4350 50  0001 C CNN
-	1    9900 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R13
-U 1 1 5A6EFF32
-P 10700 4350
-F 0 "R13" V 10493 4350 50  0000 C CNN
-F 1 "15K" V 10584 4350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10630 4350 50  0001 C CNN
-F 3 "" H 10700 4350 50  0001 C CNN
-	1    10700 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R12
-U 1 1 5A6EFFB0
-P 10600 3250
-F 0 "R12" V 10393 3250 50  0000 C CNN
-F 1 "15K" V 10484 3250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10530 3250 50  0001 C CNN
-F 3 "" H 10600 3250 50  0001 C CNN
-	1    10600 3250
-	0    1    1    0   
 $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
 U 2 1 5A6F0336
-P 7300 4350
-F 0 "U1" H 7400 4100 50  0000 C CNN
-F 1 "TL074" H 7450 4200 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 7250 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7350 4550 50  0001 C CNN
-	2    7300 4350
-	1    0    0    1   
+P 9950 4450
+F 0 "U1" H 10050 4200 50  0000 C CNN
+F 1 "TL074" H 10100 4300 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 9900 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10000 4650 50  0001 C CNN
+	2    9950 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
@@ -817,56 +621,45 @@ $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
 U 4 1 5A6FB000
-P 11600 3150
-F 0 "U1" H 11700 2900 50  0000 C CNN
-F 1 "TL074" H 11750 3000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 11550 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11650 3350 50  0001 C CNN
-	4    11600 3150
-	1    0    0    -1  
+P 11400 3650
+F 0 "U1" H 11500 3400 50  0000 C CNN
+F 1 "TL074" H 11550 3500 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 11350 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11450 3850 50  0001 C CNN
+	4    11400 3650
+	1    0    0    1   
 $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
 U 3 1 5A6FB5B5
-P 8400 7000
-F 0 "U1" H 8500 6750 50  0000 C CNN
-F 1 "TL074" H 8550 6850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 8350 7100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8450 7200 50  0001 C CNN
-	3    8400 7000
+P 8400 6800
+F 0 "U1" H 8500 6550 50  0000 C CNN
+F 1 "TL074" H 8550 6650 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 8350 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8450 7000 50  0001 C CNN
+	3    8400 6800
 	1    0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:R-device R15
-U 1 1 5A6FB9D9
-P 11600 2650
-F 0 "R15" V 11393 2650 50  0000 C CNN
-F 1 "51K" V 11484 2650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11530 2650 50  0001 C CNN
-F 3 "" H 11600 2650 50  0001 C CNN
-	1    11600 2650
-	0    1    1    0   
 $EndComp
 $Comp
 L Corona-rescue:R-device R19
 U 1 1 5A6FBB46
-P 13400 4350
-F 0 "R19" V 13193 4350 50  0000 C CNN
-F 1 "470r" V 13284 4350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13330 4350 50  0001 C CNN
-F 3 "" H 13400 4350 50  0001 C CNN
-	1    13400 4350
+P 13200 4350
+F 0 "R19" V 12993 4350 50  0000 C CNN
+F 1 "470r" V 13084 4350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13130 4350 50  0001 C CNN
+F 3 "" H 13200 4350 50  0001 C CNN
+	1    13200 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L coriolis-kicad:POT RV_VOL1
 U 1 1 5A6FBE98
-P 12300 4350
-F 0 "RV_VOL1" H 12230 4304 50  0000 R CNN
-F 1 "A100K" H 12230 4395 50  0000 R CNN
-F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 12300 4350 50  0001 C CNN
-F 3 "" H 12300 4350 50  0001 C CNN
-	1    12300 4350
+P 12100 4350
+F 0 "RV_VOL1" H 12030 4304 50  0000 R CNN
+F 1 "A100K" H 12030 4395 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 12100 4350 50  0001 C CNN
+F 3 "" H 12100 4350 50  0001 C CNN
+	1    12100 4350
 	1    0    0    1   
 $EndComp
 $Comp
@@ -916,24 +709,13 @@ $EndComp
 $Comp
 L Corona-rescue:R-device R9
 U 1 1 5A725DC9
-P 7700 7900
-F 0 "R9" V 7493 7900 50  0000 C CNN
-F 1 "1K" V 7584 7900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7630 7900 50  0001 C CNN
-F 3 "" H 7700 7900 50  0001 C CNN
-	1    7700 7900
+P 7750 6900
+F 0 "R9" V 7543 6900 50  0000 C CNN
+F 1 "1K" V 7634 6900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7680 6900 50  0001 C CNN
+F 3 "" H 7750 6900 50  0001 C CNN
+	1    7750 6900
 	0    1    1    0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R6
-U 1 1 5A725ECF
-P 7300 7400
-F 0 "R6" H 7230 7354 50  0000 R CNN
-F 1 "150K" H 7230 7445 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7230 7400 50  0001 C CNN
-F 3 "" H 7300 7400 50  0001 C CNN
-	1    7300 7400
-	-1   0    0    1   
 $EndComp
 $Comp
 L Corona-rescue:C-device C8
@@ -999,7 +781,7 @@ F 1 "100K" H 6130 7845 50  0000 R CNN
 F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 6200 7800 50  0001 C CNN
 F 3 "" H 6200 7800 50  0001 C CNN
 	1    6200 7800
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:CP-device C7
@@ -1015,13 +797,13 @@ $EndComp
 $Comp
 L coriolis-kicad:POT_TRIM RV_GAIN1
 U 1 1 5A7530EB
-P 9100 7400
-F 0 "RV_GAIN1" H 9030 7354 50  0000 R CNN
-F 1 "10K" H 9030 7445 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 9100 7400 50  0001 C CNN
-F 3 "" H 9100 7400 50  0001 C CNN
-	1    9100 7400
-	1    0    0    1   
+P 8900 7400
+F 0 "RV_GAIN1" H 8830 7354 50  0000 R CNN
+F 1 "500K" H 8830 7445 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 8900 7400 50  0001 C CNN
+F 3 "" H 8900 7400 50  0001 C CNN
+	1    8900 7400
+	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:BC547-transistors Q1
@@ -1148,12 +930,12 @@ $EndComp
 $Comp
 L coriolis-kicad:POT RV_DRYWET1
 U 1 1 5A794B9B
-P 10300 3750
-F 0 "RV_DRYWET1" H 10230 3796 50  0000 R CNN
-F 1 "10K" H 10230 3705 50  0000 R CNN
-F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 10300 3750 50  0001 C CNN
-F 3 "" H 10300 3750 50  0001 C CNN
-	1    10300 3750
+P 10400 3750
+F 0 "RV_DRYWET1" H 10330 3796 50  0000 R CNN
+F 1 "10K" H 10330 3705 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 10400 3750 50  0001 C CNN
+F 3 "" H 10400 3750 50  0001 C CNN
+	1    10400 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1167,4 +949,101 @@ F 3 "" H 13600 7150 50  0001 C CNN
 	1    13600 7150
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6900 2750 7900 2750
+$Comp
+L Corona-rescue:CP-device C?
+U 1 1 5A86A311
+P 7250 6900
+F 0 "C?" V 7505 6900 50  0000 C CNN
+F 1 "1uF (25V)" V 7414 6900 50  0000 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7288 6750 50  0001 C CNN
+F 3 "" H 7250 6900 50  0001 C CNN
+	1    7250 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Corona-rescue:CP-device C?
+U 1 1 5A86A54E
+P 9350 6800
+F 0 "C?" V 9605 6800 50  0000 C CNN
+F 1 "1uF (25V)" V 9514 6800 50  0000 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 9388 6650 50  0001 C CNN
+F 3 "" H 9350 6800 50  0001 C CNN
+	1    9350 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 6800 8900 6800
+Wire Wire Line
+	7400 6900 7600 6900
+Wire Wire Line
+	7900 6900 8000 6900
+Wire Wire Line
+	8000 6900 8000 7800
+Wire Wire Line
+	8000 7800 8900 7800
+Connection ~ 8000 6900
+Wire Wire Line
+	8000 6900 8100 6900
+Connection ~ 8900 6800
+Wire Wire Line
+	8900 6800 9200 6800
+Wire Wire Line
+	8900 7550 8900 7800
+Wire Wire Line
+	7900 5250 8550 5250
+Wire Wire Line
+	7900 3250 7900 4350
+Connection ~ 7900 4350
+Wire Wire Line
+	6450 3150 6900 3150
+Wire Wire Line
+	9650 4350 9300 4350
+Wire Wire Line
+	10250 4450 10400 4450
+Wire Wire Line
+	10400 4450 10400 4900
+Wire Wire Line
+	10400 4900 9500 4900
+Wire Wire Line
+	9500 4900 9500 4550
+Wire Wire Line
+	9500 4550 9650 4550
+Wire Wire Line
+	10400 5250 10400 4900
+Wire Wire Line
+	9000 5250 10400 5250
+Connection ~ 10400 4900
+Wire Wire Line
+	10400 3900 10400 4450
+Connection ~ 10400 4450
+Wire Wire Line
+	10400 3600 10400 3250
+Wire Wire Line
+	7900 3250 10400 3250
+Wire Wire Line
+	10850 3250 12100 3250
+Wire Wire Line
+	9050 7400 9150 7400
+Wire Wire Line
+	9150 7400 9150 7800
+Wire Wire Line
+	9150 7800 8900 7800
+Wire Wire Line
+	8900 6800 8900 7250
+Connection ~ 8900 7800
+Wire Wire Line
+	11700 3650 12100 3650
+Wire Wire Line
+	10550 3750 11100 3750
+Wire Wire Line
+	12100 3250 12100 3650
+Connection ~ 12100 3650
+Wire Wire Line
+	12100 3650 12100 4200
+Wire Wire Line
+	11100 3550 10850 3550
+Wire Wire Line
+	10850 3550 10850 3250
 $EndSCHEMATC

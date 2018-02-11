@@ -5,8 +5,8 @@ EELAYER END
 $Descr User 11693 8293
 encoding utf-8
 Sheet 3 3
-Title "Valve"
-Date "2018-01-22"
+Title "Corona"
+Date "2018-02-11"
 Rev "1"
 Comp "Coriolis Instruments"
 Comment1 "Based on Matsumin's Valvecaster stompbox."
