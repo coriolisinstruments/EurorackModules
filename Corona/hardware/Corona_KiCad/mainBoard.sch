@@ -176,13 +176,6 @@ Wire Wire Line
 	13300 6800 13300 7000
 Wire Wire Line
 	13600 6800 13300 6800
-Connection ~ 13300 7500
-Wire Wire Line
-	13300 7400 13300 7500
-Wire Wire Line
-	13600 7300 13600 7500
-Wire Wire Line
-	13600 7500 13300 7500
 Text Label 7600 1300 2    70   ~ 0
 TUBE_8
 Text Label 4700 7900 0    70   ~ 0
@@ -221,8 +214,8 @@ Text Notes 1700 5600 0    59   ~ 0
 TUBE OVERDRIVE
 Text Notes 11300 6100 0    59   ~ 0
 Clipping indicator
-Text Notes 13700 7800 0    59   ~ 0
-For a LED with 2V/20ma, \nR >= 560r 
+Text Notes 13650 7950 0    59   ~ 0
+Suggested R values:\nred/green/amber - 5K\nblue/white - 10K
 Text Notes 5750 9800 0    59   ~ 0
 Plate voltage switch\n\nThis switches the ground of the tube \nsection (grid drain+cathode) to\n1) Up = -12V for 24V Vp or\n2) Down = GND for regular 12V Vp
 Wire Wire Line
@@ -298,8 +291,6 @@ Wire Wire Line
 	2200 8350 2200 9200
 Wire Wire Line
 	12300 7200 12550 7200
-Wire Wire Line
-	13300 7500 13300 7650
 Wire Wire Line
 	13300 7950 13300 8100
 Wire Wire Line
@@ -800,7 +791,7 @@ U 1 1 5A7530EB
 P 8900 7400
 F 0 "RV_GAIN1" H 8830 7354 50  0000 R CNN
 F 1 "500K" H 8830 7445 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 8900 7400 50  0001 C CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 8900 7400 50  0001 C CNN
 F 3 "" H 8900 7400 50  0001 C CNN
 	1    8900 7400
 	1    0    0    -1  
@@ -825,7 +816,7 @@ F 1 "BC557" H 13391 7155 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13400 7125 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 13200 7200 50  0001 L CNN
 	1    13200 7200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Connection ~ 11800 7200
 $Comp
@@ -866,7 +857,7 @@ L Corona-rescue:R-device R18
 U 1 1 5A772BD3
 P 13300 7800
 F 0 "R18" H 13230 7754 50  0000 R CNN
-F 1 "680r" H 13230 7845 50  0000 R CNN
+F 1 "5K" H 13230 7845 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13230 7800 50  0001 C CNN
 F 3 "" H 13300 7800 50  0001 C CNN
 	1    13300 7800
@@ -877,7 +868,7 @@ L Corona-rescue:CP-device C10
 U 1 1 5A772C7D
 P 11800 7450
 F 0 "C10" H 11918 7496 50  0000 L CNN
-F 1 "10uF (25V)" H 11918 7405 50  0000 L CNN
+F 1 "0.22uF" H 11918 7405 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 11838 7300 50  0001 C CNN
 F 3 "" H 11800 7450 50  0001 C CNN
 	1    11800 7450
@@ -952,10 +943,10 @@ $EndComp
 Wire Wire Line
 	6900 2750 7900 2750
 $Comp
-L Corona-rescue:CP-device C?
+L Corona-rescue:CP-device C11
 U 1 1 5A86A311
 P 7250 6900
-F 0 "C?" V 7505 6900 50  0000 C CNN
+F 0 "C11" V 7505 6900 50  0000 C CNN
 F 1 "1uF (25V)" V 7414 6900 50  0000 C CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7288 6750 50  0001 C CNN
 F 3 "" H 7250 6900 50  0001 C CNN
@@ -963,10 +954,10 @@ F 3 "" H 7250 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Corona-rescue:CP-device C?
+L Corona-rescue:CP-device C12
 U 1 1 5A86A54E
 P 9350 6800
-F 0 "C?" V 9605 6800 50  0000 C CNN
+F 0 "C12" V 9605 6800 50  0000 C CNN
 F 1 "1uF (25V)" V 9514 6800 50  0000 C CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 9388 6650 50  0001 C CNN
 F 3 "" H 9350 6800 50  0001 C CNN
@@ -1046,4 +1037,13 @@ Wire Wire Line
 	11100 3550 10850 3550
 Wire Wire Line
 	10850 3550 10850 3250
+Wire Wire Line
+	13300 7400 13300 7550
+Wire Wire Line
+	13600 7300 13600 7550
+Wire Wire Line
+	13600 7550 13300 7550
+Connection ~ 13300 7550
+Wire Wire Line
+	13300 7550 13300 7650
 $EndSCHEMATC
