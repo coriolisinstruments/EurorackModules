@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BinaryPulsar-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -90,7 +91,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8050 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R39
+L Device:R R39
 U 1 1 5A613FD9
 P 1450 2600
 F 0 "R39" V 1243 2600 50  0000 C CNN
@@ -101,7 +102,7 @@ F 3 "" H 1450 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:POT_TRIM RV2
+L Device:POT_TRIM RV2
 U 1 1 5A614097
 P 5600 3550
 F 0 "RV2" V 5393 3550 50  0000 C CNN
@@ -123,7 +124,7 @@ F 3 "" H 3900 2600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:Q_NJFET_DSG Q7
+L Device:Q_NJFET_DSG Q7
 U 1 1 5A681DDA
 P 3900 3650
 F 0 "Q7" V 4228 3650 50  0000 C CNN
@@ -152,7 +153,7 @@ Text Label 6500 4000 0    50   ~ 0
 Text Label 7900 3900 0    50   ~ 0
 -12V
 $Comp
-L device:R R40
+L Device:R R40
 U 1 1 5A681DDB
 P 1450 3650
 F 0 "R40" V 1243 3650 50  0000 C CNN
@@ -163,7 +164,7 @@ F 3 "" H 1450 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R41
+L Device:R R41
 U 1 1 5A681DDC
 P 2650 2950
 F 0 "R41" V 2443 2950 50  0000 C CNN
@@ -174,7 +175,7 @@ F 3 "" H 2650 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R42
+L Device:R R42
 U 1 1 5A681DDD
 P 2650 4000
 F 0 "R42" V 2443 4000 50  0000 C CNN
@@ -185,7 +186,7 @@ F 3 "" H 2650 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R45
+L Device:R R45
 U 1 1 5A681DDE
 P 4550 2500
 F 0 "R45" V 4343 2500 50  0000 C CNN
@@ -196,7 +197,7 @@ F 3 "" H 4550 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R46
+L Device:R R46
 U 1 1 5A681DDF
 P 4550 3550
 F 0 "R46" V 4343 3550 50  0000 C CNN
@@ -207,7 +208,7 @@ F 3 "" H 4550 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R50
+L Device:R R50
 U 1 1 5A681DE0
 P 5100 3550
 F 0 "R50" V 4893 3550 50  0000 C CNN
@@ -218,7 +219,7 @@ F 3 "" H 5100 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R49
+L Device:R R49
 U 1 1 5A681DE1
 P 5100 2500
 F 0 "R49" V 4893 2500 50  0000 C CNN
@@ -229,7 +230,7 @@ F 3 "" H 5100 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R47
+L Device:R R47
 U 1 1 5A681DE2
 P 4850 2100
 F 0 "R47" H 4780 2054 50  0000 R CNN
@@ -240,7 +241,7 @@ F 3 "" H 4850 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R48
+L Device:R R48
 U 1 1 5A681DE3
 P 4850 3850
 F 0 "R48" H 4780 3804 50  0000 R CNN
@@ -287,7 +288,7 @@ Wire Wire Line
 	2900 4000 2900 4250
 Connection ~ 2900 4000
 $Comp
-L device:R R44
+L Device:R R44
 U 1 1 5A614DDF
 P 3450 4000
 F 0 "R44" V 3243 4000 50  0000 C CNN
@@ -304,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4000 3900 3850
 $Comp
-L device:R R43
+L Device:R R43
 U 1 1 5A6150FF
 P 3450 2950
 F 0 "R43" V 3243 2950 50  0000 C CNN
@@ -365,7 +366,7 @@ Connection ~ 5900 3550
 Wire Wire Line
 	5900 3550 6300 3550
 $Comp
-L device:R R52
+L Device:R R52
 U 1 1 5A681DE6
 P 6300 4350
 F 0 "R52" V 6093 4350 50  0000 C CNN
@@ -386,7 +387,7 @@ LED_RATE
 Text Label 2900 4250 0    50   ~ 0
 LED_RATE
 $Comp
-L device:R R53
+L Device:R R53
 U 1 1 5A617BFE
 P 6850 4350
 F 0 "R53" V 6643 4350 50  0000 C CNN
@@ -397,7 +398,7 @@ F 3 "" H 6850 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R51
+L Device:R R51
 U 1 1 5A617C4A
 P 5900 3950
 F 0 "R51" H 5830 3904 50  0000 R CNN
@@ -408,7 +409,7 @@ F 3 "" H 5900 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R54
+L Device:R R54
 U 1 1 5A681DE9
 P 7400 3650
 F 0 "R54" V 7193 3650 50  0000 C CNN
@@ -419,7 +420,7 @@ F 3 "" H 7400 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R55
+L Device:R R55
 U 1 1 5A617D1F
 P 8150 4150
 F 0 "R55" V 7943 4150 50  0000 C CNN

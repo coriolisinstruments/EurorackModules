@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Corona"
-Date "2018-02-11"
+Date "2018-03-02"
 Rev "1"
 Comp "Coriolis Instruments"
 Comment1 "Based on Matsumin's Valvecaster stompbox."
