@@ -130,19 +130,17 @@ TUBE_3
 Text Label 3100 8100 0    70   ~ 0
 TUBE_3
 Connection ~ 9550 2600
-Text Label 10250 2600 0    70   ~ 0
-CLEAN
 Wire Wire Line
 	9250 2600 9550 2600
 Wire Wire Line
 	9550 2100 9550 2600
-Text Label 9750 3700 0    70   ~ 0
+Text Label 9750 2600 0    70   ~ 0
 TUBE_IN
 Text Label 1800 7800 2    70   ~ 0
 TUBE_IN
 Wire Wire Line
 	2000 7800 1800 7800
-Text Label 10950 3700 2    70   ~ 0
+Text Label 10900 2600 2    70   ~ 0
 TUBE_OUT
 Text Label 8600 7000 0    70   ~ 0
 TUBE_OUT
@@ -204,8 +202,8 @@ Wire Wire Line
 	3250 2350 3400 2350
 Wire Wire Line
 	3700 2350 3850 2350
-NoConn ~ 14500 3100
-NoConn ~ 7550 2800
+NoConn ~ 14550 2800
+NoConn ~ 7450 2600
 Wire Wire Line
 	2450 1950 2450 1850
 Wire Wire Line
@@ -219,9 +217,9 @@ Wire Wire Line
 	2300 1850 2450 1850
 Wire Wire Line
 	2300 1750 2450 1750
-Text Label 7150 3000 2    70   ~ 0
+Text Label 7050 2800 2    70   ~ 0
 GND
-Text Label 14900 3300 3    70   ~ 0
+Text Label 14950 3000 3    70   ~ 0
 GND
 Text Label 12700 9000 3    70   ~ 0
 GND
@@ -274,17 +272,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 2350 4850 2350
 Wire Wire Line
-	14250 3000 14500 3000
-Wire Wire Line
-	14900 3200 14900 3300
+	14950 2900 14950 3000
 Wire Wire Line
 	8650 2500 8550 2500
 Wire Wire Line
 	8550 2100 8550 2500
 Wire Wire Line
-	7550 2700 7700 2700
+	7450 2500 7600 2500
 Wire Wire Line
-	7150 2900 7150 3000
+	7050 2700 7050 2800
 Wire Wire Line
 	7600 1200 7750 1200
 Wire Wire Line
@@ -486,23 +482,23 @@ $EndComp
 $Comp
 L Corona-rescue:Audio-Jack-2_Switch-conn J_IN1
 U 1 1 5A6EE36D
-P 7350 2800
-F 0 "J_IN1" H 7326 3125 50  0000 C CNN
-F 1 "Audio-Jack-2_Switch" H 7326 3034 50  0000 C CNN
-F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 7600 2900 50  0001 C CNN
-F 3 "~" H 7600 2900 50  0001 C CNN
-	1    7350 2800
+P 7250 2600
+F 0 "J_IN1" H 7226 2925 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 7226 2834 50  0000 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 7500 2700 50  0001 C CNN
+F 3 "~" H 7500 2700 50  0001 C CNN
+	1    7250 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:R-device R5
 U 1 1 5A6EEB0D
-P 7950 2700
-F 0 "R5" V 7743 2700 50  0000 C CNN
-F 1 "47K" V 7834 2700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 2700 50  0001 C CNN
-F 3 "" H 7950 2700 50  0001 C CNN
-	1    7950 2700
+P 7850 2500
+F 0 "R5" V 7643 2500 50  0000 C CNN
+F 1 "47K" V 7734 2500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7780 2500 50  0001 C CNN
+F 3 "" H 7850 2500 50  0001 C CNN
+	1    7850 2500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -519,12 +515,12 @@ $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
 U 2 1 5A6F0336
-P 11600 3800
-F 0 "U1" H 11700 3550 50  0000 C CNN
-F 1 "TL074" H 11750 3650 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 11550 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11650 4000 50  0001 C CNN
-	2    11600 3800
+P 11600 2500
+F 0 "U1" H 11700 2250 50  0000 C CNN
+F 1 "TL074" H 11750 2350 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 11550 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11650 2700 50  0001 C CNN
+	2    11600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -541,19 +537,19 @@ $EndComp
 $Comp
 L Corona-rescue:TL074-linear U1
 U 4 1 5A6FB000
-P 13050 3000
-F 0 "U1" H 13150 2750 50  0000 C CNN
-F 1 "TL074" H 13200 2850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 13000 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 13100 3200 50  0001 C CNN
-	4    13050 3000
+P 13100 2700
+F 0 "U1" H 13200 2450 50  0000 C CNN
+F 1 "TL074" H 13250 2550 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 13050 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 13150 2900 50  0001 C CNN
+	4    13100 2700
 	1    0    0    1   
 $EndComp
 $Comp
-L Corona-rescue:TL074-linear U3
+L Corona-rescue:TL074-linear U1
 U 3 1 5A6FB5B5
 P 7500 7000
-F 0 "U3" H 7600 6750 50  0000 C CNN
+F 0 "U1" H 7600 6750 50  0000 C CNN
 F 1 "TL074" H 7650 6850 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 7450 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7550 7200 50  0001 C CNN
@@ -563,12 +559,12 @@ $EndComp
 $Comp
 L Corona-rescue:R-device R19
 U 1 1 5A6FBB46
-P 14100 3000
-F 0 "R19" V 13893 3000 50  0000 C CNN
-F 1 "470r" V 13984 3000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 14030 3000 50  0001 C CNN
-F 3 "" H 14100 3000 50  0001 C CNN
-	1    14100 3000
+P 14250 2700
+F 0 "R19" V 14043 2700 50  0000 C CNN
+F 1 "470r" V 14134 2700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 14180 2700 50  0001 C CNN
+F 3 "" H 14250 2700 50  0001 C CNN
+	1    14250 2700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -649,17 +645,6 @@ F 3 "" H 4600 8300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L coriolis-kicad:POT RV_DRIVE1
-U 1 1 5A726291
-P 3100 8600
-F 0 "RV_DRIVE1" H 3030 8554 50  0000 R CNN
-F 1 "500K" H 3030 8645 50  0000 R CNN
-F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 3100 8600 50  0001 C CNN
-F 3 "" H 3100 8600 50  0001 C CNN
-	1    3100 8600
-	1    0    0    1   
-$EndComp
-$Comp
 L Corona-rescue:CP-device C7
 U 1 1 5A751D46
 P 5950 7100
@@ -671,7 +656,7 @@ F 3 "" H 5950 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L coriolis-kicad:POT_TRIM RV_GAIN1
+L coriolis-kicad:POT RV_GAIN1
 U 1 1 5A7530EB
 P 8000 7600
 F 0 "RV_GAIN1" H 7930 7554 50  0000 R CNN
@@ -804,17 +789,6 @@ F 3 "" H 5400 9400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L coriolis-kicad:POT RV_DRYWET1
-U 1 1 5A794B9B
-P 12050 3100
-F 0 "RV_DRYWET1" H 11980 3146 50  0000 R CNN
-F 1 "10K" H 11980 3055 50  0000 R CNN
-F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 12050 3100 50  0001 C CNN
-F 3 "" H 12050 3100 50  0001 C CNN
-	1    12050 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Corona-rescue:LED-device D6
 U 1 1 5A68408C
 P 14000 7950
@@ -826,7 +800,7 @@ F 3 "" H 14000 7950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8550 2100 9550 2100
+	8550 2100 8800 2100
 $Comp
 L Corona-rescue:CP-device C12
 U 1 1 5A86A54E
@@ -857,29 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 4600 9650 4600
 Wire Wire Line
-	11300 3700 10950 3700
-Wire Wire Line
-	11900 3800 12050 3800
-Wire Wire Line
-	12050 3800 12050 4250
-Wire Wire Line
-	12050 4250 11150 4250
-Wire Wire Line
-	11150 4250 11150 3900
-Wire Wire Line
-	11150 3900 11300 3900
-Wire Wire Line
-	12050 4600 12050 4250
-Connection ~ 12050 4250
-Wire Wire Line
-	12050 3250 12050 3800
-Connection ~ 12050 3800
-Wire Wire Line
-	12050 2950 12050 2600
-Wire Wire Line
-	9550 2600 12050 2600
-Wire Wire Line
-	12500 2600 13650 2600
+	11300 2600 11250 2600
 Wire Wire Line
 	8150 7600 8250 7600
 Wire Wire Line
@@ -890,13 +842,9 @@ Wire Wire Line
 	8000 7000 8000 7450
 Connection ~ 8000 8000
 Wire Wire Line
-	13350 3000 13650 3000
+	12800 2600 12550 2600
 Wire Wire Line
-	12200 3100 12750 3100
-Wire Wire Line
-	12750 2900 12500 2900
-Wire Wire Line
-	12500 2900 12500 2600
+	12550 2600 12550 2300
 Wire Wire Line
 	13700 8200 13700 8350
 Wire Wire Line
@@ -907,50 +855,15 @@ Connection ~ 13700 8350
 Wire Wire Line
 	13700 8350 13700 8450
 $Comp
-L Corona-rescue:TL074-linear U1
-U 3 1 5A8884B9
-P 8950 3700
-F 0 "U1" H 9050 3450 50  0000 C CNN
-F 1 "TL074" H 9100 3550 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 8900 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9000 3900 50  0001 C CNN
-	3    8950 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 2600 9550 3150
-Wire Wire Line
-	9550 3150 8350 3150
-Wire Wire Line
-	8350 3150 8350 3600
-Wire Wire Line
-	8350 3600 8650 3600
-Wire Wire Line
-	9250 3700 9550 3700
-Wire Wire Line
-	8350 3800 8650 3800
-Wire Wire Line
-	9550 3700 9550 4250
-Connection ~ 9550 3700
-Wire Wire Line
-	9550 3700 9750 3700
-Wire Wire Line
-	8350 4250 9550 4250
-Wire Wire Line
-	8350 3800 8350 4250
-Connection ~ 9550 4250
-Wire Wire Line
-	9550 4250 9550 4600
-$Comp
 L Corona-rescue:BC547-transistors Q3
 U 1 1 5A8CEBC6
-P 10450 5150
-F 0 "Q3" H 10641 5196 50  0000 L CNN
-F 1 "BC547" H 10641 5105 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10650 5075 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 10450 5150 50  0001 L CNN
-	1    10450 5150
-	0    -1   -1   0   
+P 11200 5250
+F 0 "Q3" H 11391 5296 50  0000 L CNN
+F 1 "BC547" H 11391 5205 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 11400 5175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 11200 5250 50  0001 L CNN
+	1    11200 5250
+	0    1    -1   0   
 $EndComp
 $Comp
 L Corona-rescue:BC547-transistors Q4
@@ -965,127 +878,81 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 10800 4700 50  0001 L CNN
 $EndComp
 Wire Wire Line
 	12050 4600 11000 4600
-Wire Wire Line
-	9950 4600 10600 4600
-Wire Wire Line
-	10650 5050 10800 5050
-Wire Wire Line
-	10800 5050 10800 4900
-Text Label 10250 5050 2    70   ~ 0
+Text Label 11400 5150 0    70   ~ 0
 +12V
 $Comp
 L Corona-rescue:LED-device D7
 U 1 1 5A91E713
-P 11150 5050
-F 0 "D7" V 11188 4933 50  0000 R CNN
-F 1 "LED" V 11097 4933 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 11150 5050 50  0001 C CNN
-F 3 "" H 11150 5050 50  0001 C CNN
-	1    11150 5050
-	-1   0    0    1   
+P 10150 4950
+F 0 "D7" V 10188 4833 50  0000 R CNN
+F 1 "LED" V 10097 4833 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 10150 4950 50  0001 C CNN
+F 3 "" H 10150 4950 50  0001 C CNN
+	1    10150 4950
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	11000 5050 10800 5050
 $Comp
 L Corona-rescue:R-device R8
 U 1 1 5A926CC4
-P 11600 5050
-F 0 "R8" V 11393 5050 50  0000 C CNN
-F 1 "10K" V 11484 5050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11530 5050 50  0001 C CNN
-F 3 "" H 11600 5050 50  0001 C CNN
-	1    11600 5050
-	0    1    1    0   
+P 10150 5400
+F 0 "R8" V 9943 5400 50  0000 C CNN
+F 1 "5K" V 10034 5400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10080 5400 50  0001 C CNN
+F 3 "" H 10150 5400 50  0001 C CNN
+	1    10150 5400
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	11450 5050 11300 5050
-Text Label 11750 5050 0    70   ~ 0
+Text Label 9900 5650 2    70   ~ 0
 GND
-Text Notes 8500 5100 0    50   ~ 0
-Feedback control\nUses 0-12V. Somehow this \nseems to work. #noclue
+Text Notes 11850 5200 0    50   ~ 0
+Feedback control\n\nUses 0-12V. Somehow this \nseems to work. #noclue
 $Comp
 L Corona-rescue:R-device R6
 U 1 1 5A92FBBB
-P 10050 5350
-F 0 "R6" V 9843 5350 50  0000 C CNN
-F 1 "1M" V 9934 5350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9980 5350 50  0001 C CNN
-F 3 "" H 10050 5350 50  0001 C CNN
-	1    10050 5350
+P 11600 5500
+F 0 "R6" V 11393 5500 50  0000 C CNN
+F 1 "1M" V 11484 5500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11530 5500 50  0001 C CNN
+F 3 "" H 11600 5500 50  0001 C CNN
+	1    11600 5500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10450 5350 10200 5350
-Text Notes 10850 5350 0    50   ~ 0
-Feedback indicator
-Text Label 8850 3400 0    50   ~ 0
-+12V
+Text Notes 9950 6100 0    50   ~ 0
+Feedback indicator\n\n1K used as pull down \nto dim LED when gain\nis set to 0
 Text Label 8850 2900 0    50   ~ 0
 +12V
-Text Label 11500 3500 0    50   ~ 0
+Text Label 11500 2200 0    50   ~ 0
 +12V
-Text Label 12950 3300 0    50   ~ 0
+Text Label 13000 3000 0    50   ~ 0
 +12V
-Text Label 8850 4000 3    50   ~ 0
+Text Label 11500 2800 3    50   ~ 0
 -12V
-Text Label 11500 4100 3    50   ~ 0
--12V
-Text Label 12950 2700 0    50   ~ 0
+Text Label 13000 2400 0    50   ~ 0
 -12V
 Text Label 8850 2300 0    50   ~ 0
 -12V
-Text Label 9350 5350 2    50   ~ 0
+Text Label 12000 5500 0    50   ~ 0
 CV_FB
 Text Notes 1500 3400 0    50   ~ 0
 CV
 Wire Wire Line
-	8650 2700 8100 2700
-$Comp
-L Corona-rescue:R-device R7
-U 1 1 5AA3AB7B
-P 7700 3150
-F 0 "R7" V 7493 3150 50  0000 C CNN
-F 1 "1M" V 7584 3150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7630 3150 50  0001 C CNN
-F 3 "" H 7700 3150 50  0001 C CNN
-	1    7700 3150
-	-1   0    0    1   
-$EndComp
-Text Label 7700 3300 3    70   ~ 0
-GND
+	8650 2700 8350 2700
 Wire Wire Line
-	7700 3000 7700 2700
-Connection ~ 7700 2700
-Wire Wire Line
-	7700 2700 7800 2700
+	7600 2500 7700 2500
 Wire Wire Line
 	6100 7100 6700 7100
 Connection ~ 3100 9400
-Wire Wire Line
-	3250 8600 3400 8600
-Wire Wire Line
-	3400 8600 3400 8850
-Wire Wire Line
-	3400 8850 3100 8850
-Connection ~ 3100 8850
-Wire Wire Line
-	3100 8850 3100 8750
-Wire Wire Line
-	13650 3000 13650 2600
-Connection ~ 13650 3000
 $Comp
 L Corona-rescue:Audio-Jack-2_Switch-conn J_OUT1
 U 1 1 5A6EEFB9
-P 14700 3100
-F 0 "J_OUT1" H 14677 3425 50  0000 C CNN
-F 1 "Audio-Jack-2_Switch" H 14677 3334 50  0000 C CNN
-F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 14950 3200 50  0001 C CNN
-F 3 "~" H 14950 3200 50  0001 C CNN
-	1    14700 3100
+P 14750 2800
+F 0 "J_OUT1" H 14727 3125 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 14727 3034 50  0000 C CNN
+F 2 "Coriolis-KiCad:WQP-PJ301M-12_JACK" H 15000 2900 50  0001 C CNN
+F 3 "~" H 15000 2900 50  0001 C CNN
+	1    14750 2800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	13650 3000 13950 3000
 $Sheet
 S 1800 3650 1650 650 
 U 5AA9A38A
@@ -1096,6 +963,7 @@ F3 "+12V" I L 1800 3900 50
 F4 "-12V" I L 1800 4000 50 
 F5 "CV_FB" O R 3450 3800 50 
 F6 "CV_DRV" O R 3450 3900 50 
+F7 "CV_TONE" O R 3450 4000 50 
 $EndSheet
 Text Label 1800 4000 2    70   ~ 0
 -12V
@@ -1107,9 +975,6 @@ Text Label 3450 3800 0    50   ~ 0
 CV_FB
 Text Label 3450 3900 0    50   ~ 0
 CV_DRV
-Connection ~ 10800 5050
-Wire Wire Line
-	9350 5350 9900 5350
 Wire Wire Line
 	3100 8850 3100 9400
 Wire Wire Line
@@ -1119,33 +984,274 @@ Text Label 2500 9700 0    50   ~ 0
 VIRT_GND
 Text Label 8400 1400 0    50   ~ 0
 VIRT_GND
+Wire Wire Line
+	11200 5450 11200 5500
+Wire Wire Line
+	11200 5500 11450 5500
+Wire Wire Line
+	11750 5500 12000 5500
+Wire Wire Line
+	10150 5250 10150 5100
+Wire Wire Line
+	10800 4900 10800 5150
+Wire Wire Line
+	10800 5150 11000 5150
 $Comp
-L Corona-rescue:TL074-linear U3
-U 4 1 5A9D169B
-P 10250 10250
-F 0 "U3" H 10350 10000 50  0000 C CNN
-F 1 "TL074" H 10400 10100 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 10200 10350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10300 10450 50  0001 C CNN
-	4    10250 10250
+L Corona-rescue:R-device R25
+U 1 1 5AB0540F
+P 10500 5150
+F 0 "R25" V 10293 5150 50  0000 C CNN
+F 1 "1K" V 10384 5150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10430 5150 50  0001 C CNN
+F 3 "" H 10500 5150 50  0001 C CNN
+	1    10500 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10150 4800 10150 4700
+Wire Wire Line
+	10150 5650 10150 5550
+Wire Wire Line
+	10500 5650 10500 5300
+Wire Wire Line
+	9900 5650 10150 5650
+Connection ~ 10150 5650
+Wire Wire Line
+	10500 4700 10500 4600
+Wire Wire Line
+	10150 4700 10500 4700
+Wire Wire Line
+	9950 4600 10500 4600
+Wire Wire Line
+	10150 5650 10500 5650
+Connection ~ 10500 4700
+Connection ~ 10500 4600
+Wire Wire Line
+	10500 4600 10600 4600
+Wire Wire Line
+	10500 4700 10500 5000
+Wire Wire Line
+	9750 2600 9550 2600
+Wire Wire Line
+	9550 2600 9550 4600
+$Comp
+L Transistor_FET:BF245A Q5
+U 1 1 5AB660E6
+P 3200 8650
+F 0 "Q5" H 3390 8604 50  0000 L CNN
+F 1 "BF245A" H 3390 8695 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3400 8575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BF/BF245A.pdf" H 3200 8600 50  0001 L CNN
+	1    3200 8650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Corona-rescue:R-device R27
+U 1 1 5AB665A1
+P 3550 8900
+F 0 "R27" H 3480 8854 50  0000 R CNN
+F 1 "1M" H 3480 8945 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 8900 50  0001 C CNN
+F 3 "" H 3550 8900 50  0001 C CNN
+	1    3550 8900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Corona-rescue:R-device R26
+U 1 1 5AB6664F
+P 3550 8400
+F 0 "R26" H 3480 8354 50  0000 R CNN
+F 1 "300K" H 3480 8445 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 8400 50  0001 C CNN
+F 3 "" H 3550 8400 50  0001 C CNN
+	1    3550 8400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 8650 3550 8650
+Wire Wire Line
+	3550 8650 3550 8550
+Wire Wire Line
+	3550 8750 3550 8650
+Connection ~ 3550 8650
+Text Label 3550 8250 0    50   ~ 0
+CV_DRV
+Text Label 3550 9050 3    70   ~ 0
+GND
+Wire Wire Line
+	12050 2800 12800 2800
+Connection ~ 12050 2800
+$Comp
+L Transistor_FET:BF245A Q6
+U 1 1 5AB8CEB2
+P 13700 3050
+F 0 "Q6" H 13891 3096 50  0000 L CNN
+F 1 "BF245A" H 13891 3005 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13900 2975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BF/BF245A.pdf" H 13700 3000 50  0001 L CNN
+	1    13700 3050
 	1    0    0    -1  
 $EndComp
-Text Label 9950 10150 2    70   ~ 0
+$Comp
+L Corona-rescue:R-device R29
+U 1 1 5AB8CEB9
+P 13700 4000
+F 0 "R29" H 13630 3954 50  0000 R CNN
+F 1 "1M" H 13630 4045 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13630 4000 50  0001 C CNN
+F 3 "" H 13700 4000 50  0001 C CNN
+	1    13700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Corona-rescue:R-device R28
+U 1 1 5AB8CEC0
+P 13200 4000
+F 0 "R28" H 13130 3954 50  0000 R CNN
+F 1 "300K" H 13130 4045 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13130 4000 50  0001 C CNN
+F 3 "" H 13200 4000 50  0001 C CNN
+	1    13200 4000
+	0    -1   -1   0   
+$EndComp
+Text Label 13850 4000 0    70   ~ 0
 GND
-Text Label 10150 9950 0    50   ~ 0
-+12V
-Text Label 10150 10550 3    50   ~ 0
--12V
 Wire Wire Line
-	10550 10250 10800 10250
+	13400 2700 13450 2700
 Wire Wire Line
-	10800 10250 10800 10850
+	14400 2700 14550 2700
 Wire Wire Line
-	10800 10850 9700 10850
+	13450 2700 13450 2300
 Wire Wire Line
-	9700 10850 9700 10350
+	13450 2300 12550 2300
+Connection ~ 13450 2700
+Text Label 13050 4000 2    50   ~ 0
+CV_TONE
+$Comp
+L Corona-rescue:C-device C8
+U 1 1 5ABD76F3
+P 13800 3500
+F 0 "C8" H 13915 3546 50  0000 L CNN
+F 1 "100nF" H 13915 3455 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 13838 3350 50  0001 C CNN
+F 3 "" H 13800 3500 50  0001 C CNN
+	1    13800 3500
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	9700 10350 9950 10350
-Text Notes 9700 9800 0    50   ~ 0
-Unused op amp
+	13450 4000 13350 4000
+Wire Wire Line
+	13450 4000 13550 4000
+Connection ~ 13450 4000
+Wire Wire Line
+	13800 3250 13800 3350
+Wire Wire Line
+	13800 2850 13800 2700
+Wire Wire Line
+	13800 2700 14100 2700
+Wire Wire Line
+	13450 2700 13800 2700
+Connection ~ 13800 2700
+Text Notes 13150 4500 0    50   ~ 0
+Tone\n(-6dB low-pass)
+Text Label 3450 4000 0    50   ~ 0
+CV_TONE
+Text Label 13800 3650 3    70   ~ 0
+GND
+Wire Wire Line
+	13450 3050 13500 3050
+Wire Wire Line
+	13450 3050 13450 4000
+Wire Wire Line
+	11900 2500 12050 2500
+Wire Wire Line
+	12050 2500 12050 2800
+Text Label 11300 2400 2    70   ~ 0
+GND
+$Comp
+L Corona-rescue:R-device R41
+U 1 1 5AB05618
+P 11650 3200
+F 0 "R41" V 11443 3200 50  0000 C CNN
+F 1 "1K" V 11534 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11580 3200 50  0001 C CNN
+F 3 "" H 11650 3200 50  0001 C CNN
+	1    11650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Corona-rescue:R-device R40
+U 1 1 5AB05960
+P 11050 2600
+F 0 "R40" V 10843 2600 50  0000 C CNN
+F 1 "1K" V 10934 2600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10980 2600 50  0001 C CNN
+F 3 "" H 11050 2600 50  0001 C CNN
+	1    11050 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 3200 11250 3200
+Wire Wire Line
+	11250 3200 11250 2600
+Wire Wire Line
+	12050 2800 12050 3200
+Connection ~ 11250 2600
+Wire Wire Line
+	11250 2600 11200 2600
+Wire Wire Line
+	11800 3200 12050 3200
+Connection ~ 12050 3200
+Wire Wire Line
+	12050 3200 12050 4600
+Text Notes 11150 2050 0    50   ~ 0
+Buffer and invert back
+$Comp
+L coriolis-kicad:POT RV_IN1
+U 1 1 5AB24AFC
+P 8200 2700
+F 0 "RV_IN1" H 8550 2850 50  0000 R CNN
+F 1 "100K" H 8450 2950 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 8200 2700 50  0001 C CNN
+F 3 "" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9200 2100 9550 2100
+Wire Wire Line
+	8800 2100 8900 2100
+$Comp
+L Corona-rescue:R-device R7
+U 1 1 5AB35927
+P 8300 2100
+F 0 "R7" V 8093 2100 50  0000 C CNN
+F 1 "10K" V 8184 2100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8230 2100 50  0001 C CNN
+F 3 "" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 2100 8450 2100
+Connection ~ 8550 2100
+Text Label 8150 2100 2    50   ~ 0
+GND
+Text Label 8200 2850 3    50   ~ 0
+GND
+Wire Wire Line
+	8000 2500 8200 2500
+Wire Wire Line
+	8200 2500 8200 2550
+$Comp
+L Corona-rescue:R-device R42
+U 1 1 5AB4F0FB
+P 9050 2100
+F 0 "R42" V 8843 2100 50  0000 C CNN
+F 1 "10K" V 8934 2100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8980 2100 50  0001 C CNN
+F 3 "" H 9050 2100 50  0001 C CNN
+	1    9050 2100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
