@@ -4,7 +4,7 @@ Open-source eurorack synthesizer modules.
 ## Corona
 A multi purpose vacuum tube (or valve) drive module with feedback control.
 
-status: design (pre-breadboard)
+status: prototyping (breadboarding)
 
 ## Binary Pulsar
 A dual wide range voltage controlled low-frequency oscillator.
