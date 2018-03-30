@@ -15,8 +15,8 @@ The tube board is connected to the main board via a short (eurorack-standard) 10
 
 ## Main board
 The audio that travels through the circuitry on the main board experiences 5 stages:
+- Adjustable input gain (max. +6dB),
 - Tube drive,
 - Tone filter,
-- Adjustable gain (max. +50dB which puts a 12AX7 in self-oscillation),
-- Adjustable feedback, and
-- Dry/Wet mixer.
+- Adjustable output gain (max. +50dB which puts a 12AX7 in self-oscillation), and
+- Adjustable feedback.
