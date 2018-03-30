@@ -1,7 +1,7 @@
 # Corona
 A multi purpose vacuum tube (or valve) drive module with feedback control.
 
-status: prototyping (10-02-2018)
+status: prototyping (2018.02.10)
 
 ## About
 This design is based on Matsumin's well-known "Valvecaster" guitar stompbox design for 12A*7 tubes. This module can act as a regular tube amp with low gain tubes such as the 12AU7. Because the maximum plate voltage is limited to 24V, higher gain tubes are "starved" which introduces distorts the sound in a typical way. The higher the gain, the more pronounced this effect is.
