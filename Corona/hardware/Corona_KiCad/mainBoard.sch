@@ -210,8 +210,6 @@ Wire Wire Line
 	2450 1750 2450 1850
 Connection ~ 2450 1850
 Wire Wire Line
-	3100 8100 3100 8450
-Wire Wire Line
 	2300 1950 2450 1950
 Wire Wire Line
 	2300 1850 2450 1850
@@ -277,8 +275,6 @@ Wire Wire Line
 	8650 2500 8550 2500
 Wire Wire Line
 	8550 2100 8550 2500
-Wire Wire Line
-	7450 2500 7600 2500
 Wire Wire Line
 	7050 2700 7050 2800
 Wire Wire Line
@@ -799,8 +795,6 @@ F 3 "" H 14000 7950 50  0001 C CNN
 	1    14000 7950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8550 2100 8800 2100
 $Comp
 L Corona-rescue:CP-device C12
 U 1 1 5A86A54E
@@ -938,8 +932,6 @@ CV
 Wire Wire Line
 	8650 2700 8350 2700
 Wire Wire Line
-	7600 2500 7700 2500
-Wire Wire Line
 	6100 7100 6700 7100
 Connection ~ 3100 9400
 $Comp
@@ -975,8 +967,6 @@ Text Label 3450 3800 0    50   ~ 0
 CV_FB
 Text Label 3450 3900 0    50   ~ 0
 CV_DRV
-Wire Wire Line
-	3100 8850 3100 9400
 Wire Wire Line
 	2500 9400 2500 9700
 Connection ~ 2500 9400
@@ -1035,58 +1025,27 @@ Wire Wire Line
 Wire Wire Line
 	9550 2600 9550 4600
 $Comp
-L Transistor_FET:BF245A Q5
-U 1 1 5AB660E6
-P 3200 8650
-F 0 "Q5" H 3390 8604 50  0000 L CNN
-F 1 "BF245A" H 3390 8695 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3400 8575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BF/BF245A.pdf" H 3200 8600 50  0001 L CNN
-	1    3200 8650
-	-1   0    0    1   
-$EndComp
-$Comp
 L Corona-rescue:R-device R27
 U 1 1 5AB665A1
-P 3550 8900
-F 0 "R27" H 3480 8854 50  0000 R CNN
-F 1 "1M" H 3480 8945 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 8900 50  0001 C CNN
-F 3 "" H 3550 8900 50  0001 C CNN
-	1    3550 8900
+P 3900 8950
+F 0 "R27" H 3830 8904 50  0000 R CNN
+F 1 "1K" H 3830 8995 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 8950 50  0001 C CNN
+F 3 "" H 3900 8950 50  0001 C CNN
+	1    3900 8950
 	-1   0    0    1   
 $EndComp
-$Comp
-L Corona-rescue:R-device R26
-U 1 1 5AB6664F
-P 3550 8400
-F 0 "R26" H 3480 8354 50  0000 R CNN
-F 1 "300K" H 3480 8445 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 8400 50  0001 C CNN
-F 3 "" H 3550 8400 50  0001 C CNN
-	1    3550 8400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3400 8650 3550 8650
-Wire Wire Line
-	3550 8650 3550 8550
-Wire Wire Line
-	3550 8750 3550 8650
-Connection ~ 3550 8650
-Text Label 3550 8250 0    50   ~ 0
-CV_DRV
-Text Label 3550 9050 3    70   ~ 0
+Text Label 3900 9100 3    70   ~ 0
 GND
 Wire Wire Line
 	12050 2800 12800 2800
 Connection ~ 12050 2800
 $Comp
-L Transistor_FET:BF245A Q6
+L Device:Q_NJFET_DSG Q6
 U 1 1 5AB8CEB2
 P 13700 3050
 F 0 "Q6" H 13891 3096 50  0000 L CNN
-F 1 "BF245A" H 13891 3005 50  0000 L CNN
+F 1 "2N5457" H 13891 3005 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13900 2975 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BF/BF245A.pdf" H 13700 3000 50  0001 L CNN
 	1    13700 3050
@@ -1219,8 +1178,6 @@ F 3 "" H 8200 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9200 2100 9550 2100
-Wire Wire Line
-	8800 2100 8900 2100
 $Comp
 L Corona-rescue:R-device R7
 U 1 1 5AB35927
@@ -1254,4 +1211,29 @@ F 3 "" H 9050 2100 50  0001 C CNN
 	1    9050 2100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7450 2500 7700 2500
+Wire Wire Line
+	8550 2100 8900 2100
+$Comp
+L optoCombined:H11F1 U?
+U 1 1 5AC332C1
+P 3400 8650
+F 0 "U?" H 3350 9015 50  0000 C CNN
+F 1 "H11F1" H 3350 8924 50  0000 C CNN
+F 2 "Housings_DIP:DIP-6_W7.62mm_Socket" H 3400 8800 50  0001 C CNN
+F 3 "" H 3400 8650 50  0001 C CNN
+	1    3400 8650
+	-1   0    0    -1  
+$EndComp
+Text Label 3800 8550 0    50   ~ 0
+CV_DRV
+Wire Wire Line
+	3800 8750 3900 8750
+Wire Wire Line
+	3900 8750 3900 8800
+Wire Wire Line
+	3100 8750 3100 9400
+Wire Wire Line
+	3100 8100 3100 8550
 $EndSCHEMATC

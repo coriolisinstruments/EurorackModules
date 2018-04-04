@@ -242,7 +242,7 @@ L Corona-rescue:R-device R23
 U 1 1 5A9B7ABF
 P 9150 1850
 F 0 "R23" V 9400 1900 50  0000 R CNN
-F 1 "470r 1/2w" V 9300 2000 50  0000 R CNN
+F 1 "1K" V 9300 2000 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9080 1850 50  0001 C CNN
 F 3 "" H 9150 1850 50  0001 C CNN
 	1    9150 1850
@@ -253,7 +253,7 @@ L Corona-rescue:R-device R24
 U 1 1 5A9B7AC6
 P 9150 2150
 F 0 "R24" V 9000 2200 50  0000 R CNN
-F 1 "4k7 1/2w" V 8900 2250 50  0000 R CNN
+F 1 "1K" V 8900 2250 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9080 2150 50  0001 C CNN
 F 3 "" H 9150 2150 50  0001 C CNN
 	1    9150 2150
@@ -271,10 +271,10 @@ F 3 "" H 8650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Corona-rescue:LED-device D_24V2
+L Corona-rescue:LED-device D_24V1
 U 1 1 5A9B7AD4
 P 8650 1850
-F 0 "D_24V2" H 8750 1700 50  0000 R CNN
+F 0 "D_24V1" H 8750 1700 50  0000 R CNN
 F 1 "LED" H 8600 1950 50  0000 R CNN
 F 2 "LEDs:LED_D3.0mm" H 8650 1850 50  0001 C CNN
 F 3 "" H 8650 1850 50  0001 C CNN
@@ -284,48 +284,19 @@ $EndComp
 Wire Wire Line
 	9300 1850 9400 1850
 Wire Wire Line
-	9400 1850 9400 2000
-Wire Wire Line
 	9400 2150 9300 2150
-Wire Wire Line
-	9400 2000 9750 2000
-Connection ~ 9400 2000
-Wire Wire Line
-	9400 2000 9400 2150
-Text Label 8000 1850 2    50   ~ 0
+Text Label 8400 1850 2    50   ~ 0
 GND_TB
-Text Label 8000 2150 2    50   ~ 0
+Text Label 8400 2150 2    50   ~ 0
 -12V_TB
 Text Notes 9400 1500 0    50   ~ 0
-LEDs to illuminate the tube\n(indicates plate voltage too)\n470r for red (clear)\n4k7 for green (clear)
-Text Label 9750 2000 0    50   ~ 0
+LEDs to illuminate the tube\n(indicates plate voltage too)\n
+Text Label 9400 1850 0    50   ~ 0
 VIRT_GND_TB
-Text Notes 9400 1850 0    50   ~ 0
+Text Notes 9400 1950 0    50   ~ 0
 24V
-Text Notes 9400 2150 0    50   ~ 0
+Text Notes 9400 2250 0    50   ~ 0
 12V
-$Comp
-L Corona-rescue:LED-device D_12V2
-U 1 1 5A9C6E87
-P 8250 2150
-F 0 "D_12V2" H 8400 2000 50  0000 R CNN
-F 1 "LED" H 8200 2250 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 8250 2150 50  0001 C CNN
-F 3 "" H 8250 2150 50  0001 C CNN
-	1    8250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:LED-device D_24V1
-U 1 1 5A9C794C
-P 8250 1850
-F 0 "D_24V1" H 8350 1700 50  0000 R CNN
-F 1 "LED" H 8200 1950 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 8250 1850 50  0001 C CNN
-F 3 "" H 8250 1850 50  0001 C CNN
-	1    8250 1850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8400 2150 8500 2150
 $Comp
@@ -357,9 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 1850 9000 1850
 Wire Wire Line
-	8000 1850 8100 1850
-Wire Wire Line
-	8100 2150 8000 2150
-Wire Wire Line
 	8400 1850 8500 1850
+Text Label 9400 2150 0    50   ~ 0
+GND_TB
 $EndSCHEMATC
