@@ -15,7 +15,7 @@ It is not recommended to put more than two of these LPGs in series as the input 
 | Component | Quantity    | Component     |
 | :------------- | :------------- | :------------- |
 | RV? | 4 | Song Huei tall trimmer pots, A10k |
-| J_? | 12 | thonkikonn mono jacks |
+| J_? | 12 | thonkiconn mono jacks |
 | D?1 | 4 | 3mm LED's (I use White) |
 | C? | 4 | Capacitors (polarize, electrolitic) , 1uf - 10uf. I use 10uF. |
 | R_VAC_? | 4 | 100k ohm resistors (depends on Vactrols) |
