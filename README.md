@@ -6,6 +6,11 @@ A multi purpose vacuum tube (or valve) drive module with feedback control.
 
 status: prototyping (2018.02.10)
 
+## TWObyTWO Tone
+A simple quadruple passive low-pass gate with some normalizations.
+
+status: prototype (boards ordered)
+
 ## Binary Pulsar
 A dual wide range voltage controlled low-frequency oscillator.
 

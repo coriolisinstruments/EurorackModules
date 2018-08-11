@@ -1,5 +1,5 @@
 # TwoByTwo Tone
-A simple passive low-pass gate.
+A simple quadruple passive low-pass gate with some normalizations.
 
 status: prototype (boards ordered)
 
