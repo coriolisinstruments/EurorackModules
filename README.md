@@ -9,7 +9,7 @@ status: prototyping (2018.02.10)
 ## TWObyTWO Tone
 A simple quadruple passive low-pass gate with some normalizations.
 
-status: prototype (boards ordered)
+status: prototype (boards ready for ordering)
 
 ## Binary Pulsar
 A dual wide range voltage controlled low-frequency oscillator.
