@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:1u_lpg_panel-cache
+LIBS:1u_mute_panel-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -63,8 +63,8 @@ L Mechanical:MountingHole MH5
 U 1 1 5B77F6E9
 P 3650 1400
 F 0 "MH5" H 3750 1446 50  0000 L CNN
-F 1 "Switch" H 3750 1355 50  0000 L CNN
-F 2 "Coriolis-KiCad:panel_9mm_pot" H 3650 1400 50  0001 C CNN
+F 1 "Switch(1/4in bush)" H 3750 1355 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_0.25in_bushing" H 3650 1400 50  0001 C CNN
 F 3 "~" H 3650 1400 50  0001 C CNN
 	1    3650 1400
 	1    0    0    -1  

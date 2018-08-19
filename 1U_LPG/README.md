@@ -14,24 +14,24 @@ It is not recommended to put more than two of these LPGs in series as the input 
 ## BOM
 | Component | Quantity    | Component     |
 | :------------- | :------------- | :------------- |
-| RV? | 1 | 9mm pot or Song Huei tall trimmer pot, A10k |
+| RV1 | 1 | 9mm pot or Song Huei tall trimmer pot, A10k |
 | J_? | 3 | Thonkiconn mono jacks |
-| D?1 | 1 | 3mm LED's (I use white ones) |
-| C? | 1 | Capacitors (polarize, electrolitic) , 1uf - 10uf. I use 10uF. |
-| R_VAC_? | 1 | 100k ohm resistors (depends on Vactrols) |
-| R_LED_? | 1 | 20k ohm resistors (depends on LEDs) |
-| R_OUT_? | 1 | 1k ohm resistors |
-| VAC_PHOTO_? | 1 | DIY or NLS-32 vactrol |
+| D1 | 1 | 3mm LED (I use white ones) |
+| C1 | 1 | Capacitor (polarize, electrolitic) , 1uf - 10uf. I use 10uF. |
+| R_VAC_1 | 1 | 100k ohm resistor (depends on Vactrol) |
+| R_LED_1 | 1 | 20k ohm resistor (depends on LED) |
+| R_OUT_1 | 1 | 510 ohm resistor |
+| VAC_PHOTO_1 | 1 | DIY or NLS-32 vactrol |
 
 ## Building order
 By no means a build guide; just a suggested order to make building easier.
 1. Start soldering with the standing resistors on the back (R_VAC,R_LED).
 2. Solder the cap on the back (C).
 3. Solder the standing resistor on the front (R_OUT).
-4. Solder your Vactrols in place.
+4. Solder your Vactrol in place.
 5. Place the jacks, LED and pot on the front, but do not solder them.
 6. Fit the panel onto the jacks and use the jack lugs to secure it.
-   (optional) if you have flat top LEDs, use a piece of masking tape on the front to make the LED sit flush.
+   (optional) if you have flat top LEDs, use a piece of masking tape on the front to make the front LED sit flush.
 7. Flip the whole thing over and solder the jacks, pot and LED.
 8. DONE!
 

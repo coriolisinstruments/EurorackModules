@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\1U_Mute\hardware\1u_mute_panel\1u_mute_panel.sch)
-    (date "18-8-2018 16:56:28")
+    (date "19-8-2018 10:19:47")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -44,8 +44,8 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5B77F683))
     (comp (ref MH5)
-      (value Switch)
-      (footprint Coriolis-KiCad:panel_9mm_pot)
+      (value "Switch(1/4in bush)")
+      (footprint Coriolis-KiCad:panel_0.25in_bushing)
       (datasheet ~)
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))

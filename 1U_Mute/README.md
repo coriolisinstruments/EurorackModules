@@ -15,7 +15,7 @@ Err.. none? It has a cool window in the panel that shows polarity of the signal 
 | J_? | 2 | Thonkiconn mono jacks |
 | D? | 2 | 3mm LED's (use one color for positive and one for negative) |
 | R_LED_? | 2 | 1k ohm resistors (depends on LEDs) |
-| R_OUT_? | 1 | 1k ohm resistors |
+| R_OUT_1 | 1 | 510R ohm resistor |
 | SW1 | 1 | ON-OFF-(ON) Mini Switch. Something like [this switch](https://www.digikey.nl/product-detail/en/e-switch/100SP5T1B1M2QEH/EG2394-ND/378863) or [this one](https://www.digikey.nl/product-detail/en/nkk-switches/M2019SS1W03/360-2071-ND/1007128) |
 
 ## Building order
