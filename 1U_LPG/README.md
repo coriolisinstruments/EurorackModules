@@ -6,13 +6,13 @@ status: design
 
 ## About
 
-Like the TWObyTWO tone, this low-pass gate (LPG) module design is basically a single LPG as designed by [Ben Moren](http://benmoren.com/). The original "Two Tone" LPG can be found [here.](https://github.com/bmoren/two-tone).
+This low-pass gate (LPG) module design was inspired by the Two Tone module from [Ben Moren](http://benmoren.com/). The original "Two Tone" LPG can be found [here.](https://github.com/bmoren/two-tone).
 
-I made this into a small 1U module, because I figured it would be nice to have a couple of them handy in my utility row. Note that I've design them according to the [Intellijel 1U specification.](https://intellijel.com/support/1u-technical-specifications/)
+I made this into a single LPG in a small 1U module, because I figured it would be nice to have a couple of them handy in my utility row. Note that I've design them according to the [Intellijel 1U specification.](https://intellijel.com/support/1u-technical-specifications/)
 
 ## Remarks
 
-It is not recommended to put more than two of these LPGs in series as the input impedance might get too high to handle for some buffers in your system. So stick to the normaled halves, okay? :)
+It is not recommended to put more than two of these LPGs in series as the input impedance might get too high to handle for some buffers in your system. Also, I've used a WIMA MKS2 footprint for the capacitor, instead of a polarized one of the original design. You can still substitute it with a polarized one if you like, but your mileage may vary. 
 
 ## BOM
 
@@ -21,7 +21,7 @@ It is not recommended to put more than two of these LPGs in series as the input 
 | RV1 | 1 | 9mm pot or Song Huei tall trimmer pot, A10k |
 | J_? | 3 | Thonkiconn mono jacks |
 | D1 | 1 | 3mm LED (I use white ones) |
-| C1 | 1 | Capacitor (polarize, electrolitic) , 1uf - 10uf. I use 10uF. |
+| C1 | 1 | Capacitor (film or, electrolitic) , 0.1uf - 4.7uf. I use WIMA MKS2 - 1uF. |
 | R_VAC_1 | 1 | 100k ohm resistor (depends on Vactrol) |
 | R_LED_1 | 1 | 20k ohm resistor (depends on LED) |
 | R_OUT_1 | 1 | 510 ohm resistor |
