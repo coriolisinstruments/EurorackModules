@@ -61,7 +61,7 @@ Cut a piece of the large heatshrink tubing. Make sure it is as big or only a lit
 
 ![About this long](images/makingVactrols_10.jpg)
 
-Push your assembly into the tube. With the tape applied, it should be snug. It is probably the most convenient to push the LDR assembly with the LED (so LDR legs in first). If you are really confident, you could skip the tape step and push the LED and LDR assembly into the tube directly. Just be sure to check the alignment of the components.
+Push your assembly into the tube. With the tape applied, it should be snug. Probably the most convenient way is to push the LDR-assembly in with the LED (so LDR legs in first). If you are really confident, you could skip the tape step and push the LED and LDR-assembly into the tube directly. Just be sure to check the alignment of the components.
 
 When the components are in the middle of the tube, check the order of the LDR assembly legs. They should go from left-to-right (or rather the middle pin is the middle pin).
 
@@ -79,4 +79,4 @@ All said and done, your end product should look a little like this. Bending the 
 
 Congratulations, you have made a vactrol.
 
-Be sure to test it before soldering it to a pcb! apply a voltage to the LED and measure the resistance between the pins: 0V = XX MOhm, 2V (depends on the LED; CAREFUL not the burn it out) = XX Ohm (maybe 1KOhm; it depends on what LDRs you've used).
+Be sure to test it before soldering it to a pcb! Apply a voltage to the LED and measure the resistance between the pins: 0V = XX MOhm, 2V (depends on the LED; CAREFUL not the burn it out) = XX Ohm (maybe 1KOhm; it depends on what LDRs you've used).
