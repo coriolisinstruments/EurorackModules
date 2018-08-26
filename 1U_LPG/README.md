@@ -1,18 +1,20 @@
 # 1U LPG
 
-A simple passive low-pass gate in a small 1U package.
+A simple passive low-pass gate with -6dB slope in a small 1U package.
 
 status: design
 
 ## About
 
-This low-pass gate (LPG) module design was inspired by the Two Tone module from [Ben Moren](http://benmoren.com/). The original "Two Tone" LPG can be found [here.](https://github.com/bmoren/two-tone).
+This low-pass gate (LPG) module design was inspired by the Two Tone module from [Ben Moren](http://benmoren.com/) as well as [Ken Stone's LPG](https://www.cgs.synth.net/modules/lpg.html). The original "Two Tone" LPG can be found [here.](https://github.com/bmoren/two-tone). The filter is 2nd order RC filter (the LDRs in the vactrols being the R), so it has a filter slope of -6dB.
 
 I made this into a single LPG in a small 1U module, because I figured it would be nice to have a couple of them handy in my utility row. Note that I've design them according to the [Intellijel 1U specification.](https://intellijel.com/support/1u-technical-specifications/)
 
 ## Remarks
 
-It is not recommended to put more than two of these LPGs in series as the input impedance might get too high to handle for some buffers in your system. Also, I've used a WIMA MKS2 footprint for the capacitor, instead of a polarized one of the original design. You can still substitute it with a polarized one if you like, but your mileage may vary. 
+You can also put in a 4 pin (single LDR) vactrol for a 1st order filter characteristic. In this case, solder the resistor side of your Vactrol to the outer (odd) pins on the PCB; do not use the middle pin (pin 4). In this case, C1 can also be ommitted as only C2 will be used.
+
+It is not recommended to put more than two of these LPGs in series as the input impedance might get too high to handle for some buffers in your system. 
 
 ## BOM
 
@@ -30,15 +32,14 @@ It is not recommended to put more than two of these LPGs in series as the input 
 
 By no means a build guide; just a suggested order to make building easier.
 
-1. Start soldering with the standing resistors on the back (R_VAC,R_LED).
-2. Solder the cap on the back (C).
-3. Solder the standing resistor on the front (R_OUT).
-4. Solder your Vactrol in place.
-5. Place the jacks, LED and pot on the front, but do not solder them.
-6. Fit the panel onto the jacks and use the jack lugs to secure it.
+1. Start soldering with the resistors on the back (R_VAC,R_LED).
+2. Solder the caps on the back (C1,C2).
+3. Place the jacks, LED and pot on the front, but do not solder them.
+4. Fit the panel onto the jacks and use the jack lugs to secure it.
    (optional) if you have flat top LEDs, use a piece of masking tape on the front to make the front LED sit flush.
-7. Flip the whole thing over and solder the jacks, pot and LED.
-8. DONE!
+5. Flip the whole thing over and solder the jacks, pot and LED.
+6. Solder your Vactrol in place. If you can't properly reach the legs, remove the panel and after soldering put it back on.
+7. DONE!
 
 ## Vactrols and calibration
 
