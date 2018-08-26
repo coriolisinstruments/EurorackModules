@@ -23,7 +23,7 @@ Which looks like this:
 
 The most common DIY vactrol would be 1 LED and 1 LDR (like the VTL5C3). However, since our 1U LPG uses a 5-pin vactrol (like the VTL5C3/2), which consists of 1 LED and 2 LDRs, we are going to show making that one. The steps are all the same regardless the number of LDRs you stick on the LED. except of the soldering of LDR legs, of course.
 
-### 1. Preparing the LDRs (skip if you are only using 1 LDR)
+### 1. Preparing the LDRs (skip if you are only using one LDR)
 
 First, place both LDRs face down on the sticky side of a piece of masking tape, making sure that the are nicely aligned. This makes it easier to connect the two legs.
 
@@ -53,7 +53,7 @@ Align the head of the LDR tripod and the LED. The LED should be right in the mid
 
 ![Lining up the components](images/makingVactrols_08.jpg)
 
-Use a piece of the isolation tape to stick the LED and LDR assembly together. Isolation tape is recommended because it is nice and dark.
+Use a piece of the isolation tape to stick the LED and LDR-assembly together. Isolation tape is recommended because it is nice and dark.
 
 ![Apply tape directly to components](images/makingVactrols_09.jpg)
 
@@ -61,9 +61,7 @@ Cut a piece of the large heatshrink tubing. Make sure it is as big or only a lit
 
 ![About this long](images/makingVactrols_10.jpg)
 
-Push your assembly into the tube. With the tape applied, it should be snug. It is probably the most convenient to push the LDR assembly with the LED (so LDR legs in first).
-
-If you are really confident, you could skip the tape step and push the LED and LDR assembly into the tube directly. Just be sure to check the alignment of the components.
+Push your assembly into the tube. With the tape applied, it should be snug. It is probably the most convenient to push the LDR assembly with the LED (so LDR legs in first). If you are really confident, you could skip the tape step and push the LED and LDR assembly into the tube directly. Just be sure to check the alignment of the components.
 
 When the components are in the middle of the tube, check the order of the LDR assembly legs. They should go from left-to-right (or rather the middle pin is the middle pin).
 
@@ -73,12 +71,12 @@ Apply heat to the tube and shrinkwrap your vactrol. Use pliers to press down on 
 
 ![No loose ends](images/makingVactrols_12.jpg)
 
-All said and done, your end product should look a little like this. Bending the legs (up or down, depending on your application) will help keeping the light out.
+All said and done, your end product should look a little like this. Bending the legs (up or down, depending on your application) will help keeping the light out. Just be sure to bend where the legs are covered by the heatshrink, not the exposed legs. This adds structural support and because the heatshrink tubes is folded, the fold blocks out ambient light.
 
 ![It is a Vactrol!](images/makingVactrols_13.jpg)
 
 ### 4. (almost) Done!
 
-Congratulations, you have now made a vactrol.
+Congratulations, you have made a vactrol.
 
 Be sure to test it before soldering it to a pcb! apply a voltage to the LED and measure the resistance between the pins: 0V = XX MOhm, 2V (depends on the LED; CAREFUL not the burn it out) = XX Ohm (maybe 1KOhm; it depends on what LDRs you've used).
