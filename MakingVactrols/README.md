@@ -1,10 +1,10 @@
 # Making your own vactrols
 
-A short visual guide for easy crafting of 4- or 5-pin vactrols.
+A short visual guide for easy crafting of 4- or 5-pin vactrols. Why spend €€€'s or $$$'s on ready-made vactrols when you can very easily craft your own!?!
 
 ## BOM
 
-Here's the stuff you need.
+All you need is some time, a flat surface to work on, and some simple components. Here's the stuff you need:
 
 | Item | Description |
 | :----- | :---------- |
@@ -20,9 +20,11 @@ Which looks like this:
 ![Materials](images/makingVactrols_02.jpg)
 
 ## Step-by-step
+
 The most common DIY vactrol would be 1 LED and 1 LDR (like the VTL5C3). However, since our 1U LPG uses a 5-pin vactrol (like the VTL5C3/2), which consists of 1 LED and 2 LDRs, we are going to show making that one. The steps are all the same regardless the number of LDRs you stick on the LED. except of the soldering of LDR legs, of course.
 
 ### 1. Preparing the LDRs (skip if you are only using 1 LDR)
+
 First, place both LDRs face down on the sticky side of a piece of masking tape, making sure that the are nicely aligned. This makes it easier to connect the two legs.
 
 ![Aligning LDRs](images/makingVactrols_03.jpg)
@@ -67,10 +69,16 @@ When the components are in the middle of the tube, check the order of the LDR as
 
 ![Checking the LDR legs](images/makingVactrols_11.jpg)
 
-Apply heat to the tube and shrinkwrap you Vactrol. Use pliers to press down on the ends the tube, sealing them (if they are still warm enough).
+Apply heat to the tube and shrinkwrap your vactrol. Use pliers to press down on the ends the tube, sealing them (if they are still warm enough).
 
 ![No loose ends](images/makingVactrols_12.jpg)
 
 All said and done, your end product should look a little like this. Bending the legs (up or down, depending on your application) will help keeping the light out.
 
 ![It is a Vactrol!](images/makingVactrols_13.jpg)
+
+### 4. (almost) Done!
+
+Congratulations, you have now made a vactrol.
+
+Be sure to test it before soldering it to a pcb! apply a voltage to the LED and measure the resistance between the pins: 0V = XX MOhm, 2V (depends on the LED; CAREFUL not the burn it out) = XX Ohm (maybe 1KOhm; it depends on what LDRs you've used).
