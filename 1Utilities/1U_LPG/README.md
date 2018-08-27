@@ -43,7 +43,7 @@ By no means a build guide; just a suggested order to make building easier.
 
 ## Vactrols and calibration
 
-I've DIY-ed my Vactrols using 5539 LDRs and "super bright" green 5mm flat-top LEDs. You can find a [build guide here.](../MakingVactrols) Values depicted in the BOM above were determined after experimentation and breadboarding in order to find out what works with my LDRs (hence the large value for R_VAC).
+I've DIY-ed my Vactrols using 5539 LDRs and "super bright" green 5mm flat-top LEDs. You can find a [build guide here.](../../MakingVactrols) Values depicted in the BOM above were determined after experimentation and breadboarding in order to find out what works with my LDRs (hence the large value for R_VAC).
 
 Steps for calibration (this is best done using a breadboard setup):
 ![Breadboard setup](breadboard_LPG.jpg)
