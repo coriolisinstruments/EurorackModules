@@ -2,7 +2,9 @@
 
 A signal mute (momentary and latching) in a convenient 1U package.
 
-status: design
+*status: boards on order (30 aug 2018)*
+
+![OSHpark preview](1u_mute_oshpark_preview.png)
 
 ## About
 
