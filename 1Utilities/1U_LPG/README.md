@@ -4,7 +4,7 @@ A simple passive low-pass gate with -6dB slope in a small 1U package.
 
 *status: boards on order (30 aug 2018)*
 
-![OSHpark preview](1u_lpg_oshpark_preview.png)
+<img src="1u_lpg_oshpark_preview.png" alt="OSHpark preview" height="180px">
 
 ## About
 

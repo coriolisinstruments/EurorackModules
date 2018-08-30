@@ -1,6 +1,6 @@
 # EurorackModules
 
-Open-source eurorack synthesizer modules.
+Open-source eurorack synthesizer modules. All our schematics and pcbs are developed with [KiCad.](http://kicad-pcb.org/)
 
 ## 1Utilities modules
 
@@ -21,4 +21,3 @@ Just your regular sized eurorack modules.
 | [Aphelion](Aphelion) | A dual-band parametric compressor that uses vactrols. |
 | [Binary Pulsar](BinaryPulsar) | A dual wide range voltage controlled low-frequency oscillator. |
 | [Corona](Corona) | A multi purpose vacuum tube (or valve) drive module with feedback control. |
-| [TWObyTWO Tone](TwoByTwoTone) | A simple quadruple passive low-pass gate with some normalizations. |
