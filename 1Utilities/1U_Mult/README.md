@@ -4,7 +4,7 @@ Dead simple passive multi. Its only feature being very small.
 
 *status: boards on order (30 aug 2018)*
 
-![OSHpark preview](1u_mult_oshpark_preview.png)
+<img src="1u_mult_oshpark_preview.png" alt="OSHpark preview" height="180px">
 
 ## About
 
