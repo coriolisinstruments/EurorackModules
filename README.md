@@ -8,9 +8,9 @@ These are simple (passive) utility modules, designed to fit the Intellijel 1U sp
 
 | | Module | Description |
 | --- | :----- | :---------- |
-|<img src="1Utilities/1U_LPG/1u_lpg_oshpark_preview.png" alt="OSHpark preview" height="180px">| [LPG](1Utilities/1U_LPG) | A simple passive low-pass gate with -6dB slope in a small 1U package. |
-|<img src="1Utilities/1U_Mute/1u_mute_oshpark_preview.png" alt="OSHpark preview" height="180px">| [Mute](1Utilities/1U_Mute) | A signal mute (momentary and latching) in a convenient 1U package.|
-|<img src="1Utilities/1U_Mult/1u_mult_oshpark_preview.png" alt="OSHpark preview" height="180px">| [Mult](1Utilities/1U_Mult) | Dead simple passive multi. Its only feature being very small. |
+|<img src="1Utilities/1U_LPG/1u_lpg_oshpark_preview.png" alt="OSHpark preview" height="90px">| [LPG](1Utilities/1U_LPG) | A simple passive low-pass gate with -6dB slope in a small 1U package. |
+|<img src="1Utilities/1U_Mute/1u_mute_oshpark_preview.png" alt="OSHpark preview" height="90px">| [Mute](1Utilities/1U_Mute) | A signal mute (momentary and latching) in a convenient 1U package.|
+|<img src="1Utilities/1U_Mult/1u_mult_oshpark_preview.png" alt="OSHpark preview" height="90px">| [Mult](1Utilities/1U_Mult) | Dead simple passive multi. Its only feature being very small. |
 
 ## Regular (3U) Modules
 
