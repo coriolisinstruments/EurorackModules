@@ -1,31 +1,42 @@
 # PSU Companion
-A companion board designed for Bel / Condor / Power One linear power supplies. Goes inbetween the PSU and your busboards. Might be useful for other kinds of power supplies too.
+
+A companion board designed for Bel / Condor / Power One linear power supplies. Goes inbetween the power supply unit (PSU) and your busboards. Might be useful for other kinds of power supplies too.
 
 status: breadboarding (2018.11.10)
 
 ## About
-This board combines several simple functions in one package. These are:
-- Delayed coupling of busboards (and thus modules) to the power supply,
-- Addition of a 5V power supply,
-- Distribution of power to 2 (or more) busboards by offering multiple terminals per connection.
+Why does this thing exist? Well, this board combines several simple functions in one package. However it's primarily intended for delaying the load on the power supply. In this particular case that means delaying the coupling of busboards (and thus modules) to the supply. Hence this thing sits between the PSU and busboards.
+
+Because we made this anyway, we threw in:
+- A simple 5V power supply,
+- Easier hook-up for busboards to the PSU.
 
 ### Delayed Coupling (or power sequencing)
-We've observed that using a Bel HBB15-1.5AG in combination with a Moog DFAM module can lead to unpredictable start-up behaviour. This is primarily noticable with the +12V rail which in some cases does not deliver +12V (but rather something like +3V). Sometimes turning the power off and on fixes this, sometimes it doesn't. Most likely a spike in current demand from the modules (especially modules with a larger power consumption) in combination with the cold (empty capacitors) power supply causes the power supply's protection to kick in.
+
+Why delay putting load on the PSU? 
+
+We've observed when using a Bel HBB15-1.5AG PSU in combination with a Moog DFAM module some unpredictable start-up behaviour can occur. 
+
+This is primarily noticable with the +12V rail which in some cases does not deliver +12V but rather +3V. Sometimes turning the power off and on fixes this, and sometimes it doesn't. Most likely the power supply's protection kicks in because of a spike in current demand from the modules (especially modules with a larger power consumption) in combination with the cold power supply (empty capacitors). People have observed the same thing with Moog Mother 32's.
 
 Delaying the coupling of the modules ensures the power supply itself is properly up and running before load is put upon it. This fixes the unreliable power up in combination with the DFAM. The delay time with specified components is about XXX milliseconds and depends on the value of capacitor C3 (larger capacity = longer delay).
 
-Note that keeping the relay open requires power. The Panasonic JW2SN12 in the design consumes 44mA while opened. This should not pose a problem as the coil is powered from the -12V rail. In most eurorack systems, this is the rail with the lowest load.
-
-Also note that delaying the load put upon the supply does not mean the load is limited. When strained (eg. when the total power consumption of modules approaches 1.5A), you can still expect dropouts as the peak current draw might still be too large for the supply. This is behaviour is dependent on the modules you have installed.
-
 ### 5V power supply
 
-This is a simple 5V supply based on the LM317T voltage regulator. The theoretical maximum load is 1.5A, but this design assumes a light load of no more than 150mA. This means a small heatsink suffices and the amount of current 'stolen' from the +12V is limited.
+The aforementioned linear power supplies typically come with only + and - 12V (or 15V) outputs. 
+This is a simple 5V supply based on the LM317T voltage regulator to add 5V to the system. The theoretical maximum load is 1.5A, but this design assumes a light load of no more than 150mA. This means a small heatsink suffices and the amount of current 'stolen' from the +12V is limited.
 
 The supply can be disabled by removing jumper J6 (this disconnects the +12V input) if more headroom on the +12V rail is needed.
 
+### Distribution of power
+
+Every output (after the relay) is accessible through a 3-pole terminal block. This allows for connections to (for example) 2 busboards and some status LEDs without the need for soldering wires together. Looks nicer and is a little easier to troubleshoot.
+
 ## Remarks
-?
+
+Note 1: keeping the relay open requires power. The Panasonic JW2SN12 in the design consumes 44mA while opened. This should not pose a problem as the coil is powered from the -12V rail. In most eurorack systems, this is the rail with the lowest load.
+
+Note 2: delaying the load on the supply does not mean the current is limited. When the total power consumption of modules approaches the PSU limit, you could still get dropouts as the peak current draw might still be too large for the supply. This behaviour is dependent on the modules you have installed.
 
 ## BOM
 
