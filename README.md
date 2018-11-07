@@ -21,3 +21,9 @@ Just your regular sized eurorack modules.
 || [Aphelion](Aphelion) | A dual-band parametric compressor that uses vactrols. |
 || [Binary Pulsar](BinaryPulsar) | A dual wide range voltage controlled low-frequency oscillator. |
 || [Corona](Corona) | A multi purpose vacuum tube (or valve) drive module with feedback control. |
+
+## Other stuff
+| | Thing | Description |
+| --- | :----- | :---------- |
+|| [PSU Companion](PSUCompanion) | A companion for Bel / Condor / Power One linear power supplies. Goes inbetween the PSU and your busboards. |
+|| [Making Vactrols](MakingVactrols) | A little tutorial on making your own vactrols. |
