@@ -4,6 +4,8 @@ A companion board designed for Bel / Condor / Power One linear power supplies. G
 
 status: breadboarding (2018.11.10)
 
+<img src="psucompanion.png" alt="Kicad render" height="180px">
+
 ## About
 Why does this thing exist? Well, this board combines several simple functions in one package. However it's primarily intended for delaying the load on the power supply. In this particular case that means delaying the coupling of busboards (and thus modules) to the supply. Hence this thing sits between the PSU and busboards.
 
