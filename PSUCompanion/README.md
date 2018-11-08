@@ -52,7 +52,7 @@ Note 2: delaying the load on the supply does not mean the current is limited. Wh
 | C1,C2 | 2 | Capacitor (ceramic or film) , 100nF (104) |
 | C3 | 1 | Capacitor, Polarized (electrolytic) , 47uF |
 | Q1 | 1 | NPN transistor (eg. BC547 or 2N2904). |
-| J? | 5 | 3 pole screw terminal blocks (eg. Deca MB310) |
+| J? | 5 | 3 pole screw terminal blocks with 5.00mm pin spacing (eg. Deca MB310); possibly 5.08mm (0.200") spacing could also fit |
 | J6 | 1 | 2 pin header (with jumper) or bridged with a resistor leg (permanent) |
 | U1 | 1 | LM317T voltage regulator |
 | RL1 | 1 | Panasonic JW2SN12 DPDT relay |
