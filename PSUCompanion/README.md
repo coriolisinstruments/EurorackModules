@@ -4,7 +4,7 @@ A companion board designed for Bel / Condor / Power One linear power supplies. G
 
 status: breadboarding (2018.11.10)
 
-<img src="psucompanion.png" alt="Kicad render" height="180px">
+<img src="psucompanion.png" alt="Kicad render" height="240px">
 
 ## About
 Why does this thing exist? Well, this board combines several simple functions in one package. However it's primarily intended for delaying the load on the power supply. In this particular case that means delaying the coupling of busboards (and thus modules) to the supply. Hence this thing sits between the PSU and busboards.
@@ -53,7 +53,7 @@ Note 2: delaying the load on the supply does not mean the current is limited. Wh
 | D2 | 1 | 1N4007 diode |
 | C1,C2 | 2 | Capacitor (ceramic or film) , 100nF (104) |
 | C3 | 1 | Capacitor, Polarized (electrolytic) , 47uF |
-| Q1 | 1 | NPN transistor (eg. BC547 or 2N2904). |
+| Q1 | 1 | NPN transistor (eg. BC547 or 2N3904). |
 | J? | 5 | 3 pole screw terminal blocks with 5.00mm pin spacing (eg. Deca MB310); possibly 5.08mm (0.200") spacing could also fit |
 | J6 | 1 | 2 pin header (with jumper) or bridged with a resistor leg (permanent) |
 | U1 | 1 | LM317T voltage regulator |
