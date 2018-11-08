@@ -17,9 +17,9 @@ Because we made this anyway, we threw in:
 
 Why delay putting load on the PSU? 
 
-We've observed when using a Bel HBB15-1.5AG PSU in combination with a Moog DFAM module some unpredictable start-up behaviour can occur. 
+We've observed when using a Bel HBB15-1.5AG PSU in combination with a Moog DFAM module some unpredictable start-up behaviour can occur. This is primarily noticable with the +12V rail which in some cases does not deliver +12V but rather +3V. Sometimes turning the power off and on fixes this, and sometimes it doesn't. 
 
-This is primarily noticable with the +12V rail which in some cases does not deliver +12V but rather +3V. Sometimes turning the power off and on fixes this, and sometimes it doesn't. Most likely the power supply's protection kicks in because of a spike in current demand from the modules (especially modules with a larger power consumption) in combination with the cold power supply (empty capacitors). People have observed the same thing with Moog Mother 32's.
+Most likely the power supply's protection kicks in because of a spike in current demand from the modules (especially modules with a larger power consumption) __in combination__ with the cold power supply (empty capacitors). People have observed the same thing with Moog Mother 32's.
 
 Delaying the coupling of the modules ensures the power supply itself is properly up and running before load is put upon it. This fixes the unreliable power up in combination with the DFAM. The delay time with specified components is about XXX milliseconds and depends on the value of capacitor C3 (larger capacity = longer delay).
 
