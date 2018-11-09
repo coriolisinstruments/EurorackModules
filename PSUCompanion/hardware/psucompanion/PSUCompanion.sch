@@ -176,11 +176,11 @@ F 3 "~" H 3650 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC547 Q1
+L Transistor_BJT:2N3904 Q1
 U 1 1 5BE1C675
 P 2500 4850
 F 0 "Q1" V 2828 4850 50  0000 C CNN
-F 1 "BC547" V 2737 4850 50  0000 C CNN
+F 1 "2N3904" V 2737 4850 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2700 4775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2500 4850 50  0001 L CNN
 	1    2500 4850
@@ -263,7 +263,7 @@ L Device:CP C3
 U 1 1 5BE2815D
 P 2500 6500
 F 0 "C3" H 2618 6546 50  0000 L CNN
-F 1 "47uF" H 2618 6455 50  0000 L CNN
+F 1 "100uF" H 2618 6455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 2538 6350 50  0001 C CNN
 F 3 "~" H 2500 6500 50  0001 C CNN
 	1    2500 6500
@@ -305,7 +305,7 @@ L Device:R R2
 U 1 1 5BE2B75B
 P 2100 6200
 F 0 "R2" V 1893 6200 50  0000 C CNN
-F 1 "47K" V 1984 6200 50  0000 C CNN
+F 1 "20K" V 1984 6200 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2030 6200 50  0001 C CNN
 F 3 "~" H 2100 6200 50  0001 C CNN
 	1    2100 6200
@@ -429,7 +429,7 @@ F 3 "~" H 6150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2900 6600 0    50   ~ 0
-increase value to \nincrease delay time
+increase value to \nincrease delay
 NoConn ~ 3950 5050
 NoConn ~ 3950 5450
 Wire Wire Line

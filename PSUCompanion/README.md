@@ -21,7 +21,7 @@ We've observed when using a Bel HBB15-1.5AG PSU in combination with a Moog DFAM 
 
 Most likely the power supply's protection kicks in because of a spike in current demand from the modules (especially modules with a larger power consumption) __in combination__ with the cold power supply (empty capacitors). People have observed the same thing with Moog Mother 32's.
 
-Delaying the coupling of the modules ensures the power supply itself is properly up and running before load is put upon it. This fixes the unreliable power up in combination with the DFAM. The delay time with specified components is about XXX milliseconds and depends on the value of capacitor C3 (larger capacity = longer delay).
+Delaying the coupling of the modules ensures the power supply itself is properly up and running before load is put upon it. This fixes the unreliable power up in combination with the DFAM. The delay time with specified components is about 0.5s (C3 = 47uF) and depends on the value of capacitor C3 (larger capacity = longer delay; eg. 100uF -> about 1s delay).
 
 ### 5V power supply
 
@@ -45,15 +45,15 @@ Note 2: delaying the load on the supply does not mean the current is limited. Wh
 | Component | Quantity    | Component     |
 | :------------- | :------------- | :------------- |
 | R1 | 1 | 150k ohm resistor |
-| R2 | 1 | 47k ohm resistor (limits the current flow to C3) |
+| R2 | 1 | 20k ohm resistor (limits the current flow to C3) |
 | R3 | 1 | 20k ohm resistor |
 | R4 | 1 | 1k ohm resistor (for 5V) |
 | R5 | 1 | 330R ohm resistor (for 5V) |
 | D1 | 1 | 1N4001 diode |
 | D2 | 1 | 1N4007 diode |
 | C1,C2 | 2 | Capacitor (ceramic or film) , 100nF (104) |
-| C3 | 1 | Capacitor, Polarized (electrolytic) , 47uF |
-| Q1 | 1 | NPN transistor (eg. BC547 or 2N3904). |
+| C3 | 1 | Capacitor, Polarized (electrolytic) , 47uF - 100uF |
+| Q1 | 1 | NPN transistor, EBC (eg. 2N3904 or 2N2222; you can also use a CBE like the BC547; just make sure to flip it around on the board). |
 | J? | 5 | 3 pole screw terminal blocks with 5.00mm pin spacing (eg. Deca MB310); possibly 5.08mm (0.200") spacing could also fit |
 | J6 | 1 | 2 pin header (with jumper) or bridged with a resistor leg (permanent) |
 | U1 | 1 | LM317T voltage regulator |
