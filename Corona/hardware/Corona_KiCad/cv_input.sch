@@ -534,10 +534,6 @@ Wire Wire Line
 Connection ~ 10050 3000
 Wire Wire Line
 	10050 3000 10100 3000
-Text Label 9550 2700 0    50   ~ 0
-+12V
-Text Label 9550 3300 3    50   ~ 0
--12V
 Wire Wire Line
 	9250 3600 9250 3750
 Connection ~ 9250 3600
@@ -576,9 +572,9 @@ Wire Wire Line
 	7250 2500 7250 2850
 Wire Wire Line
 	7400 3000 7800 3000
-Text Label 8000 3200 0    50   ~ 0
+Text Label 7600 3400 0    50   ~ 0
 +12V
-Text Label 8000 2600 0    50   ~ 0
+Text Label 7600 4000 0    50   ~ 0
 -12V
 Wire Wire Line
 	8700 2900 8550 2900
@@ -638,4 +634,15 @@ Text HLabel 2050 1050 2    50   Output ~ 0
 CV_TONE
 Text Label 2050 1050 2    50   ~ 0
 CV_TONE
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 5BEF3AD0
+P 7700 3700
+F 0 "U4" H 7658 3746 50  0000 L CNN
+F 1 "TL072" H 7658 3655 50  0000 L CNN
+F 2 "" H 7700 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7700 3700 50  0001 C CNN
+	3    7700 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

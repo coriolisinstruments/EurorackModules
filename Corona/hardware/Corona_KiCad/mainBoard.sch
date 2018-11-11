@@ -967,13 +967,8 @@ Text Label 3450 3800 0    50   ~ 0
 CV_FB
 Text Label 3450 3900 0    50   ~ 0
 CV_DRV
-Wire Wire Line
-	2500 9400 2500 9700
-Connection ~ 2500 9400
-Text Label 2500 9700 0    50   ~ 0
-VIRT_GND
 Text Label 8400 1400 0    50   ~ 0
-VIRT_GND
+AUDIO_OUT
 Wire Wire Line
 	11200 5450 11200 5500
 Wire Wire Line
@@ -1029,7 +1024,7 @@ L Corona-rescue:R-device R27
 U 1 1 5AB665A1
 P 3900 8950
 F 0 "R27" H 3830 8904 50  0000 R CNN
-F 1 "1K" H 3830 8995 50  0000 R CNN
+F 1 "100K" H 3830 8995 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 8950 50  0001 C CNN
 F 3 "" H 3900 8950 50  0001 C CNN
 	1    3900 8950
@@ -1040,41 +1035,6 @@ GND
 Wire Wire Line
 	12050 2800 12800 2800
 Connection ~ 12050 2800
-$Comp
-L Device:Q_NJFET_DSG Q6
-U 1 1 5AB8CEB2
-P 13700 3050
-F 0 "Q6" H 13891 3096 50  0000 L CNN
-F 1 "2N5457" H 13891 3005 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13900 2975 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BF/BF245A.pdf" H 13700 3000 50  0001 L CNN
-	1    13700 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:R-device R29
-U 1 1 5AB8CEB9
-P 13700 4000
-F 0 "R29" H 13630 3954 50  0000 R CNN
-F 1 "1M" H 13630 4045 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13630 4000 50  0001 C CNN
-F 3 "" H 13700 4000 50  0001 C CNN
-	1    13700 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Corona-rescue:R-device R28
-U 1 1 5AB8CEC0
-P 13200 4000
-F 0 "R28" H 13130 3954 50  0000 R CNN
-F 1 "300K" H 13130 4045 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13130 4000 50  0001 C CNN
-F 3 "" H 13200 4000 50  0001 C CNN
-	1    13200 4000
-	0    -1   -1   0   
-$EndComp
-Text Label 13850 4000 0    70   ~ 0
-GND
 Wire Wire Line
 	13400 2700 13450 2700
 Wire Wire Line
@@ -1083,44 +1043,23 @@ Wire Wire Line
 	13450 2700 13450 2300
 Wire Wire Line
 	13450 2300 12550 2300
-Connection ~ 13450 2700
-Text Label 13050 4000 2    50   ~ 0
+Text Label 13200 3300 2    50   ~ 0
 CV_TONE
 $Comp
 L Corona-rescue:C-device C8
 U 1 1 5ABD76F3
-P 13800 3500
-F 0 "C8" H 13915 3546 50  0000 L CNN
-F 1 "100nF" H 13915 3455 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 13838 3350 50  0001 C CNN
-F 3 "" H 13800 3500 50  0001 C CNN
-	1    13800 3500
+P 13800 2950
+F 0 "C8" H 13915 2996 50  0000 L CNN
+F 1 "100nF" H 13915 2905 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 13838 2800 50  0001 C CNN
+F 3 "" H 13800 2950 50  0001 C CNN
+	1    13800 2950
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	13450 4000 13350 4000
-Wire Wire Line
-	13450 4000 13550 4000
-Connection ~ 13450 4000
-Wire Wire Line
-	13800 3250 13800 3350
-Wire Wire Line
-	13800 2850 13800 2700
-Wire Wire Line
-	13800 2700 14100 2700
-Wire Wire Line
-	13450 2700 13800 2700
-Connection ~ 13800 2700
 Text Notes 13150 4500 0    50   ~ 0
-Tone\n(-6dB low-pass)
+Tone\n(-3dB low-pass)
 Text Label 3450 4000 0    50   ~ 0
 CV_TONE
-Text Label 13800 3650 3    70   ~ 0
-GND
-Wire Wire Line
-	13450 3050 13500 3050
-Wire Wire Line
-	13450 3050 13450 4000
 Wire Wire Line
 	11900 2500 12050 2500
 Wire Wire Line
@@ -1215,25 +1154,109 @@ Wire Wire Line
 	7450 2500 7700 2500
 Wire Wire Line
 	8550 2100 8900 2100
-$Comp
-L optoCombined:H11F1 U?
-U 1 1 5AC332C1
-P 3400 8650
-F 0 "U?" H 3350 9015 50  0000 C CNN
-F 1 "H11F1" H 3350 8924 50  0000 C CNN
-F 2 "Housings_DIP:DIP-6_W7.62mm_Socket" H 3400 8800 50  0001 C CNN
-F 3 "" H 3400 8650 50  0001 C CNN
-	1    3400 8650
-	-1   0    0    -1  
-$EndComp
 Text Label 3800 8550 0    50   ~ 0
 CV_DRV
-Wire Wire Line
-	3800 8750 3900 8750
 Wire Wire Line
 	3900 8750 3900 8800
 Wire Wire Line
 	3100 8750 3100 9400
 Wire Wire Line
 	3100 8100 3100 8550
+$Comp
+L Isolator:VTL5C U5
+U 1 1 5BE8E3D3
+P 3400 8650
+F 0 "U5" H 3400 8325 50  0000 C CNN
+F 1 "VTL5C" H 3400 8416 50  0000 C CNN
+F 2 "OptoDevice:PerkinElmer_VTL5C" H 3400 8650 50  0001 C CNN
+F 3 "http://www.qsl.net/wa1ion/vactrol/vactrol.pdf" H 3450 8400 50  0001 C CNN
+	1    3400 8650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 8550 3700 8550
+Wire Wire Line
+	3700 8750 3900 8750
+$Comp
+L Isolator:VTL5C U6
+U 1 1 5BE9FF7F
+P 13500 3400
+F 0 "U6" H 13500 3075 50  0000 C CNN
+F 1 "VTL5C" H 13500 3166 50  0000 C CNN
+F 2 "OptoDevice:PerkinElmer_VTL5C" H 13500 3400 50  0001 C CNN
+F 3 "http://www.qsl.net/wa1ion/vactrol/vactrol.pdf" H 13550 3150 50  0001 C CNN
+	1    13500 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Corona-rescue:R-device R26
+U 1 1 5BEBFFFD
+P 13150 3850
+F 0 "R26" H 13080 3804 50  0000 R CNN
+F 1 "100K" H 13080 3895 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13080 3850 50  0001 C CNN
+F 3 "" H 13150 3850 50  0001 C CNN
+	1    13150 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 3700 13150 3500
+Wire Wire Line
+	13150 3500 13200 3500
+Text Label 13500 4150 3    70   ~ 0
+GND
+Wire Wire Line
+	13500 4150 13500 4050
+Wire Wire Line
+	13500 4050 13150 4050
+Wire Wire Line
+	13150 4050 13150 4000
+Wire Wire Line
+	13500 4050 13800 4050
+Connection ~ 13500 4050
+Connection ~ 13450 2700
+Wire Wire Line
+	13450 2700 13800 2700
+Wire Wire Line
+	13800 2800 13800 2700
+Connection ~ 13800 2700
+Wire Wire Line
+	13800 2700 14100 2700
+Wire Wire Line
+	13800 3100 13800 3300
+Wire Wire Line
+	13800 3500 13800 4050
+Wire Wire Line
+	13450 2300 13450 2100
+Connection ~ 13450 2300
+Text Label 13450 2100 0    50   ~ 0
+AUDIO_OUT
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK?
+U 1 1 5BF39B29
+P 4750 4000
+AR Path="/5A65C09D/5BF39B29" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5BF39B29" Ref="MK3"  Part="1" 
+F 0 "MK3" H 4850 4046 50  0000 L CNN
+F 1 "Mounting_Hole" H 4850 3955 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4750 4000 50  0001 C CNN
+F 3 "" H 4750 4000 50  0001 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK?
+U 1 1 5BF39B30
+P 4750 4250
+AR Path="/5A65C09D/5BF39B30" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5BF39B30" Ref="MK4"  Part="1" 
+F 0 "MK4" H 4850 4296 50  0000 L CNN
+F 1 "Mounting_Hole" H 4850 4205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4750 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 3800 0    50   ~ 0
+For mounting the tube board to the \nfront panel with spacers (the tube\nneeds to sit recessed)
 $EndSCHEMATC

@@ -25,7 +25,7 @@ TUBE_1_TB
 Text Label 3250 2250 0    50   ~ 0
 TUBE_3_TB
 Text Label 3250 2150 0    50   ~ 0
-VIRT_GND_TB
+AUDIO_OUT_TB
 Connection ~ 3900 5650
 Text Label 3900 5850 2    50   ~ 0
 GND_TB
@@ -73,35 +73,17 @@ TUBE_4_TB
 Text Label 2450 2050 2    50   ~ 0
 TUBE_8_TB
 Text Notes 2050 1650 0    59   ~ 0
-Connection to main board
+Connection to main board\n!! Mirrored !!
 Text Notes 2200 4650 0    59   ~ 0
 For different tubes switch between \n1) 12V (12A*7) and 3) 6.3V (6N2H)\n\nNote we use the -12V rail to balance \nsome of the power consumption in \ntypical a eurorack system. Hence\nthe reversal of the connections to\npin 4 and 5.
 Text Notes 4300 5800 0    50   ~ 0
 Vout = -1.25*((RFBB/RFBT) + 1) or\nRfbb = Rfbt*((Vout/-1.25)-1)\n\nin our case: Rfbb = 150*((-6.25/-1.25)-1)=900r
 Wire Wire Line
 	3100 1950 3150 1950
-Wire Wire Line
-	2450 2350 2600 2350
-Wire Wire Line
-	2450 1950 2550 1950
-Wire Wire Line
-	3100 2050 3250 2050
-Wire Wire Line
-	2450 2050 2600 2050
-Wire Wire Line
-	2450 2150 2600 2150
-Wire Wire Line
-	2450 2250 2600 2250
 Text Label 2450 2250 2    50   ~ 0
 GND_TB
 Text Label 6500 4150 2    50   ~ 0
 GND_TB
-Wire Wire Line
-	3100 2150 3250 2150
-Wire Wire Line
-	3100 2250 3250 2250
-Wire Wire Line
-	3100 2350 3250 2350
 Text Label 6500 3950 2    50   ~ 0
 TUBE_3_TB
 Text Label 6500 3850 2    50   ~ 0
@@ -219,8 +201,6 @@ F 3 "" H 3150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3150 1950
-Wire Wire Line
-	3150 1950 3250 1950
 $Comp
 L Corona-rescue:PWR_FLAG-power #FLG04
 U 1 1 5A793F3D
@@ -241,66 +221,34 @@ $Comp
 L Corona-rescue:R-device R23
 U 1 1 5A9B7ABF
 P 9150 1850
-F 0 "R23" V 9400 1900 50  0000 R CNN
-F 1 "1K" V 9300 2000 50  0000 R CNN
+F 0 "R23" V 9350 1900 50  0000 R CNN
+F 1 "1K" V 9250 1900 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9080 1850 50  0001 C CNN
 F 3 "" H 9150 1850 50  0001 C CNN
 	1    9150 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Corona-rescue:R-device R24
-U 1 1 5A9B7AC6
-P 9150 2150
-F 0 "R24" V 9000 2200 50  0000 R CNN
-F 1 "1K" V 8900 2250 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9080 2150 50  0001 C CNN
-F 3 "" H 9150 2150 50  0001 C CNN
-	1    9150 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Corona-rescue:LED-device D_12V1
-U 1 1 5A9B7ACD
-P 8650 2150
-F 0 "D_12V1" H 8800 2000 50  0000 R CNN
-F 1 "LED" H 8600 2250 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 8650 2150 50  0001 C CNN
-F 3 "" H 8650 2150 50  0001 C CNN
-	1    8650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Corona-rescue:LED-device D_24V1
+L Corona-rescue:LED-device D_TUBE1
 U 1 1 5A9B7AD4
 P 8650 1850
-F 0 "D_24V1" H 8750 1700 50  0000 R CNN
+F 0 "D_TUBE1" H 8800 1700 50  0000 R CNN
 F 1 "LED" H 8600 1950 50  0000 R CNN
 F 2 "LEDs:LED_D3.0mm" H 8650 1850 50  0001 C CNN
 F 3 "" H 8650 1850 50  0001 C CNN
 	1    8650 1850
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9300 1850 9400 1850
-Wire Wire Line
-	9400 2150 9300 2150
 Text Label 8400 1850 2    50   ~ 0
 GND_TB
-Text Label 8400 2150 2    50   ~ 0
--12V_TB
 Text Notes 9400 1500 0    50   ~ 0
-LEDs to illuminate the tube\n(indicates plate voltage too)\n
+LEDs to illuminate the tube\n(indicates sound)\n
 Text Label 9400 1850 0    50   ~ 0
-VIRT_GND_TB
-Text Notes 9400 1950 0    50   ~ 0
-24V
-Text Notes 9400 2250 0    50   ~ 0
-12V
-Wire Wire Line
-	8400 2150 8500 2150
+AUDIO_OUT_TB
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Corona-rescue:Mounting_Hole-Mechanical MK1
 U 1 1 5A9D0472
 P 950 6750
 F 0 "MK1" H 1050 6796 50  0000 L CNN
@@ -311,7 +259,7 @@ F 3 "" H 950 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Corona-rescue:Mounting_Hole-Mechanical MK2
 U 1 1 5A9D055A
 P 950 7000
 F 0 "MK2" H 1050 7046 50  0000 L CNN
@@ -324,11 +272,27 @@ $EndComp
 Text Notes 900  6550 0    50   ~ 0
 For mounting the tube board to the \nfront panel with spacers (the tube\nneeds to sit recessed)
 Wire Wire Line
-	8800 2150 9000 2150
-Wire Wire Line
 	8800 1850 9000 1850
 Wire Wire Line
 	8400 1850 8500 1850
-Text Label 9400 2150 0    50   ~ 0
-GND_TB
+Wire Wire Line
+	3100 2050 3250 2050
+Wire Wire Line
+	3100 2150 3250 2150
+Wire Wire Line
+	3100 2250 3250 2250
+Wire Wire Line
+	3100 2350 3250 2350
+Wire Wire Line
+	3150 1950 3250 1950
+Wire Wire Line
+	2450 1950 2550 1950
+Wire Wire Line
+	2450 2050 2600 2050
+Wire Wire Line
+	2450 2150 2600 2150
+Wire Wire Line
+	2450 2250 2600 2250
+Wire Wire Line
+	2450 2350 2600 2350
 $EndSCHEMATC

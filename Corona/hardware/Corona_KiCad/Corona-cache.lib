@@ -1,14 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amplifier_Operational_TL072
+# Amplifier_Operational:TL072
 #
-DEF Amplifier_Operational_TL072 U 0 20 Y Y 2 F N
+DEF Amplifier_Operational:TL072 U 0 5 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "Amplifier_Operational_TL072" 0 -200 50 H V L CNN
+F1 "Amplifier_Operational:TL072" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 LT6233 OPA2356xxD OPA2356xxDGK
+ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 LT6233 OPA2356xxD OPA2356xxDGK OPA1612AxD MC33172 OPA1602
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
  DIP*W7.62mm*
@@ -23,23 +23,24 @@ $FPLIST
  SOIC*5.3x6.2mm*P1.27mm*
 $ENDFPLIST
 DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X V- 4 -100 -300 150 U 50 50 0 1 W
-X V+ 8 -100 300 150 D 50 50 0 1 W
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
 X ~ 1 300 0 100 L 50 50 1 1 O
 X - 2 -300 -100 100 R 50 50 1 1 I
 X + 3 -300 100 100 R 50 50 1 1 I
 X + 5 -300 100 100 R 50 50 2 1 I
 X - 6 -300 -100 100 R 50 50 2 1 I
 X ~ 7 300 0 100 L 50 50 2 1 O
+X V- 4 -100 -300 150 U 50 50 3 1 W
+X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_Audio-Jack-2_Switch-conn
+# Corona-rescue:Audio-Jack-2_Switch-conn
 #
-DEF Corona-rescue_Audio-Jack-2_Switch-conn J 0 40 Y Y 1 F N
+DEF Corona-rescue:Audio-Jack-2_Switch-conn J 0 40 Y Y 1 F N
 F0 "J" -50 175 50 H V C CNN
-F1 "Corona-rescue_Audio-Jack-2_Switch-conn" 225 -75 50 H V C CNN
+F1 "Corona-rescue:Audio-Jack-2_Switch-conn" 225 -75 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -55,11 +56,11 @@ X ~ 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_BC547-transistors
+# Corona-rescue:BC547-transistors
 #
-DEF Corona-rescue_BC547-transistors Q 0 0 Y N 1 F N
+DEF Corona-rescue:BC547-transistors Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Corona-rescue_BC547-transistors" 200 0 50 H V L CNN
+F1 "Corona-rescue:BC547-transistors" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -78,11 +79,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_BC557-transistors
+# Corona-rescue:BC557-transistors
 #
-DEF Corona-rescue_BC557-transistors Q 0 0 Y N 1 F N
+DEF Corona-rescue:BC557-transistors Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Corona-rescue_BC557-transistors" 200 0 50 H V L CNN
+F1 "Corona-rescue:BC557-transistors" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -100,11 +101,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_C-device
+# Corona-rescue:C-device
 #
-DEF Corona-rescue_C-device C 0 10 N Y 1 F N
+DEF Corona-rescue:C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Corona-rescue_C-device" 25 -100 50 H V L CNN
+F1 "Corona-rescue:C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -118,11 +119,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_CP-device
+# Corona-rescue:CP-device
 #
-DEF Corona-rescue_CP-device C 0 10 N Y 1 F N
+DEF Corona-rescue:CP-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Corona-rescue_CP-device" 25 -100 50 H V L CNN
+F1 "Corona-rescue:CP-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -141,11 +142,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_Conn_01x03_Male-conn
+# Corona-rescue:Conn_01x03_Male-conn
 #
-DEF Corona-rescue_Conn_01x03_Male-conn J 0 40 Y N 1 F N
+DEF Corona-rescue:Conn_01x03_Male-conn J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Corona-rescue_Conn_01x03_Male-conn" 0 -200 50 H V C CNN
+F1 "Corona-rescue:Conn_01x03_Male-conn" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -167,11 +168,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_Conn_02x05_Odd_Even-conn
+# Corona-rescue:Conn_02x05_Odd_Even-conn
 #
-DEF Corona-rescue_Conn_02x05_Odd_Even-conn J 0 40 Y N 1 F N
+DEF Corona-rescue:Conn_02x05_Odd_Even-conn J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Corona-rescue_Conn_02x05_Odd_Even-conn" 50 -300 50 H V C CNN
+F1 "Corona-rescue:Conn_02x05_Odd_Even-conn" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -207,11 +208,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_D-device
+# Corona-rescue:D-device
 #
-DEF Corona-rescue_D-device D 0 40 N N 1 F N
+DEF Corona-rescue:D-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Corona-rescue_D-device" 0 -100 50 H V C CNN
+F1 "Corona-rescue:D-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -230,11 +231,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_LED-device
+# Corona-rescue:LED-device
 #
-DEF Corona-rescue_LED-device D 0 40 Y N 1 F N
+DEF Corona-rescue:LED-device D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Corona-rescue_LED-device" 0 -100 50 H V C CNN
+F1 "Corona-rescue:LED-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -251,11 +252,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_LM337_TO220-regul
+# Corona-rescue:LM337_TO220-regul
 #
-DEF Corona-rescue_LM337_TO220-regul U 0 10 Y Y 1 F N
+DEF Corona-rescue:LM337_TO220-regul U 0 10 Y Y 1 F N
 F0 "U" -150 -125 50 H V C CNN
-F1 "Corona-rescue_LM337_TO220-regul" 0 -125 50 H V L CNN
+F1 "Corona-rescue:LM337_TO220-regul" 0 -125 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-220_Vertical" 0 -200 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -269,11 +270,27 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_PWR_FLAG-power
+# Corona-rescue:Mounting_Hole-Mechanical
 #
-DEF Corona-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF Corona-rescue:Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
+F0 "MK" 0 200 50 H V C CNN
+F1 "Corona-rescue:Mounting_Hole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Corona-rescue:PWR_FLAG-power
+#
+DEF Corona-rescue:PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Corona-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "Corona-rescue:PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -282,11 +299,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_Polyfuse-device
+# Corona-rescue:Polyfuse-device
 #
-DEF Corona-rescue_Polyfuse-device F 0 0 N Y 1 F N
+DEF Corona-rescue:Polyfuse-device F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "Corona-rescue_Polyfuse-device" 100 0 50 V V C CNN
+F1 "Corona-rescue:Polyfuse-device" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -302,11 +319,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_R-device
+# Corona-rescue:R-device
 #
-DEF Corona-rescue_R-device R 0 0 N Y 1 F N
+DEF Corona-rescue:R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Corona-rescue_R-device" 0 0 50 V V C CNN
+F1 "Corona-rescue:R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -320,11 +337,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_SW_SPDT-switches
+# Corona-rescue:SW_SPDT-switches
 #
-DEF Corona-rescue_SW_SPDT-switches SW 0 0 Y N 1 F N
+DEF Corona-rescue:SW_SPDT-switches SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Corona-rescue_SW_SPDT-switches" 0 -200 50 H V C CNN
+F1 "Corona-rescue:SW_SPDT-switches" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -338,11 +355,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Corona-rescue_TL074-linear
+# Corona-rescue:TL074-linear
 #
-DEF Corona-rescue_TL074-linear U 0 20 Y Y 4 F N
+DEF Corona-rescue:TL074-linear U 0 20 Y Y 4 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Corona-rescue_TL074-linear" 0 -200 50 H V L CNN
+F1 "Corona-rescue:TL074-linear" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -371,46 +388,42 @@ X ~ 14 300 0 100 L 50 50 4 1 O
 ENDDRAW
 ENDDEF
 #
-# Device_Q_NJFET_DSG
+# Isolator:VTL5C
 #
-DEF Device_Q_NJFET_DSG Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device_Q_NJFET_DSG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 50 0 111 0 1 10 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 3 0 1 0 100 -100 100 -50 10 -50 N
-P 3 0 1 0 100 100 100 55 10 55 N
-P 4 0 1 0 0 0 -40 15 -40 -15 0 0 F
-X D 1 100 200 100 D 50 50 1 1 P
-X S 2 100 -200 100 U 50 50 1 1 P
-X G 3 -200 0 210 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Mechanical_Mounting_Hole
-#
-DEF Mechanical_Mounting_Hole MK 0 40 Y Y 1 F N
-F0 "MK" 0 200 50 H V C CNN
-F1 "Mechanical_Mounting_Hole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Isolator:VTL5C U 0 40 Y N 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "Isolator:VTL5C" 0 -200 50 H V C CNN
+F2 "OptoDevice:PerkinElmer_VTL5C" 0 0 50 H I C CNN
+F3 "" 50 -250 50 H I C CNN
 $FPLIST
- Mounting?Hole*
- Hole*
+ PerkinElmer*VTL5C*
 $ENDFPLIST
 DRAW
-C 0 0 50 0 1 50 N
+S -200 150 200 -150 0 1 10 f
+S 90 70 150 -70 0 1 0 N
+P 2 0 1 0 -170 30 -90 30 N
+P 2 0 1 0 -50 30 10 -30 N
+P 2 0 1 0 -50 30 10 -30 N
+P 2 0 1 0 0 30 60 -30 N
+P 3 0 1 0 10 -10 10 -30 -10 -30 N
+P 3 0 1 0 10 -10 10 -30 -10 -30 N
+P 3 0 1 0 60 -10 60 -30 40 -30 N
+P 3 0 1 0 120 -70 120 -100 200 -100 N
+P 3 0 1 0 120 70 120 100 200 100 N
+P 4 0 1 0 -200 -100 -130 -100 -130 100 -200 100 N
+P 4 1 1 0 -170 -30 -130 30 -90 -30 -170 -30 N
+X - 1 -300 100 100 R 50 50 1 1 P
+X + 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 100 100 L 50 50 1 1 P
+X ~ 4 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# coriolis-kicad_POT
+# coriolis-kicad:POT
 #
-DEF coriolis-kicad_POT RV 0 40 Y N 1 F N
+DEF coriolis-kicad:POT RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "coriolis-kicad_POT" -100 0 50 V V C CNN
+F1 "coriolis-kicad:POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -426,11 +439,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# coriolis-kicad_POT_TRIM
+# coriolis-kicad:POT_TRIM
 #
-DEF coriolis-kicad_POT_TRIM RV 0 40 Y N 1 F N
+DEF coriolis-kicad:POT_TRIM RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "coriolis-kicad_POT_TRIM" -100 0 50 V V C CNN
+F1 "coriolis-kicad:POT_TRIM" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -446,11 +459,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# coriolis-kicad_VT9-PT
+# coriolis-kicad:VT9-PT
 #
-DEF coriolis-kicad_VT9-PT SX 0 40 N Y 1 L N
+DEF coriolis-kicad:VT9-PT SX 0 40 N Y 1 L N
 F0 "SX" -200 500 45 V V L BNN
-F1 "coriolis-kicad_VT9-PT" 315 -400 45 V V L BNN
+F1 "coriolis-kicad:VT9-PT" 315 -400 45 V V L BNN
 F2 "belton-engineering_VT9-PT" 30 150 20 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -494,53 +507,6 @@ X 6 6 -300 -100 100 R 40 40 1 1 P
 X 7 7 -300 -200 100 R 40 40 1 1 P
 X 8 8 -300 -300 100 R 40 40 1 1 P
 X 9 9 -300 -400 100 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# optoCombined_H11F1
-#
-DEF optoCombined_H11F1 OK 0 40 Y Y 1 L N
-F0 "OK" -275 225 50 H V L BNN
-F1 "optoCombined_H11F1" -275 -300 50 H V L BNN
-F2 "optocoupler-2-DIL05" 0 150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -15 -100 15 100 1 1 0 F
-P 2 1 0 0 -275 -200 175 -200 N
-P 2 1 0 0 -275 200 -275 -200 N
-P 2 1 0 0 -275 200 175 200 N
-P 2 1 0 0 -175 -100 -300 -100 N
-P 2 1 0 0 -175 -50 -225 -50 N
-P 2 1 0 0 -175 -50 -225 50 N
-P 2 1 0 0 -175 -50 -175 -100 N
-P 2 1 0 0 -175 50 -225 50 N
-P 2 1 0 0 -175 50 -175 -50 N
-P 2 1 0 0 -175 100 -300 100 N
-P 2 1 0 0 -175 100 -175 50 N
-P 2 1 0 0 -125 -50 -175 -50 N
-P 2 1 0 0 -125 50 -175 -50 N
-P 2 1 0 0 -125 50 -175 50 N
-P 2 1 0 0 -100 0 -45 55 N
-P 2 1 0 0 -95 -45 -40 10 N
-P 2 1 0 0 -80 40 -60 20 N
-P 2 1 0 0 -75 -5 -55 -25 N
-P 2 1 0 0 -60 20 -45 55 N
-P 2 1 0 0 -55 -25 -40 10 N
-P 2 1 0 0 -45 55 -80 40 N
-P 2 1 0 0 -40 10 -75 -5 N
-P 2 1 0 0 0 0 90 -90 N
-P 2 1 0 0 40 -70 70 -40 N
-P 2 1 0 0 70 -40 90 -90 N
-P 2 1 0 0 90 -90 40 -70 N
-P 2 1 0 0 90 -90 100 -100 N
-P 2 1 0 0 100 -100 200 -100 N
-P 2 1 0 0 100 100 0 0 N
-P 2 1 0 0 100 100 200 100 N
-P 2 1 0 0 175 200 175 -200 N
-X A 1 -400 100 100 R 40 40 1 1 P
-X C 2 -400 -100 100 R 40 40 1 1 P
-X EMIT 4 300 -100 100 L 40 40 1 1 P
-X COL 6 300 100 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
