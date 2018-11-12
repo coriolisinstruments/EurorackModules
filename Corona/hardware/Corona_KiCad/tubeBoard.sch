@@ -59,7 +59,7 @@ Wire Wire Line
 	5200 5350 4500 5350
 Wire Wire Line
 	4500 5350 4500 5050
-Text Label 5200 4150 0    50   ~ 0
+Text Label 5000 4150 0    50   ~ 0
 -6.3V_TB
 Connection ~ 5200 4750
 Wire Wire Line
@@ -82,7 +82,7 @@ Wire Wire Line
 	3100 1950 3150 1950
 Text Label 2450 2250 2    50   ~ 0
 GND_TB
-Text Label 6500 4150 2    50   ~ 0
+Text Label 5650 2700 0    50   ~ 0
 GND_TB
 Text Label 6500 3950 2    50   ~ 0
 TUBE_3_TB
@@ -103,9 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3950 6500 3950
 Wire Wire Line
-	6650 4050 4700 4050
-Wire Wire Line
-	6650 4150 6500 4150
+	6650 4050 6050 4050
 Wire Wire Line
 	6650 4250 6500 4250
 Wire Wire Line
@@ -295,4 +293,51 @@ Wire Wire Line
 	2450 2250 2600 2250
 Wire Wire Line
 	2450 2350 2600 2350
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5BE94710
+P 4500 3450
+F 0 "J5" H 4606 3628 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 3537 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4500 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 3200 0    50   ~ 0
+pins for external power 
+Wire Wire Line
+	4700 3450 6050 3450
+Wire Wire Line
+	6050 3450 6050 4050
+Connection ~ 6050 4050
+Wire Wire Line
+	6050 4050 4700 4050
+Wire Wire Line
+	5950 4150 6650 4150
+Text Notes 5150 2500 0    50   ~ 0
+pins for internal/external heating power
+$Comp
+L Corona-rescue:Conn_01x03_Male-conn J6
+U 1 1 5BE9717C
+P 5350 2800
+F 0 "J6" H 5350 3000 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5500 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5350 2800 50  0001 C CNN
+F 3 "~" H 5350 2800 50  0001 C CNN
+	1    5350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2700 5550 2700
+Wire Wire Line
+	5950 2800 5550 2800
+Wire Wire Line
+	5950 2800 5950 4150
+Wire Wire Line
+	5550 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 3550
+Wire Wire Line
+	5650 3550 4700 3550
 $EndSCHEMATC

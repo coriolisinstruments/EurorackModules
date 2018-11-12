@@ -640,7 +640,7 @@ U 3 1 5BEF3AD0
 P 7700 3700
 F 0 "U4" H 7658 3746 50  0000 L CNN
 F 1 "TL072" H 7658 3655 50  0000 L CNN
-F 2 "" H 7700 3700 50  0001 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 7700 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7700 3700 50  0001 C CNN
 	3    7700 3700
 	1    0    0    -1  
