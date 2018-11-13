@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Documents\Coriolis\EurorackModules\Corona\hardware\Corona_KiCad\Corona.sch)
-    (date "13/11/2018 15:04:54")
+    (date "13/11/2018 15:37:19")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -663,7 +663,13 @@
       (datasheet http://www.fairchildsemi.com/ds/BC/BC547.pdf)
       (libsource (lib Transistor_BJT) (part BC547) (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"))
       (sheetpath (names "/Tube Board/") (tstamps /5A65C09D/))
-      (tstamp 5BEC71E9)))
+      (tstamp 5BEC71E9))
+    (comp (ref MK5)
+      (value CoriolisLogo)
+      (footprint Coriolis-KiCad:art_Coriolis_logo_copper)
+      (libsource (lib Corona-rescue) (part Mounting_Hole-Mechanical) (description ""))
+      (sheetpath (names "/Tube Board/") (tstamps /5A65C09D/))
+      (tstamp 5BEAFAE5)))
   (libparts
     (libpart (lib Amplifier_Operational) (part LM2904)
       (aliases

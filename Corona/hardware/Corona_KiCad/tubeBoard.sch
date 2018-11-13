@@ -370,4 +370,15 @@ Wire Wire Line
 	9950 2300 9950 2200
 Wire Wire Line
 	9950 2700 9950 2800
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK5
+U 1 1 5BEAFAE5
+P 1950 6750
+F 0 "MK5" H 2050 6796 50  0000 L CNN
+F 1 "CoriolisLogo" H 2050 6705 50  0000 L CNN
+F 2 "Coriolis-KiCad:art_Coriolis_logo_copper" H 1950 6750 50  0001 C CNN
+F 3 "" H 1950 6750 50  0001 C CNN
+	1    1950 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
