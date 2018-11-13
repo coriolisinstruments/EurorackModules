@@ -218,32 +218,30 @@ Selectable ground for the tube\nplate voltage (GND or -12V).\nNeeded for changin
 $Comp
 L Corona-rescue:R-device R23
 U 1 1 5A9B7ABF
-P 9150 1850
-F 0 "R23" V 9350 1900 50  0000 R CNN
-F 1 "1K" V 9250 1900 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9080 1850 50  0001 C CNN
-F 3 "" H 9150 1850 50  0001 C CNN
-	1    9150 1850
-	0    -1   -1   0   
+P 9950 2050
+F 0 "R23" V 10150 2100 50  0000 R CNN
+F 1 "1K" V 10050 2100 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9880 2050 50  0001 C CNN
+F 3 "" H 9950 2050 50  0001 C CNN
+	1    9950 2050
+	1    0    0    -1  
 $EndComp
 $Comp
 L Corona-rescue:LED-device D_TUBE1
 U 1 1 5A9B7AD4
-P 8650 1850
-F 0 "D_TUBE1" H 8800 1700 50  0000 R CNN
-F 1 "LED" H 8600 1950 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 8650 1850 50  0001 C CNN
-F 3 "" H 8650 1850 50  0001 C CNN
-	1    8650 1850
-	1    0    0    1   
+P 9950 2950
+F 0 "D_TUBE1" H 10100 2800 50  0000 R CNN
+F 1 "LED" H 9900 3050 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 9950 2950 50  0001 C CNN
+F 3 "" H 9950 2950 50  0001 C CNN
+	1    9950 2950
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	9300 1850 9400 1850
-Text Label 8400 1850 2    50   ~ 0
+Text Label 9950 3250 2    50   ~ 0
 GND_TB
-Text Notes 9400 1500 0    50   ~ 0
+Text Notes 7950 1550 0    50   ~ 0
 LEDs to illuminate the tube\n(indicates sound)\n
-Text Label 9400 1850 0    50   ~ 0
+Text Label 9150 2500 2    50   ~ 0
 AUDIO_OUT_TB
 $Comp
 L Corona-rescue:Mounting_Hole-Mechanical MK1
@@ -269,10 +267,6 @@ F 3 "" H 950 7000 50  0001 C CNN
 $EndComp
 Text Notes 900  6550 0    50   ~ 0
 For mounting the tube board to the \nfront panel with spacers (the tube\nneeds to sit recessed)
-Wire Wire Line
-	8800 1850 9000 1850
-Wire Wire Line
-	8400 1850 8500 1850
 Wire Wire Line
 	3100 2050 3250 2050
 Wire Wire Line
@@ -340,4 +334,40 @@ Wire Wire Line
 	5650 2900 5650 3550
 Wire Wire Line
 	5650 3550 4700 3550
+Text Label 9950 1800 0    50   ~ 0
++12V_TB
+Wire Wire Line
+	9950 3100 9950 3250
+Wire Wire Line
+	9950 1900 9950 1800
+$Comp
+L Corona-rescue:R-device R24
+U 1 1 5BEC63D2
+P 9400 2500
+F 0 "R24" V 9600 2550 50  0000 R CNN
+F 1 "100K" V 9500 2550 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9330 2500 50  0001 C CNN
+F 3 "" H 9400 2500 50  0001 C CNN
+	1    9400 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 2500 9150 2500
+$Comp
+L Transistor_BJT:BC547 Q5
+U 1 1 5BEC71E9
+P 9850 2500
+F 0 "Q5" H 10041 2546 50  0000 L CNN
+F 1 "BC547" H 10041 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10050 2425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 9850 2500 50  0001 L CNN
+	1    9850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2500 9550 2500
+Wire Wire Line
+	9950 2300 9950 2200
+Wire Wire Line
+	9950 2700 9950 2800
 $EndSCHEMATC
