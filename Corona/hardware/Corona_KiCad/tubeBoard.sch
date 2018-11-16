@@ -138,7 +138,7 @@ U 1 1 5A673E11
 P 4500 4050
 F 0 "J2" H 4500 4250 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 4650 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4500 4050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4500 4050 50  0001 C CNN
 F 3 "~" H 4500 4050 50  0001 C CNN
 	1    4500 4050
 	1    0    0    -1  
@@ -149,7 +149,7 @@ U 1 1 5A673E9E
 P 5200 5050
 F 0 "RFBT1" H 5130 5004 50  0000 R CNN
 F 1 "150r" H 5130 5095 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5130 5050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5130 5050 50  0001 C CNN
 F 3 "" H 5200 5050 50  0001 C CNN
 	1    5200 5050
 	-1   0    0    1   
@@ -171,7 +171,7 @@ U 1 1 5A6759D6
 P 4200 5350
 F 0 "RFBB1" V 3993 5350 50  0000 C CNN
 F 1 "POT_TRIM" V 4084 5350 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 4200 5350 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4200 5350 50  0001 C CNN
 F 3 "" H 4200 5350 50  0001 C CNN
 	1    4200 5350
 	0    -1   1    0   
@@ -182,7 +182,7 @@ U 1 1 5A6763B0
 P 2900 2150
 F 0 "J4" H 2950 2600 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 2950 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 2900 2150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 2900 2150 50  0001 C CNN
 F 3 "~" H 2900 2150 50  0001 C CNN
 	1    2900 2150
 	-1   0    0    1   
@@ -221,7 +221,7 @@ U 1 1 5A9B7ABF
 P 9950 2050
 F 0 "R23" V 10150 2100 50  0000 R CNN
 F 1 "1K" V 10050 2100 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9880 2050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9880 2050 50  0001 C CNN
 F 3 "" H 9950 2050 50  0001 C CNN
 	1    9950 2050
 	1    0    0    -1  
@@ -232,7 +232,7 @@ U 1 1 5A9B7AD4
 P 9950 2950
 F 0 "D_TUBE1" H 10100 2800 50  0000 R CNN
 F 1 "LED" H 9900 3050 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 9950 2950 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9950 2950 50  0001 C CNN
 F 3 "" H 9950 2950 50  0001 C CNN
 	1    9950 2950
 	0    1    -1   0   
@@ -317,7 +317,7 @@ U 1 1 5BE9717C
 P 5350 2800
 F 0 "J6" H 5350 3000 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 5500 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5350 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5350 2800 50  0001 C CNN
 F 3 "~" H 5350 2800 50  0001 C CNN
 	1    5350 2800
 	1    0    0    -1  
@@ -346,7 +346,7 @@ U 1 1 5BEC63D2
 P 9400 2500
 F 0 "R24" V 9600 2550 50  0000 R CNN
 F 1 "100K" V 9500 2550 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9330 2500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9330 2500 50  0001 C CNN
 F 3 "" H 9400 2500 50  0001 C CNN
 	1    9400 2500
 	0    1    1    0   
