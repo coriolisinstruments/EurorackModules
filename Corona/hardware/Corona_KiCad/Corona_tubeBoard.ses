@@ -1,0 +1,423 @@
+
+(session Corona_tubeBoard.ses
+  (base_design Corona_tubeBoard.dsn)
+  (placement
+    (resolution um 10)
+    (component "Coriolis-KiCad:belton-engineering-VT9-PT"
+      (place SX1 390000 -152100 front 270)
+    )
+    (component "TO_SOT_Packages_THT:TO-220-3_Vertical"
+      (place U2 545000 -177500 back 270)
+    )
+    (component Mounting_Holes:MountingHole_3.2mm_M3
+      (place MK1 151900 -152100 back 180)
+    )
+    (component Mounting_Holes:MountingHole_3.2mm_M3::1
+      (place MK2 634500 -152100 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J5 752500 -252500 back 180)
+    )
+    (component "Package_TO_SOT_THT:TO-92_Inline"
+      (place Q5 225000 -160400 front 90)
+    )
+    (component LED_THT:LED_D3.0mm
+      (place D_TUBE1 377500 -152500 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J2 701700 -47500 back 90)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical
+      (place J4 70000 -250000 front 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::1
+      (place J6 701700 -147500 back 90)
+    )
+    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+      (place R23 28800 -165000 front 0)
+      (place R24 105000 -130000 front 180)
+      (place RFBT1 585000 -220000 front 0)
+    )
+    (component Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+      (place RFBB1 597500 -47500 back 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.0.0)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "/Tube Board/-6.3V_TB"
+        (wire
+          (path B.Cu 2500
+            661200 -220000
+            672453 -220000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            752500 -47500
+            752500 -59253
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            752500 -59253
+            740747 -71006
+            740747 -151706
+            672453 -220000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            545000 -126700
+            557253 -126700
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            661200 -220000
+            649947 -220000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            649947 -220000
+            557253 -127306
+            557253 -126700
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_4_TB"
+        (wire
+          (path F.Cu 2500
+            727100 -47500
+            715347 -47500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            715347 -47500
+            715347 -39420
+            711582 -35655
+            439034 -35655
+            422436 -52253
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            727100 -53376
+            727100 -47500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            727100 -53376
+            727100 -59253
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            752500 -252500
+            752500 -240747
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            727100 -59253
+            715251 -71102
+            715251 -207171
+            748827 -240747
+            752500 -240747
+          )
+        )
+      )
+      (net "/Tube Board/-12V_TB"
+        (wire
+          (path F.Cu 2500
+            545000 -152100
+            545000 -164353
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            171600 -275400
+            434927 -275400
+            532747 -177580
+            532747 -166650
+            535044 -164353
+            545000 -164353
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            689947 -47500
+            585347 -152100
+            545000 -152100
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            701700 -47500
+            689947 -47500
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_8_TB"
+        (wire
+          (path B.Cu 2500
+            305062 -213797
+            255212 -263647
+            166032 -263647
+            157953 -271726
+            157953 -275400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            146200 -275400
+            157953 -275400
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_7_TB"
+        (wire
+          (path B.Cu 2500
+            146200 -250000
+            157953 -250000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            157953 -250000
+            157953 -246326
+            166032 -238247
+            198875 -238247
+            285022 -152100
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_6_TB"
+        (wire
+          (path B.Cu 2500
+            120800 -275400
+            120800 -263647
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            120800 -263647
+            124474 -263647
+            132553 -255568
+            132553 -246835
+            193686 -185702
+            217647 -185702
+            305062 -98287
+            305062 -90403
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_3_TB"
+        (wire
+          (path B.Cu 2500
+            95400 -250000
+            95400 -261753
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            95400 -261753
+            99074 -261753
+            107153 -269832
+            107153 -278566
+            116187 -287600
+            285787 -287600
+            474938 -98449
+            474938 -90403
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_2_TB"
+        (wire
+          (path B.Cu 2500
+            70000 -275400
+            81753 -275400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            81753 -275400
+            81753 -279073
+            94840 -292160
+            354918 -292160
+            494978 -152100
+          )
+        )
+      )
+      (net "/Tube Board/TUBE_1_TB"
+        (wire
+          (path F.Cu 2500
+            70000 -250000
+            81753 -250000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            81753 -250000
+            81753 -253673
+            90088 -262008
+            311478 -262008
+            359689 -213797
+            474938 -213797
+          )
+        )
+      )
+      (net "Net-(RFBB1-Pad3)"
+        (wire
+          (path B.Cu 2500
+            545000 -177500
+            545000 -165247
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            546700 -47500
+            532747 -61453
+            532747 -157590
+            540404 -165247
+            545000 -165247
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            545000 -177500
+            545000 -189753
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            585000 -220000
+            554753 -189753
+            545000 -189753
+          )
+        )
+      )
+      (net "/Tube Board/AUDIO_OUT_TB"
+        (wire
+          (path B.Cu 2500
+            28800 -130000
+            28800 -141253
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            28800 -141253
+            120800 -233253
+            120800 -250000
+          )
+        )
+      )
+      (net "Net-(D_TUBE1-Pad2)"
+        (wire
+          (path F.Cu 2500
+            402900 -152500
+            385400 -135000
+            225000 -135000
+          )
+        )
+      )
+      (net "Net-(J5-Pad2)"
+        (wire
+          (path B.Cu 2500
+            752500 -147500
+            752500 -227100
+          )
+        )
+      )
+      (net "Net-(J6-Pad2)"
+        (wire
+          (path B.Cu 2500
+            727100 -147500
+            715347 -147500
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            715347 -147500
+            715347 -139420
+            690373 -114446
+            624137 -114446
+            559400 -49709
+            559400 -45331
+            550812 -36743
+            373074 -36743
+            357564 -52253
+          )
+        )
+      )
+      (net "/Tube Board/+12V_TB"
+        (wire
+          (path F.Cu 2500
+            171600 -250000
+            159847 -250000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            28800 -165000
+            78520 -165000
+            159847 -246327
+            159847 -250000
+          )
+        )
+      )
+      (net "Net-(Q5-Pad2)"
+        (wire
+          (path F.Cu 2500
+            105000 -130000
+            179863 -130000
+            197563 -147700
+            225000 -147700
+          )
+        )
+      )
+      (net "Net-(Q5-Pad1)"
+        (wire
+          (path B.Cu 2500
+            225000 -160400
+            225000 -168903
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            105000 -165000
+            116253 -165000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            116253 -165000
+            120792 -169539
+            224364 -169539
+            225000 -168903
+          )
+        )
+      )
+    )
+  )
+)
