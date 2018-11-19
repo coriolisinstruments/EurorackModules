@@ -645,4 +645,53 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7700 3700 50  0001 C CNN
 	3    7700 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Corona-rescue:R-device R28
+U 1 1 5BF36D57
+P 3800 1100
+F 0 "R28" V 3593 1100 50  0000 C CNN
+F 1 "10K" V 3684 1100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 1100 50  0001 C CNN
+F 3 "" H 3800 1100 50  0001 C CNN
+	1    3800 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Corona-rescue:R-device R29
+U 1 1 5BF36E14
+P 3800 1600
+F 0 "R29" V 3593 1600 50  0000 C CNN
+F 1 "1K" V 3684 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 1600 50  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	-1   0    0    1   
+$EndComp
+Text Label 3800 1850 2    50   ~ 0
+GND
+Text Label 3800 850  0    50   ~ 0
++12V
+Wire Wire Line
+	3800 1250 3800 1350
+Wire Wire Line
+	3800 1350 3950 1350
+Connection ~ 3800 1350
+Wire Wire Line
+	3800 1850 3800 1750
+Wire Wire Line
+	3800 1350 3800 1450
+Wire Wire Line
+	3800 950  3800 850 
+Text Label 3950 1350 0    50   ~ 0
++1V
+Text Notes 4200 1050 0    50   ~ 0
+Voltage divider for\nvactrol parameter\n+1V offset
+Wire Wire Line
+	4000 5300 4000 4700
+Wire Wire Line
+	9100 2300 9100 2900
+Text Label 9100 2300 0    50   ~ 0
++1V
+Text Label 4000 4700 0    50   ~ 0
++1V
 $EndSCHEMATC

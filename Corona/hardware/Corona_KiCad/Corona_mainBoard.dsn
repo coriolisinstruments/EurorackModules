@@ -1,4 +1,4 @@
-(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\Corona_KiCad\Corona_mainBoard.dsn
+(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\Corona_KiCad\Corona_mainBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -23,20 +23,20 @@
     (boundary
       (path pcb 0  78000 -108000  0 -108000  0 0  78000 0  78000 -108000)
     )
-    (keepout "" (polygon signal 0  38302.3 -3520.3  36916.2 -3682.31  35558.4 -4004.13  34247 -4481.41
-            33000 -5107.69  31834.1 -5874.52  30765.1 -6771.52  29807.5 -7786.55
-            28974.1 -8905.89  28276.4 -10114.4  27723.7 -11395.8  27323.5 -12732.6
-            27081.1 -14106.9  27000 -15500  27081.1 -16893.1  27323.5 -18267.4
-            27723.7 -19604.2  28276.4 -20885.6  28974.1 -22094.1  29807.5 -23213.5
-            30765.1 -24228.5  31834.1 -25125.5  33000 -25892.3  34247 -26518.6
-            35558.4 -26995.9  36916.2 -27317.7  38302.3 -27479.7  39697.7 -27479.7
-            41083.8 -27317.7  42441.6 -26995.9  43753 -26518.6  45000 -25892.3
-            46165.9 -25125.5  47234.9 -24228.5  48192.5 -23213.5  49025.9 -22094.1
-            49723.6 -20885.6  50276.3 -19604.2  50676.5 -18267.4  50918.9 -16893.1
-            51000 -15500  50918.9 -14106.9  50676.5 -12732.6  50276.3 -11395.8
-            49723.6 -10114.4  49025.9 -8905.89  48192.5 -7786.55  47234.9 -6771.52
-            46165.9 -5874.52  45000 -5107.69  43753 -4481.41  42441.6 -4004.13
-            41083.8 -3682.31  39697.7 -3520.3  38302.3 -3520.3))
+    (keepout "" (polygon signal 0  38302.3 -3020.3  36916.2 -3182.31  35558.4 -3504.13  34247 -3981.41
+            33000 -4607.69  31834.1 -5374.52  30765.1 -6271.52  29807.5 -7286.55
+            28974.1 -8405.89  28276.4 -9614.41  27723.7 -10895.8  27323.5 -12232.6
+            27081.1 -13606.9  27000 -15000  27081.1 -16393.1  27323.5 -17767.4
+            27723.7 -19104.2  28276.4 -20385.6  28974.1 -21594.1  29807.5 -22713.5
+            30765.1 -23728.5  31834.1 -24625.5  33000 -25392.3  34247 -26018.6
+            35558.4 -26495.9  36916.2 -26817.7  38302.3 -26979.7  39697.7 -26979.7
+            41083.8 -26817.7  42441.6 -26495.9  43753 -26018.6  45000 -25392.3
+            46165.9 -24625.5  47234.9 -23728.5  48192.5 -22713.5  49025.9 -21594.1
+            49723.6 -20385.6  50276.3 -19104.2  50676.5 -17767.4  50918.9 -16393.1
+            51000 -15000  50918.9 -13606.9  50676.5 -12232.6  50276.3 -10895.8
+            49723.6 -9614.41  49025.9 -8405.89  48192.5 -7286.55  47234.9 -6271.52
+            46165.9 -5374.52  45000 -4607.69  43753 -3981.41  42441.6 -3504.13
+            41083.8 -3182.31  39697.7 -3020.3  38302.3 -3020.3))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -50,13 +50,13 @@
       (place MK4 98175 -39725 front 0 (PN Mounting_Hole))
     )
     (component Mounting_Holes:MountingHole_3.2mm_M3::1
-      (place MK3 91225 -39725 front 0 (PN Mounting_Hole))
+      (place MK3 90750 -39725 front 0 (PN Mounting_Hole))
     )
     (component "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series"
-      (place F1 41500 -31500 front 180 (PN 72V/0.25A))
+      (place F1 31580 -31260 front 180 (PN 72V/0.25A))
     )
     (component "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series::1"
-      (place F2 53500 -29000 front 180 (PN 72V/0.25A))
+      (place F2 41830 -31260 front 180 (PN 72V/0.25A))
     )
     (component "Coriolis-KiCad:WQP-PJ301M-12_JACK"
       (place J_IN1 9000 -102001 front 180 (PN "Audio-Jack-2_Switch"))
@@ -98,12 +98,12 @@
     )
     (component Capacitor_THT:CP_Radial_D4.0mm_P2.00mm
       (place C3 9000 -33500 front 0 (PN "10uF (25V)"))
-      (place C10 27250 -29250 front 0 (PN 0.22uF))
+      (place C10 21000 -24500 front 0 (PN 0.22uF))
       (place C12 30500 -72000 front 90 (PN "1uF (25V)"))
     )
     (component Capacitor_THT:CP_Radial_D4.0mm_P2.00mm::1
       (place C4 15500 -33500 front 0 (PN "10uF (25V)"))
-      (place C7 22250 -24250 front 0 (PN "1uF (25V)"))
+      (place C7 21000 -17750 front 0 (PN "1uF (25V)"))
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
       (place D1 22000 -40500 front 0 (PN IN4001))
@@ -161,6 +161,7 @@
       (place R39 63000 -8000 front 0 (PN 10K))
       (place R41 24000 -77000 front 180 (PN 1K))
       (place R42 4000 -31380 front 270 (PN 10K))
+      (place R28 52130 -21000 front 0 (PN 10K))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal::1
       (place R2 19500 -2500 front 270 (PN 220K))
@@ -171,7 +172,7 @@
       (place R9 20000 -63120 front 90 (PN 1K))
       (place R11 16000 -63120 front 90 (PN 10K))
       (place R12 46500 -98750 front 270 (PN 200K))
-      (place R13 60000 -23000 front 180 (PN 10K))
+      (place R13 59750 -29000 front 180 (PN 10K))
       (place R16 32500 -106370 front 90 (PN 100K))
       (place R18 28380 -95500 front 0 (PN 5K))
       (place R20 35880 -73000 front 0 (PN 10K))
@@ -180,6 +181,7 @@
       (place R31 63000 -75120 front 90 (PN 200K))
       (place R33 63000 -25000 front 0 (PN 10K))
       (place R40 16000 -73620 front 90 (PN 1K))
+      (place R29 59750 -25000 front 180 (PN 1K))
     )
     (component "Package_DIP:DIP-14_W7.62mm_Socket"
       (place U1 4000 -57000 front 0 (PN TL074))
@@ -208,8 +210,8 @@
             -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
             -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
             2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
-      (keepout "" (circle F.Cu 3200 -35175 24725))
-      (keepout "" (circle B.Cu 3200 -35175 24725))
+      (keepout "" (circle F.Cu 3200 -34175 24725))
+      (keepout "" (circle B.Cu 3200 -34175 24725))
     )
     (image Mounting_Holes:MountingHole_3.2mm_M3::1
       (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
@@ -227,8 +229,8 @@
             -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
             1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
             3369.34 741.648  3450 0))
-      (keepout "" (circle F.Cu 3200 -76225 24725))
-      (keepout "" (circle B.Cu 3200 -76225 24725))
+      (keepout "" (circle F.Cu 3200 -75750 24725))
+      (keepout "" (circle B.Cu 3200 -75750 24725))
     )
     (image "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series"
       (outline (path signal 120  6910 -2120  -1830 -2120))
@@ -1234,11 +1236,11 @@
       (pins J_IN1-2 J_OUT1-2 RV_FB1-1 SW1-1 J_IN_DRV1-2 J_IN_FB1-2 RV_DRV1-1 RV_DRV_CV1-1
         RV_FB_CV1-1 J_IN_TONE1-2 RV_IN1-1 RV_TONE1-1 RV_TONE_CV1-1 U6-3 C5-2 C6-1
         C3-2 C4-1 C10-2 D1-2 D2-1 J1-3 J1-4 J1-5 J1-6 J1-7 J1-8 J3-4 R7-2 R8-1 R15-1
-        R16-1 R18-1 R20-1 R25-1 R26-1 R27-1 R38-1 U1-5 U1-10)
+        R16-1 R18-1 R20-1 R25-1 R26-1 R27-1 R38-1 U1-5 U1-10 R29-1)
     )
     (net "/Main board/+12V"
       (pins F1-1 RV_FB1-3 RV_DRV1-3 RV_TONE1-3 C5-1 C3-1 D3-2 J3-9 Q1-1 Q3-1 R2-2
-        R4-2 U1-4 U3-4 U4-8)
+        R4-2 U1-4 U3-4 U4-8 R28-2)
     )
     (net "/Main board/-12V"
       (pins F2-1 SW1-3 C6-2 C4-2 J3-10 U1-11 U3-11 U4-4)
@@ -1321,9 +1323,6 @@
     (net "/Main board/CV_FB"
       (pins R6-1 R22-1 U3-1)
     )
-    (net "Net-(R10-Pad1)"
-      (pins R10-1 R11-1 U3-5)
-    )
     (net "Net-(R10-Pad2)"
       (pins R10-2 R31-1 U3-8)
     )
@@ -1378,9 +1377,6 @@
     (net "Net-(R36-Pad2)"
       (pins RV_TONE1-2 R36-2)
     )
-    (net "Net-(R36-Pad1)"
-      (pins R36-1 R37-1 U4-5)
-    )
     (net "Net-(R38-Pad2)"
       (pins R38-2 R39-2 U4-6)
     )
@@ -1411,21 +1407,31 @@
     (net "Net-(C8-Pad1)"
       (pins U6-4 C8-1)
     )
+    (net "/Main board/Control Voltage input/+1V"
+      (pins R10-1 R11-1 R36-1 R37-1 U3-5 U4-5 R28-1 R29-2)
+    )
     (class kicad_default "" "/Main board/+12V" "/Main board/-12V" "/Main board/AUDIO_OUT"
-      "/Main board/CV_DRV" "/Main board/CV_FB" "/Main board/CV_TONE" "/Main board/GND"
-      "/Main board/TUBE_1" "/Main board/TUBE_2" "/Main board/TUBE_3" "/Main board/TUBE_6"
-      "/Main board/TUBE_7" "/Main board/TUBE_8" "/Main board/TUBE_IN" "/Main board/TUBE_OUT"
+      "/Main board/CV_DRV" "/Main board/CV_FB" "/Main board/CV_TONE" "/Main board/Control Voltage input/+1V"
+      "/Main board/GND" "/Main board/TUBE_1" "/Main board/TUBE_2" "/Main board/TUBE_3"
+      "/Main board/TUBE_6" "/Main board/TUBE_7" "/Main board/TUBE_8" "/Main board/TUBE_IN"
+      "/Main board/TUBE_OUT" "/Tube Board/+12V_TB" "/Tube Board/-12V_TB" "/Tube Board/-6.3V_TB"
+      "/Tube Board/AUDIO_OUT_TB" "/Tube Board/GND_TB" "/Tube Board/TUBE_1_TB"
+      "/Tube Board/TUBE_2_TB" "/Tube Board/TUBE_3_TB" "/Tube Board/TUBE_4_TB"
+      "/Tube Board/TUBE_6_TB" "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_8_TB"
       "Net-(C10-Pad1)" "Net-(C12-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad1)"
       "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)"
-      "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(J_IN1-Pad1)" "Net-(J_IN_DRV1-Pad1)"
-      "Net-(J_IN_FB1-Pad1)" "Net-(J_IN_TONE1-Pad1)" "Net-(J_OUT1-Pad1)" "Net-(Q1-Pad2)"
-      "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad1)" "Net-(R10-Pad1)"
-      "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(R12-Pad1)" "Net-(R13-Pad1)"
-      "Net-(R13-Pad2)" "Net-(R15-Pad2)" "Net-(R20-Pad2)" "Net-(R26-Pad2)"
-      "Net-(R27-Pad2)" "Net-(R30-Pad1)" "Net-(R32-Pad1)" "Net-(R34-Pad1)"
-      "Net-(R35-Pad1)" "Net-(R36-Pad1)" "Net-(R36-Pad2)" "Net-(R38-Pad2)"
-      "Net-(R40-Pad1)" "Net-(R42-Pad2)" "Net-(R5-Pad1)" "Net-(R9-Pad1)" "Net-(RV_DRV_CV1-Pad2)"
-      "Net-(RV_FB_CV1-Pad2)" "Net-(RV_IN1-Pad2)" "Net-(RV_TONE_CV1-Pad2)"
+      "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)"
+      "Net-(J6-Pad2)" "Net-(J_IN1-Pad1)" "Net-(J_IN1-Pad3)" "Net-(J_IN_DRV1-Pad1)"
+      "Net-(J_IN_DRV1-Pad3)" "Net-(J_IN_FB1-Pad1)" "Net-(J_IN_FB1-Pad3)" "Net-(J_IN_TONE1-Pad1)"
+      "Net-(J_IN_TONE1-Pad3)" "Net-(J_OUT1-Pad1)" "Net-(J_OUT1-Pad3)" "Net-(Q1-Pad2)"
+      "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)"
+      "Net-(Q5-Pad2)" "Net-(R10-Pad1)" "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(R12-Pad1)"
+      "Net-(R13-Pad1)" "Net-(R13-Pad2)" "Net-(R15-Pad2)" "Net-(R20-Pad2)"
+      "Net-(R26-Pad2)" "Net-(R27-Pad2)" "Net-(R30-Pad1)" "Net-(R32-Pad1)"
+      "Net-(R34-Pad1)" "Net-(R35-Pad1)" "Net-(R36-Pad1)" "Net-(R36-Pad2)"
+      "Net-(R38-Pad2)" "Net-(R40-Pad1)" "Net-(R42-Pad2)" "Net-(R5-Pad1)" "Net-(R9-Pad1)"
+      "Net-(RFBB1-Pad3)" "Net-(RV_DRV_CV1-Pad2)" "Net-(RV_FB_CV1-Pad2)" "Net-(RV_IN1-Pad2)"
+      "Net-(RV_TONE_CV1-Pad2)" "Net-(SX1-Pad9)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

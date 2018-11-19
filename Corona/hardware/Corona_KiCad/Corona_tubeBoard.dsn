@@ -1,4 +1,4 @@
-(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\Corona_KiCad\Corona_tubeBoard.dsn
+(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\Corona_KiCad\Corona_tubeBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -35,7 +35,7 @@
   )
   (placement
     (component "Coriolis-KiCad:belton-engineering-VT9-PT"
-      (place SX1 39000 -15210 front 270 (PN "VT9-PT"))
+      (place SX1 39000 -15000 front 270 (PN "VT9-PT"))
     )
     (component "TO_SOT_Packages_THT:TO-220-3_Vertical"
       (place U2 54500 -17750 back 270 (PN LM337_TO220))
@@ -520,28 +520,12 @@
     (net "Net-(Q5-Pad1)"
       (pins Q5-1 R23-2)
     )
-    (class kicad_default "" "/Main board/+12V" "/Main board/-12V" "/Main board/AUDIO_OUT"
-      "/Main board/CV_DRV" "/Main board/CV_FB" "/Main board/CV_TONE" "/Main board/GND"
-      "/Main board/TUBE_1" "/Main board/TUBE_2" "/Main board/TUBE_3" "/Main board/TUBE_6"
-      "/Main board/TUBE_7" "/Main board/TUBE_8" "/Main board/TUBE_IN" "/Main board/TUBE_OUT"
-      "/Tube Board/+12V_TB" "/Tube Board/-12V_TB" "/Tube Board/-6.3V_TB" "/Tube Board/AUDIO_OUT_TB"
-      "/Tube Board/GND_TB" "/Tube Board/TUBE_1_TB" "/Tube Board/TUBE_2_TB"
-      "/Tube Board/TUBE_3_TB" "/Tube Board/TUBE_4_TB" "/Tube Board/TUBE_6_TB"
-      "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_8_TB" "Net-(C10-Pad1)" "Net-(C12-Pad1)"
-      "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad1)" "Net-(D1-Pad1)" "Net-(D2-Pad2)"
-      "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" "Net-(D7-Pad1)"
-      "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(J6-Pad2)" "Net-(J_IN1-Pad1)"
-      "Net-(J_IN1-Pad3)" "Net-(J_IN_DRV1-Pad1)" "Net-(J_IN_DRV1-Pad3)" "Net-(J_IN_FB1-Pad1)"
-      "Net-(J_IN_FB1-Pad3)" "Net-(J_IN_TONE1-Pad1)" "Net-(J_IN_TONE1-Pad3)"
-      "Net-(J_OUT1-Pad1)" "Net-(J_OUT1-Pad3)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)"
-      "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)"
-      "Net-(R10-Pad1)" "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(R12-Pad1)"
-      "Net-(R13-Pad1)" "Net-(R13-Pad2)" "Net-(R15-Pad2)" "Net-(R20-Pad2)"
-      "Net-(R26-Pad2)" "Net-(R27-Pad2)" "Net-(R30-Pad1)" "Net-(R32-Pad1)"
-      "Net-(R34-Pad1)" "Net-(R35-Pad1)" "Net-(R36-Pad1)" "Net-(R36-Pad2)"
-      "Net-(R38-Pad2)" "Net-(R40-Pad1)" "Net-(R42-Pad2)" "Net-(R5-Pad1)" "Net-(R9-Pad1)"
-      "Net-(RFBB1-Pad3)" "Net-(RV_DRV_CV1-Pad2)" "Net-(RV_FB_CV1-Pad2)" "Net-(RV_IN1-Pad2)"
-      "Net-(RV_TONE_CV1-Pad2)" "Net-(SX1-Pad9)"
+    (class kicad_default "" "/Tube Board/+12V_TB" "/Tube Board/-12V_TB" "/Tube Board/-6.3V_TB"
+      "/Tube Board/AUDIO_OUT_TB" "/Tube Board/GND_TB" "/Tube Board/TUBE_1_TB"
+      "/Tube Board/TUBE_2_TB" "/Tube Board/TUBE_3_TB" "/Tube Board/TUBE_4_TB"
+      "/Tube Board/TUBE_6_TB" "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_8_TB"
+      "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(J6-Pad2)" "Net-(Q5-Pad1)"
+      "Net-(Q5-Pad2)" "Net-(RFBB1-Pad3)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
