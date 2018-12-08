@@ -218,30 +218,30 @@ Selectable ground for the tube\nplate voltage (GND or -12V).\nNeeded for changin
 $Comp
 L Corona-rescue:R-device R23
 U 1 1 5A9B7ABF
-P 9950 2050
-F 0 "R23" V 10150 2100 50  0000 R CNN
-F 1 "1K" V 10050 2100 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9880 2050 50  0001 C CNN
-F 3 "" H 9950 2050 50  0001 C CNN
-	1    9950 2050
-	1    0    0    -1  
+P 8800 2150
+F 0 "R23" V 8600 2200 50  0000 R CNN
+F 1 "680K" V 8700 2250 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8730 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	0    1    1    0   
 $EndComp
 $Comp
 L Corona-rescue:LED-device D_TUBE1
 U 1 1 5A9B7AD4
-P 9950 2950
-F 0 "D_TUBE1" H 10100 2800 50  0000 R CNN
-F 1 "LED" H 9900 3050 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 9950 2950 50  0001 C CNN
-F 3 "" H 9950 2950 50  0001 C CNN
-	1    9950 2950
-	0    1    -1   0   
+P 9850 2150
+F 0 "D_TUBE1" H 10000 2000 50  0000 R CNN
+F 1 "LED" H 9800 2250 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 9850 2150 50  0001 C CNN
+F 3 "" H 9850 2150 50  0001 C CNN
+	1    9850 2150
+	-1   0    0    -1  
 $EndComp
-Text Label 9950 3250 2    50   ~ 0
+Text Label 8350 2450 2    50   ~ 0
 GND_TB
 Text Notes 7950 1550 0    50   ~ 0
 LEDs to illuminate the tube\n(indicates sound)\n
-Text Label 9150 2500 2    50   ~ 0
+Text Label 9050 3350 2    50   ~ 0
 AUDIO_OUT_TB
 $Comp
 L Corona-rescue:Mounting_Hole-Mechanical MK1
@@ -334,42 +334,19 @@ Wire Wire Line
 	5650 2900 5650 3550
 Wire Wire Line
 	5650 3550 4700 3550
-Text Label 9950 1800 0    50   ~ 0
+Text Label 9800 2800 0    50   ~ 0
 +12V_TB
-Wire Wire Line
-	9950 3100 9950 3250
-Wire Wire Line
-	9950 1900 9950 1800
 $Comp
 L Corona-rescue:R-device R24
 U 1 1 5BEC63D2
-P 9400 2500
-F 0 "R24" V 9600 2550 50  0000 R CNN
-F 1 "100K" V 9500 2550 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9330 2500 50  0001 C CNN
-F 3 "" H 9400 2500 50  0001 C CNN
-	1    9400 2500
-	0    1    1    0   
+P 9050 3000
+F 0 "R24" V 9250 3050 50  0000 R CNN
+F 1 "1M" V 9150 3050 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8980 3000 50  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9250 2500 9150 2500
-$Comp
-L Transistor_BJT:BC547 Q5
-U 1 1 5BEC71E9
-P 9850 2500
-F 0 "Q5" H 10041 2546 50  0000 L CNN
-F 1 "BC547" H 10041 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10050 2425 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 9850 2500 50  0001 L CNN
-	1    9850 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 2500 9550 2500
-Wire Wire Line
-	9950 2300 9950 2200
-Wire Wire Line
-	9950 2700 9950 2800
 $Comp
 L Corona-rescue:Mounting_Hole-Mechanical MK5
 U 1 1 5BEAFAE5
@@ -381,4 +358,99 @@ F 3 "" H 1950 6750 50  0001 C CNN
 	1    1950 6750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Operational:TL072 U7
+U 1 1 5C0C12BB
+P 9450 2550
+F 0 "U7" H 9450 2250 50  0000 C CNN
+F 1 "TL072" H 9500 2350 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9450 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9450 2550 50  0001 C CNN
+	1    9450 2550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9050 2650 9150 2650
+$Comp
+L Corona-rescue:R-device R43
+U 1 1 5C0CCF2A
+P 8800 2650
+F 0 "R43" V 9000 2700 50  0000 R CNN
+F 1 "1M" V 8900 2700 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8730 2650 50  0001 C CNN
+F 3 "" H 8800 2650 50  0001 C CNN
+	1    8800 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 2450 9050 2450
+Wire Wire Line
+	9050 2450 9050 2150
+Wire Wire Line
+	9050 2150 9700 2150
+Wire Wire Line
+	10000 2150 10250 2150
+Wire Wire Line
+	10250 2150 10250 2550
+Wire Wire Line
+	10250 2550 9750 2550
+Wire Wire Line
+	9050 2150 8950 2150
+Connection ~ 9050 2150
+Wire Wire Line
+	9050 2850 9050 2650
+Wire Wire Line
+	9050 3150 9050 3350
+Wire Wire Line
+	8950 2650 9050 2650
+Connection ~ 9050 2650
+Wire Wire Line
+	8350 2450 8500 2450
+Wire Wire Line
+	8500 2450 8500 2150
+Wire Wire Line
+	8500 2150 8650 2150
+Wire Wire Line
+	8650 2650 8500 2650
+Wire Wire Line
+	8500 2650 8500 2450
+Connection ~ 8500 2450
+$Comp
+L Amplifier_Operational:TL072 U7
+U 3 1 5C0DE26F
+P 9900 3100
+F 0 "U7" H 9858 3146 50  0000 L CNN
+F 1 "TL072" H 9858 3055 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9900 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9900 3100 50  0001 C CNN
+	3    9900 3100
+	1    0    0    -1  
+$EndComp
+Text Label 9800 3400 0    50   ~ 0
+-12V_TB
+$Comp
+L Amplifier_Operational:TL072 U7
+U 2 1 5C0DFBF3
+P 10200 4450
+F 0 "U7" H 10200 4817 50  0000 C CNN
+F 1 "TL072" H 10200 4726 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 10200 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10200 4450 50  0001 C CNN
+	2    10200 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 10100 3900 0    50   ~ 0
+unused
+Text Label 9900 4350 2    50   ~ 0
+GND_TB
+Wire Wire Line
+	9900 4550 9800 4550
+Wire Wire Line
+	9800 4550 9800 4800
+Wire Wire Line
+	9800 4800 10600 4800
+Wire Wire Line
+	10600 4800 10600 4450
+Wire Wire Line
+	10600 4450 10500 4450
 $EndSCHEMATC
