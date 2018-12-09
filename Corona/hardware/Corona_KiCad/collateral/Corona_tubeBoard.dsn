@@ -1,4 +1,4 @@
-(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\Corona_KiCad\Corona_tubeBoard.dsn
+(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\Corona_KiCad\collateral\Corona_tubeBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -23,8 +23,6 @@
     (boundary
       (path pcb 0  78000 0  78000 -30500  0 -30500  0 30  78000 0)
     )
-    (plane "/Tube Board/GND_TB" (polygon B.Cu 0  0 0  78000 0  78000 -30500  0 -30500  0 0))
-    (plane "/Tube Board/GND_TB" (polygon F.Cu 0  0 0  78000 0  78000 -30500  0 -30500  0 0))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -49,9 +47,6 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
       (place J5 75250 -25250 back 180 (PN Conn_01x02_Male))
     )
-    (component "Package_TO_SOT_THT:TO-92_Inline"
-      (place Q5 22500 -16040 front 90 (PN BC547))
-    )
     (component "Coriolis-KiCad:art_Coriolis_logo_copper"
       (place MK5 39000 -15500 back 0 (PN CoriolisLogo))
     )
@@ -68,12 +63,16 @@
       (place J6 70170 -14750 back 90 (PN Conn_01x03_Male))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-      (place R23 2880 -16500 front 0 (PN 1K))
-      (place R24 10500 -13000 front 180 (PN 100K))
+      (place R23 20000 -21620 front 90 (PN 680K))
+      (place R24 24000 -21620 front 90 (PN 1M))
       (place RFBT1 58500 -22000 front 0 (PN 150r))
+      (place R43 18380 -10000 front 0 (PN 1M))
     )
     (component Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
       (place RFBB1 59750 -4750 back 180 (PN POT_TRIM))
+    )
+    (component "Package_DIP:DIP-8_W7.62mm_Socket"
+      (place U7 2380 -11460 front 0 (PN TL072))
     )
   )
   (library
@@ -240,8 +239,8 @@
             -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
             -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
             2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
-      (keepout "" (circle F.Cu 3200 550 210))
-      (keepout "" (circle B.Cu 3200 550 210))
+      (keepout "" (circle F.Cu 3200 -450 210))
+      (keepout "" (circle B.Cu 3200 -450 210))
     )
     (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
       (outline (path signal 100  -635 1270  1270 1270))
@@ -261,17 +260,6 @@
       (outline (path signal 50  1800 1800  -1800 1800))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-    )
-    (image "Package_TO_SOT_THT:TO-92_Inline"
-      (outline (path signal 120  -530 -1850  3070 -1850))
-      (outline (path signal 100  -500 -1750  3000 -1750))
-      (outline (path signal 50  -1460 2730  4000 2730))
-      (outline (path signal 50  -1460 2730  -1460 -2010))
-      (outline (path signal 50  4000 -2010  4000 2730))
-      (outline (path signal 50  4000 -2010  -1460 -2010))
-      (pin Oval[A]Pad_1050x1500_um 2 1270 0)
-      (pin Oval[A]Pad_1050x1500_um 3 2540 0)
-      (pin Rect[A]Pad_1050x1500_um 1 0 0)
     )
     (image "Coriolis-KiCad:art_Coriolis_logo_copper"
     )
@@ -404,6 +392,38 @@
       (pin Round[A]Pad_1440_um 2 -2540 0)
       (pin Round[A]Pad_1440_um 3 -5080 0)
     )
+    (image "Package_DIP:DIP-8_W7.62mm_Socket"
+      (outline (path signal 50  9150 1600  -1550 1600))
+      (outline (path signal 50  9150 -9200  9150 1600))
+      (outline (path signal 50  -1550 -9200  9150 -9200))
+      (outline (path signal 50  -1550 1600  -1550 -9200))
+      (outline (path signal 120  8950 1390  -1330 1390))
+      (outline (path signal 120  8950 -9010  8950 1390))
+      (outline (path signal 120  -1330 -9010  8950 -9010))
+      (outline (path signal 120  -1330 1390  -1330 -9010))
+      (outline (path signal 120  6460 1330  4810 1330))
+      (outline (path signal 120  6460 -8950  6460 1330))
+      (outline (path signal 120  1160 -8950  6460 -8950))
+      (outline (path signal 120  1160 1330  1160 -8950))
+      (outline (path signal 120  2810 1330  1160 1330))
+      (outline (path signal 100  8890 1330  -1270 1330))
+      (outline (path signal 100  8890 -8950  8890 1330))
+      (outline (path signal 100  -1270 -8950  8890 -8950))
+      (outline (path signal 100  -1270 1330  -1270 -8950))
+      (outline (path signal 100  635 270  1635 1270))
+      (outline (path signal 100  635 -8890  635 270))
+      (outline (path signal 100  6985 -8890  635 -8890))
+      (outline (path signal 100  6985 1270  6985 -8890))
+      (outline (path signal 100  1635 1270  6985 1270))
+      (pin Oval[A]Pad_1600x1600_um 8 7620 0)
+      (pin Oval[A]Pad_1600x1600_um 4 0 -7620)
+      (pin Oval[A]Pad_1600x1600_um 7 7620 -2540)
+      (pin Oval[A]Pad_1600x1600_um 3 0 -5080)
+      (pin Oval[A]Pad_1600x1600_um 6 7620 -5080)
+      (pin Oval[A]Pad_1600x1600_um 2 0 -2540)
+      (pin Oval[A]Pad_1600x1600_um 5 7620 -7620)
+      (pin Rect[A]Pad_1600x1600_um 1 0 0)
+    )
     (padstack Round[A]Pad_1440_um
       (shape (circle F.Cu 1440))
       (shape (circle B.Cu 1440))
@@ -424,11 +444,6 @@
       (shape (circle B.Cu 2397.76))
       (attach off)
     )
-    (padstack Oval[A]Pad_1050x1500_um
-      (shape (path F.Cu 1050  0 -225  0 225))
-      (shape (path B.Cu 1050  0 -225  0 225))
-      (attach off)
-    )
     (padstack Oval[A]Pad_1600x1600_um
       (shape (path F.Cu 1600  0 0  0 0))
       (shape (path B.Cu 1600  0 0  0 0))
@@ -444,9 +459,9 @@
       (shape (path B.Cu 1800  0 0  0 0))
       (attach off)
     )
-    (padstack Rect[A]Pad_1050x1500_um
-      (shape (rect F.Cu -525 -750 525 750))
-      (shape (rect B.Cu -525 -750 525 750))
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
       (attach off)
     )
     (padstack Rect[A]Pad_1700x1700_um
@@ -473,7 +488,7 @@
       (pins SX1-4 J5-1 J2-2)
     )
     (net "/Tube Board/-12V_TB"
-      (pins U2-2 J2-1 J4-10)
+      (pins U2-2 J2-1 J4-10 U7-4)
     )
     (net "/Tube Board/TUBE_8_TB"
       (pins SX1-8 J4-8)
@@ -485,7 +500,7 @@
       (pins SX1-6 J4-6)
     )
     (net "/Tube Board/GND_TB"
-      (pins D_TUBE1-1 J4-4 J6-1 RFBB1-1 RFBB1-2)
+      (pins J4-4 J6-1 R23-2 RFBB1-1 RFBB1-2 R43-1 U7-5)
     )
     (net "/Tube Board/TUBE_3_TB"
       (pins SX1-3 J4-3)
@@ -500,10 +515,10 @@
       (pins U2-1 RFBB1-3 RFBT1-1)
     )
     (net "/Tube Board/AUDIO_OUT_TB"
-      (pins J4-5 R24-2)
+      (pins J4-5 R24-1)
     )
     (net "Net-(D_TUBE1-Pad2)"
-      (pins Q5-3 D_TUBE1-2)
+      (pins D_TUBE1-2 R23-1 U7-2)
     )
     (net "Net-(J5-Pad2)"
       (pins J5-2 J6-3)
@@ -512,20 +527,40 @@
       (pins SX1-5 J6-2)
     )
     (net "/Tube Board/+12V_TB"
-      (pins J4-9 R23-1)
+      (pins J4-9 U7-8)
     )
-    (net "Net-(Q5-Pad2)"
-      (pins Q5-2 R24-1)
+    (net "Net-(D_TUBE1-Pad1)"
+      (pins D_TUBE1-1 U7-1)
     )
-    (net "Net-(Q5-Pad1)"
-      (pins Q5-1 R23-2)
+    (net "Net-(R24-Pad2)"
+      (pins R24-2 R43-2 U7-3)
     )
-    (class kicad_default "" "/Tube Board/+12V_TB" "/Tube Board/-12V_TB" "/Tube Board/-6.3V_TB"
+    (net "Net-(U7-Pad6)"
+      (pins U7-7 U7-6)
+    )
+    (class kicad_default "" "/Main board/+12V" "/Main board/-12V" "/Main board/AUDIO_OUT"
+      "/Main board/CV_DRV" "/Main board/CV_FB" "/Main board/CV_TONE" "/Main board/Control Voltage input/+1V"
+      "/Main board/GND" "/Main board/TUBE_1" "/Main board/TUBE_2" "/Main board/TUBE_3"
+      "/Main board/TUBE_6" "/Main board/TUBE_7" "/Main board/TUBE_8" "/Main board/TUBE_IN"
+      "/Main board/TUBE_OUT" "/Tube Board/+12V_TB" "/Tube Board/-12V_TB" "/Tube Board/-6.3V_TB"
       "/Tube Board/AUDIO_OUT_TB" "/Tube Board/GND_TB" "/Tube Board/TUBE_1_TB"
       "/Tube Board/TUBE_2_TB" "/Tube Board/TUBE_3_TB" "/Tube Board/TUBE_4_TB"
       "/Tube Board/TUBE_6_TB" "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_8_TB"
-      "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(J6-Pad2)" "Net-(Q5-Pad1)"
-      "Net-(Q5-Pad2)" "Net-(RFBB1-Pad3)"
+      "Net-(C10-Pad1)" "Net-(C12-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad1)"
+      "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)"
+      "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D_TUBE1-Pad1)" "Net-(D_TUBE1-Pad2)"
+      "Net-(J5-Pad2)" "Net-(J6-Pad2)" "Net-(J_IN1-Pad1)" "Net-(J_IN1-Pad3)"
+      "Net-(J_IN_DRV1-Pad1)" "Net-(J_IN_DRV1-Pad3)" "Net-(J_IN_FB1-Pad1)"
+      "Net-(J_IN_FB1-Pad3)" "Net-(J_IN_TONE1-Pad1)" "Net-(J_IN_TONE1-Pad3)"
+      "Net-(J_OUT1-Pad1)" "Net-(J_OUT1-Pad3)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)"
+      "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)"
+      "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(R12-Pad1)" "Net-(R13-Pad1)"
+      "Net-(R13-Pad2)" "Net-(R15-Pad2)" "Net-(R20-Pad2)" "Net-(R24-Pad2)"
+      "Net-(R26-Pad2)" "Net-(R27-Pad2)" "Net-(R30-Pad1)" "Net-(R32-Pad1)"
+      "Net-(R34-Pad1)" "Net-(R35-Pad1)" "Net-(R36-Pad2)" "Net-(R38-Pad2)"
+      "Net-(R40-Pad1)" "Net-(R42-Pad2)" "Net-(R5-Pad1)" "Net-(R9-Pad1)" "Net-(RFBB1-Pad3)"
+      "Net-(RV_DRV_CV1-Pad2)" "Net-(RV_FB_CV1-Pad2)" "Net-(RV_IN1-Pad2)" "Net-(RV_TONE_CV1-Pad2)"
+      "Net-(SX1-Pad9)" "Net-(U7-Pad6)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

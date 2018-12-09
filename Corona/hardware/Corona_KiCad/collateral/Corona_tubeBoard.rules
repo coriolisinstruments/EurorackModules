@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 257)
+    (start_pass_no 270)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,9 +63,9 @@
     )
   )
   (class "kicad_default"
-    "/Tube Board/GND_TB" "/Tube Board/-6.3V_TB" "/Tube Board/TUBE_4_TB" "/Tube Board/-12V_TB" "/Tube Board/TUBE_8_TB" "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_6_TB" "/Tube Board/TUBE_3_TB"
+    "/Tube Board/-6.3V_TB" "/Tube Board/TUBE_4_TB" "/Tube Board/-12V_TB" "/Tube Board/TUBE_8_TB" "/Tube Board/TUBE_7_TB" "/Tube Board/TUBE_6_TB" "/Tube Board/GND_TB" "/Tube Board/TUBE_3_TB"
     "/Tube Board/TUBE_2_TB" "/Tube Board/TUBE_1_TB" "Net-(RFBB1-Pad3)" "/Tube Board/AUDIO_OUT_TB" "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(J6-Pad2)" "/Tube Board/+12V_TB"
-    "Net-(Q5-Pad2)" "Net-(Q5-Pad1)"
+    "Net-(D_TUBE1-Pad1)" "Net-(R24-Pad2)" "Net-(U7-Pad6)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
