@@ -4,7 +4,7 @@ Bus for the distribution of CV signals. In essence just a very big passive mult 
 
 *prototyping*
 
-<img src="hardware/collateral/panel_render_1.png" alt="Preview" height="90px">
+<img src="hardware/1u_bus_panel/collateral/panel_render_2.png" alt="Preview" height="180px">
 
 ## About
 
