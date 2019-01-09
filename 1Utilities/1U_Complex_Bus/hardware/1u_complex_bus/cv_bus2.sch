@@ -226,7 +226,7 @@ U 1 1 5C373E78
 P 3700 3800
 F 0 "U2" H 3700 4150 50  0000 C CNN
 F 1 "TL074" H 3700 4250 50  0000 C CNN
-F 2 "" H 3650 3900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3750 4000 50  0001 C CNN
 	1    3700 3800
 	1    0    0    1   
@@ -237,7 +237,7 @@ U 5 1 5C373E7B
 P 1700 6750
 F 0 "U2" H 1658 6796 50  0000 L CNN
 F 1 "TL074" H 1658 6705 50  0000 L CNN
-F 2 "" H 1650 6850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1650 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1750 6950 50  0001 C CNN
 	5    1700 6750
 	1    0    0    -1  
@@ -248,7 +248,7 @@ U 2 1 5C373E7F
 P 5400 3900
 F 0 "U2" H 5400 4200 50  0000 C CNN
 F 1 "TL074" H 5400 4300 50  0000 C CNN
-F 2 "" H 5350 4000 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5350 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5450 4100 50  0001 C CNN
 	2    5400 3900
 	1    0    0    1   
@@ -331,7 +331,7 @@ U 3 1 5C373E90
 P 7250 2250
 F 0 "U2" H 7250 2500 50  0000 C CNN
 F 1 "TL074" H 7250 2650 50  0000 C CNN
-F 2 "" H 7200 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7200 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7300 2450 50  0001 C CNN
 	3    7250 2250
 	1    0    0    1   
@@ -427,7 +427,7 @@ U 4 1 5C373EA5
 P 3150 7000
 F 0 "U2" H 3150 6633 50  0000 C CNN
 F 1 "TL074" H 3150 6724 50  0000 C CNN
-F 2 "" H 3100 7100 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 7200 50  0001 C CNN
 	4    3150 7000
 	1    0    0    1   
@@ -516,7 +516,7 @@ U 1 1 5C373EB5
 P 5400 2950
 F 0 "C6" V 5148 2950 50  0000 C CNN
 F 1 "10pF" V 5239 2950 50  0000 C CNN
-F 2 "" H 5438 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 5438 2800 50  0001 C CNN
 F 3 "~" H 5400 2950 50  0001 C CNN
 	1    5400 2950
 	0    1    1    0   
@@ -552,82 +552,82 @@ Wire Wire Line
 Connection ~ 4150 3800
 Wire Wire Line
 	4150 3800 4350 3800
-Text GLabel 2150 3700 0    50   Input ~ 0
+Text Label 2150 3700 2    50   ~ 0
 IN_2_2
 Wire Wire Line
 	2150 3700 2300 3700
-Text GLabel 2150 3300 0    50   Input ~ 0
+Text Label 2150 3300 2    50   ~ 0
 IN_2_1
 Wire Wire Line
 	2150 3300 2300 3300
-Text GLabel 2150 4100 0    50   Input ~ 0
+Text Label 2150 4100 2    50   ~ 0
 IN_2_3
-Text GLabel 2150 4500 0    50   Input ~ 0
+Text Label 2150 4500 2    50   ~ 0
 IN_2_4
 Wire Wire Line
 	2150 4500 2300 4500
 Wire Wire Line
 	2300 4100 2150 4100
-Text GLabel 1300 4500 2    50   Output ~ 0
+Text Label 1300 4500 0    50   ~ 0
 FB_IN_2_4
-Text GLabel 1300 4100 2    50   Output ~ 0
+Text Label 1300 4100 0    50   ~ 0
 FB_IN_2_3
-Text GLabel 1300 3700 2    50   Output ~ 0
+Text Label 1300 3700 0    50   ~ 0
 FB_IN_2_2
-Text GLabel 1300 3300 2    50   Output ~ 0
+Text Label 1300 3300 0    50   ~ 0
 FB_IN_2_1
-Text GLabel 7100 3900 2    50   Output ~ 0
+Text Label 7100 3900 0    50   ~ 0
 OUT_2_1
-Text GLabel 7100 4400 2    50   Output ~ 0
+Text Label 7100 4400 0    50   ~ 0
 OUT_2_2
-Text GLabel 7100 4900 2    50   Output ~ 0
+Text Label 7100 4900 0    50   ~ 0
 OUT_2_3
-Text GLabel 7100 5400 2    50   Output ~ 0
+Text Label 7100 5400 0    50   ~ 0
 OUT_2_4
-Text GLabel 8150 3900 0    50   Input ~ 0
+Text Label 8150 3900 2    50   ~ 0
 FB_OUT_2_1
-Text GLabel 8150 4400 0    50   Input ~ 0
+Text Label 8150 4400 2    50   ~ 0
 FB_OUT_2_2
-Text GLabel 8150 4900 0    50   Input ~ 0
+Text Label 8150 4900 2    50   ~ 0
 FB_OUT_2_3
-Text GLabel 8150 5400 0    50   Input ~ 0
+Text Label 8150 5400 2    50   ~ 0
 FB_OUT_2_4
-Text GLabel 7400 1050 0    50   Input ~ 0
+Text Label 7400 1050 2    50   ~ 0
 FB_LEDS_IN_2
-Text GLabel 9650 1050 2    50   Output ~ 0
+Text Label 9650 1050 0    50   ~ 0
 FB_LEDS_OUT_2
 Connection ~ 9250 2250
 Wire Wire Line
 	6100 1700 6600 1700
-Text GLabel 1600 6450 0    50   Input ~ 0
+Text Label 1600 6450 2    50   ~ 0
 +12V
-Text GLabel 1600 7050 0    50   Input ~ 0
+Text Label 1600 7050 2    50   ~ 0
 -12V
-Text GLabel 1300 4700 2    50   Input ~ 0
+Text Label 1300 4700 0    50   ~ 0
 FB_GND
-Text GLabel 1300 4300 2    50   Input ~ 0
+Text Label 1300 4300 0    50   ~ 0
 FB_GND
-Text GLabel 1300 3900 2    50   Input ~ 0
+Text Label 1300 3900 0    50   ~ 0
 FB_GND
-Text GLabel 1300 3500 2    50   Input ~ 0
+Text Label 1300 3500 0    50   ~ 0
 FB_GND
-Text GLabel 3400 3900 0    50   Input ~ 0
+Text Label 3400 3900 2    50   ~ 0
 GND
-Text GLabel 5100 4000 0    50   Input ~ 0
+Text Label 5100 4000 2    50   ~ 0
 GND
-Text GLabel 6600 2950 0    50   Input ~ 0
+Text Label 6600 2950 2    50   ~ 0
 GND
-Text GLabel 9700 2250 2    50   Input ~ 0
+Text Label 9700 2250 0    50   ~ 0
 GND
-Text GLabel 8150 4100 0    50   Input ~ 0
+Text Label 8150 4100 2    50   ~ 0
 FB_GND
-Text GLabel 8150 4600 0    50   Input ~ 0
+Text Label 8150 4600 2    50   ~ 0
 FB_GND
-Text GLabel 8150 5100 0    50   Input ~ 0
+Text Label 8150 5100 2    50   ~ 0
 FB_GND
-Text GLabel 8150 5600 0    50   Input ~ 0
+Text Label 8150 5600 2    50   ~ 0
 FB_GND
-Text GLabel 2850 7100 0    50   Input ~ 0
+Text Label 2850 7100 2    50   ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J_FB2
@@ -635,69 +635,69 @@ U 1 1 5C373EB8
 P 1550 1200
 F 0 "J_FB2" H 1600 1617 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1600 1526 50  0000 C CNN
-F 2 "" H 1550 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1550 1200 50  0001 C CNN
 F 3 "~" H 1550 1200 50  0001 C CNN
 	1    1550 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J_CB2
+L Connector_Generic:Conn_02x05_Odd_Even J_MB2
 U 1 1 5C3B1339
 P 1550 2350
-F 0 "J_CB2" H 1600 2767 50  0000 C CNN
+F 0 "J_MB2" H 1600 2767 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1600 2676 50  0000 C CNN
-F 2 "" H 1550 2350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
 F 3 "~" H 1550 2350 50  0001 C CNN
 	1    1550 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 1000 0    50   Output ~ 0
+Text Label 1350 1000 2    50   ~ 0
 FB_IN_2_1
-Text GLabel 1850 1000 2    50   Output ~ 0
+Text Label 1850 1000 0    50   ~ 0
 FB_IN_2_2
-Text GLabel 1350 1100 0    50   Output ~ 0
+Text Label 1350 1100 2    50   ~ 0
 FB_IN_2_3
-Text GLabel 1850 1100 2    50   Output ~ 0
+Text Label 1850 1100 0    50   ~ 0
 FB_IN_2_4
-Text GLabel 1350 1200 0    50   Input ~ 0
+Text Label 1350 1200 2    50   ~ 0
 FB_OUT_2_1
-Text GLabel 1850 1200 2    50   Input ~ 0
+Text Label 1850 1200 0    50   ~ 0
 FB_OUT_2_2
-Text GLabel 1350 1300 0    50   Input ~ 0
+Text Label 1350 1300 2    50   ~ 0
 FB_OUT_2_3
-Text GLabel 1850 1300 2    50   Input ~ 0
+Text Label 1850 1300 0    50   ~ 0
 FB_OUT_2_4
-Text GLabel 1350 1400 0    50   Input ~ 0
+Text Label 1350 1400 2    50   ~ 0
 FB_LEDS_IN_2
-Text GLabel 1850 1400 2    50   Output ~ 0
+Text Label 1850 1400 0    50   ~ 0
 FB_LEDS_OUT_2
 Text Notes 700  700  0    50   ~ 0
-frontboard connector
+front board connector
 Text Notes 700  1850 0    50   ~ 0
-controlboard connector
-Text GLabel 1350 2150 0    50   Input ~ 0
+main board connector
+Text Label 1350 2150 2    50   ~ 0
 IN_2_1
-Text GLabel 1350 2250 0    50   Input ~ 0
+Text Label 1350 2250 2    50   ~ 0
 IN_2_3
-Text GLabel 1850 2150 2    50   Input ~ 0
+Text Label 1850 2150 0    50   ~ 0
 IN_2_2
-Text GLabel 1850 2250 2    50   Input ~ 0
+Text Label 1850 2250 0    50   ~ 0
 IN_2_4
-Text GLabel 1350 2350 0    50   Output ~ 0
+Text Label 1350 2350 2    50   ~ 0
 OUT_2_1
-Text GLabel 1350 2450 0    50   Output ~ 0
+Text Label 1350 2450 2    50   ~ 0
 OUT_2_3
-Text GLabel 1850 2350 2    50   Output ~ 0
+Text Label 1850 2350 0    50   ~ 0
 OUT_2_2
-Text GLabel 1850 2450 2    50   Output ~ 0
-OUT_2_3
-Text GLabel 1350 2550 0    50   Output ~ 0
+Text Label 1850 2450 0    50   ~ 0
+OUT_2_4
+Text Label 1350 2550 2    50   ~ 0
 LEDS_IN_2
-Text GLabel 1850 2550 2    50   Input ~ 0
+Text Label 1850 2550 0    50   ~ 0
 LEDS_OUT_2
-Text GLabel 9000 2250 0    50   Input ~ 0
+Text Label 9000 2250 2    50   ~ 0
 LEDS_OUT_2
-Text GLabel 7750 2250 2    50   Output ~ 0
+Text Label 7750 2250 0    50   ~ 0
 LEDS_IN_2
 Wire Wire Line
 	6850 1700 9250 1700
@@ -719,4 +719,22 @@ Wire Wire Line
 Connection ~ 9500 1050
 Wire Wire Line
 	9500 1050 9500 1300
+Text HLabel 1250 5850 0    50   Input ~ 0
++12V_IN
+Text Label 1350 5850 0    50   ~ 0
++12V
+Text HLabel 1250 6000 0    50   Input ~ 0
+-12V_IN
+Text HLabel 1250 6150 0    50   Input ~ 0
+GND_IN
+Text Label 1350 6000 0    50   ~ 0
+-12V
+Text Label 1350 6150 0    50   ~ 0
+GND
+Wire Wire Line
+	1350 6150 1250 6150
+Wire Wire Line
+	1250 6000 1350 6000
+Wire Wire Line
+	1350 5850 1250 5850
 $EndSCHEMATC

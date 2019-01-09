@@ -224,24 +224,36 @@ S 2750 1800 1100 500
 U 5C326E31
 F0 "cv_bus1" 50
 F1 "cv_bus1.sch" 50
+F2 "+12V_IN" I L 2750 1900 50 
+F3 "-12V_IN" I L 2750 2050 50 
+F4 "GND_IN" I L 2750 2200 50 
 $EndSheet
 $Sheet
 S 4250 1800 1100 500 
 U 5C328EAA
 F0 "cv_bus2" 50
 F1 "cv_bus2.sch" 50
+F2 "+12V_IN" I L 4250 1900 50 
+F3 "-12V_IN" I L 4250 2050 50 
+F4 "GND_IN" I L 4250 2200 50 
 $EndSheet
 $Sheet
 S 5750 1800 1100 500 
 U 5C32B858
 F0 "cv_bus3" 50
 F1 "cv_bus3.sch" 50
+F2 "+12V_IN" I L 5750 1900 50 
+F3 "-12V_IN" I L 5750 2050 50 
+F4 "GND_IN" I L 5750 2200 50 
 $EndSheet
 $Sheet
 S 7250 1800 1100 500 
 U 5C32B85A
 F0 "cv_bus4" 50
 F1 "cv_bus4.sch" 50
+F2 "+12V_IN" I L 7250 1900 50 
+F3 "-12V_IN" I L 7250 2050 50 
+F4 "GND_IN" I L 7250 2200 50 
 $EndSheet
 Connection ~ 4200 4300
 Connection ~ 4200 4400
@@ -271,10 +283,34 @@ F 3 "" H 5450 4000 50  0001 C CNN
 	1    5450 4000
 	0    1    1    0   
 $EndComp
-Text GLabel 6950 4000 2    50   Output ~ 0
+Text Label 6950 4000 0    50   ~ 0
 +12V
-Text GLabel 6950 4500 2    50   Output ~ 0
+Text Label 6950 4500 0    50   ~ 0
 GND
-Text GLabel 6950 5000 2    50   Output ~ 0
+Text Label 6950 5000 0    50   ~ 0
+-12V
+Text Label 2750 1900 2    50   ~ 0
++12V
+Text Label 2750 2200 2    50   ~ 0
+GND
+Text Label 2750 2050 2    50   ~ 0
+-12V
+Text Label 4250 1900 2    50   ~ 0
++12V
+Text Label 4250 2200 2    50   ~ 0
+GND
+Text Label 4250 2050 2    50   ~ 0
+-12V
+Text Label 5750 1900 2    50   ~ 0
++12V
+Text Label 5750 2200 2    50   ~ 0
+GND
+Text Label 5750 2050 2    50   ~ 0
+-12V
+Text Label 7250 1900 2    50   ~ 0
++12V
+Text Label 7250 2200 2    50   ~ 0
+GND
+Text Label 7250 2050 2    50   ~ 0
 -12V
 $EndSCHEMATC
