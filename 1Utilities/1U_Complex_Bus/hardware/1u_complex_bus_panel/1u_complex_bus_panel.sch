@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:1u_complex_bus_panel-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -279,6 +280,182 @@ F 1 "MountingHole" H 1700 3255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1600 3300 50  0001 C CNN
 F 3 "~" H 1600 3300 50  0001 C CNN
 	1    1600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_17
+U 1 1 5C37463A
+P 4050 1100
+F 0 "H_Jack_17" H 4150 1146 50  0000 L CNN
+F 1 "MountingHole" H 4150 1055 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4050 1100 50  0001 C CNN
+F 3 "~" H 4050 1100 50  0001 C CNN
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_18
+U 1 1 5C374640
+P 4050 1350
+F 0 "H_Jack_18" H 4150 1396 50  0000 L CNN
+F 1 "MountingHole" H 4150 1305 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4050 1350 50  0001 C CNN
+F 3 "~" H 4050 1350 50  0001 C CNN
+	1    4050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_19
+U 1 1 5C374646
+P 4050 1600
+F 0 "H_Jack_19" H 4150 1646 50  0000 L CNN
+F 1 "MountingHole" H 4150 1555 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4050 1600 50  0001 C CNN
+F 3 "~" H 4050 1600 50  0001 C CNN
+	1    4050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_20
+U 1 1 5C37464C
+P 4050 1850
+F 0 "H_Jack_20" H 4150 1896 50  0000 L CNN
+F 1 "MountingHole" H 4150 1805 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4050 1850 50  0001 C CNN
+F 3 "~" H 4050 1850 50  0001 C CNN
+	1    4050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_21
+U 1 1 5C374652
+P 4850 1100
+F 0 "H_Jack_21" H 4950 1146 50  0000 L CNN
+F 1 "MountingHole" H 4950 1055 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4850 1100 50  0001 C CNN
+F 3 "~" H 4850 1100 50  0001 C CNN
+	1    4850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_22
+U 1 1 5C374658
+P 4850 1350
+F 0 "H_Jack_22" H 4950 1396 50  0000 L CNN
+F 1 "MountingHole" H 4950 1305 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4850 1350 50  0001 C CNN
+F 3 "~" H 4850 1350 50  0001 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_23
+U 1 1 5C37465E
+P 4850 1600
+F 0 "H_Jack_23" H 4950 1646 50  0000 L CNN
+F 1 "MountingHole" H 4950 1555 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4850 1600 50  0001 C CNN
+F 3 "~" H 4850 1600 50  0001 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_24
+U 1 1 5C374664
+P 4850 1850
+F 0 "H_Jack_24" H 4950 1896 50  0000 L CNN
+F 1 "MountingHole" H 4950 1805 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 4850 1850 50  0001 C CNN
+F 3 "~" H 4850 1850 50  0001 C CNN
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_25
+U 1 1 5C37466A
+P 5650 1100
+F 0 "H_Jack_25" H 5750 1146 50  0000 L CNN
+F 1 "MountingHole" H 5750 1055 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 5650 1100 50  0001 C CNN
+F 3 "~" H 5650 1100 50  0001 C CNN
+	1    5650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_26
+U 1 1 5C374670
+P 5650 1350
+F 0 "H_Jack_26" H 5750 1396 50  0000 L CNN
+F 1 "MountingHole" H 5750 1305 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 5650 1350 50  0001 C CNN
+F 3 "~" H 5650 1350 50  0001 C CNN
+	1    5650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_27
+U 1 1 5C374676
+P 5650 1600
+F 0 "H_Jack_27" H 5750 1646 50  0000 L CNN
+F 1 "MountingHole" H 5750 1555 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 5650 1600 50  0001 C CNN
+F 3 "~" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_28
+U 1 1 5C37467C
+P 5650 1850
+F 0 "H_Jack_28" H 5750 1896 50  0000 L CNN
+F 1 "MountingHole" H 5750 1805 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 5650 1850 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_29
+U 1 1 5C374682
+P 6450 1100
+F 0 "H_Jack_29" H 6550 1146 50  0000 L CNN
+F 1 "MountingHole" H 6550 1055 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 6450 1100 50  0001 C CNN
+F 3 "~" H 6450 1100 50  0001 C CNN
+	1    6450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_30
+U 1 1 5C374688
+P 6450 1350
+F 0 "H_Jack_30" H 6550 1396 50  0000 L CNN
+F 1 "MountingHole" H 6550 1305 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 6450 1350 50  0001 C CNN
+F 3 "~" H 6450 1350 50  0001 C CNN
+	1    6450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_31
+U 1 1 5C37468E
+P 6450 1600
+F 0 "H_Jack_31" H 6550 1646 50  0000 L CNN
+F 1 "MountingHole" H 6550 1555 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 6450 1600 50  0001 C CNN
+F 3 "~" H 6450 1600 50  0001 C CNN
+	1    6450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_Jack_32
+U 1 1 5C374694
+P 6450 1850
+F 0 "H_Jack_32" H 6550 1896 50  0000 L CNN
+F 1 "MountingHole" H 6550 1805 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_thonk_jack" H 6450 1850 50  0001 C CNN
+F 3 "~" H 6450 1850 50  0001 C CNN
+	1    6450 1850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
