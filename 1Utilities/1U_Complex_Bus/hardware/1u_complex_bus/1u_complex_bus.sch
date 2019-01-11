@@ -224,36 +224,18 @@ S 2750 1800 1100 500
 U 5C326E31
 F0 "cv_bus1" 50
 F1 "cv_bus1.sch" 50
-F2 "+12V_IN" I L 2750 1900 50 
-F3 "-12V_IN" I L 2750 2050 50 
-F4 "GND_IN" I L 2750 2200 50 
-$EndSheet
-$Sheet
-S 4250 1800 1100 500 
-U 5C328EAA
-F0 "cv_bus2" 50
-F1 "cv_bus2.sch" 50
-F2 "+12V_IN" I L 4250 1900 50 
-F3 "-12V_IN" I L 4250 2050 50 
-F4 "GND_IN" I L 4250 2200 50 
 $EndSheet
 $Sheet
 S 5750 1800 1100 500 
 U 5C32B858
 F0 "cv_bus3" 50
 F1 "cv_bus3.sch" 50
-F2 "+12V_IN" I L 5750 1900 50 
-F3 "-12V_IN" I L 5750 2050 50 
-F4 "GND_IN" I L 5750 2200 50 
 $EndSheet
 $Sheet
 S 7250 1800 1100 500 
 U 5C32B85A
 F0 "cv_bus4" 50
 F1 "cv_bus4.sch" 50
-F2 "+12V_IN" I L 7250 1900 50 
-F3 "-12V_IN" I L 7250 2050 50 
-F4 "GND_IN" I L 7250 2200 50 
 $EndSheet
 Connection ~ 4200 4300
 Connection ~ 4200 4400
@@ -283,34 +265,62 @@ F 3 "" H 5450 4000 50  0001 C CNN
 	1    5450 4000
 	0    1    1    0   
 $EndComp
-Text Label 6950 4000 0    50   ~ 0
+$Sheet
+S 4250 1800 1100 500 
+U 5C328EAA
+F0 "cv_bus2" 50
+F1 "cv_bus2.sch" 50
+$EndSheet
+Text GLabel 6950 4000 2    50   Input ~ 0
 +12V
-Text Label 6950 4500 0    50   ~ 0
+Text GLabel 6950 4500 2    50   Input ~ 0
 GND
-Text Label 6950 5000 0    50   ~ 0
+Text GLabel 6950 5000 2    50   Input ~ 0
 -12V
-Text Label 2750 1900 2    50   ~ 0
-+12V
-Text Label 2750 2200 2    50   ~ 0
-GND
-Text Label 2750 2050 2    50   ~ 0
--12V
-Text Label 4250 1900 2    50   ~ 0
-+12V
-Text Label 4250 2200 2    50   ~ 0
-GND
-Text Label 4250 2050 2    50   ~ 0
--12V
-Text Label 5750 1900 2    50   ~ 0
-+12V
-Text Label 5750 2200 2    50   ~ 0
-GND
-Text Label 5750 2050 2    50   ~ 0
--12V
-Text Label 7250 1900 2    50   ~ 0
-+12V
-Text Label 7250 2200 2    50   ~ 0
-GND
-Text Label 7250 2050 2    50   ~ 0
--12V
+$Comp
+L Mechanical:MountingHole H_FB_1
+U 1 1 5C41CCCC
+P 1050 6600
+F 0 "H_FB_1" H 1150 6646 50  0000 L CNN
+F 1 "MountingHole" H 1150 6555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1050 6600 50  0001 C CNN
+F 3 "~" H 1050 6600 50  0001 C CNN
+	1    1050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_FB_2
+U 1 1 5C41CD22
+P 1050 6850
+F 0 "H_FB_2" H 1150 6896 50  0000 L CNN
+F 1 "MountingHole" H 1150 6805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1050 6850 50  0001 C CNN
+F 3 "~" H 1050 6850 50  0001 C CNN
+	1    1050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_MB_2
+U 1 1 5C41CD8A
+P 1050 7350
+F 0 "H_MB_2" H 1150 7396 50  0000 L CNN
+F 1 "MountingHole" H 1150 7305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1050 7350 50  0001 C CNN
+F 3 "~" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_MB_1
+U 1 1 5C41CE76
+P 1050 7100
+F 0 "H_MB_1" H 1150 7146 50  0000 L CNN
+F 1 "MountingHole" H 1150 7055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1050 7100 50  0001 C CNN
+F 3 "~" H 1050 7100 50  0001 C CNN
+	1    1050 7100
+	1    0    0    -1  
+$EndComp
+Text Notes 950  6400 0    50   ~ 0
+mounting holes
 $EndSCHEMATC

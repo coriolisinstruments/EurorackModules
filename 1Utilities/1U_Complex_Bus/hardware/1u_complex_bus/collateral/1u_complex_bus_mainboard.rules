@@ -1,5 +1,5 @@
 
-(rules PCB 1u_bus
+(rules PCB 1u_complex_bus_mainboard
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3131)
+    (start_pass_no 4609)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,13 +63,15 @@
     )
   )
   (class "kicad_default"
-    /+12V /GND "/-12V" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D_NEG_1_1-Pad1)" "Net-(D_NEG_1_1-Pad2)" "Net-(D_NEG_1_2-Pad2)"
-    "Net-(D_NEG_1_3-Pad2)" "Net-(D_NEG_1_4-Pad2)" "Net-(D_NEG_2_1-Pad1)" "Net-(D_NEG_2_1-Pad2)" "Net-(D_NEG_2_2-Pad2)" "Net-(D_NEG_2_3-Pad2)" "Net-(D_NEG_2_4-Pad2)" "Net-(D_NEG_3_1-Pad1)"
-    "Net-(D_NEG_3_1-Pad2)" "Net-(D_NEG_3_2-Pad2)" "Net-(D_NEG_3_3-Pad2)" "Net-(D_NEG_3_4-Pad2)" "Net-(D_NEG_4_1-Pad2)" "Net-(D_NEG_4_1-Pad1)" "Net-(D_NEG_4_2-Pad2)" "Net-(D_NEG_4_3-Pad2)"
-    "Net-(D_NEG_4_4-Pad2)" "Net-(D_POS_1_1-Pad1)" "Net-(D_POS_1_2-Pad1)" "Net-(D_POS_1_3-Pad1)" "Net-(D_POS_2_1-Pad1)" "Net-(D_POS_2_2-Pad1)" "Net-(D_POS_2_3-Pad1)" "Net-(D_POS_3_1-Pad1)"
-    "Net-(D_POS_3_2-Pad1)" "Net-(D_POS_3_3-Pad1)" "Net-(D_POS_4_1-Pad1)" "Net-(D_POS_4_2-Pad1)" "Net-(D_POS_4_3-Pad1)" "/cv_bus1/GND" "/cv_bus2/GND" "/cv_bus3/GND"
-    "/cv_bus4/GND" "Net-(R_Split_1_1-Pad2)" "Net-(R_Split_1_1-Pad1)" "Net-(R_Split_2_1-Pad2)" "Net-(R_Split_2_1-Pad1)" "Net-(R_Split_3_1-Pad1)" "Net-(R_Split_3_1-Pad2)" "Net-(R_Split_4_1-Pad1)"
-    "Net-(R_Split_4_1-Pad2)"
+    "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(R_Split_1_1-Pad2)" "Net-(R_Split_2_1-Pad2)" "Net-(R_Split_3_1-Pad2)" "Net-(R_Split_4_1-Pad2)" "Net-(C5-Pad2)" "/cv_bus1/LEDS_OUT_1"
+    "/cv_bus2/LEDS_OUT_2" "Net-(C6-Pad2)" "Net-(C7-Pad2)" "Net-(C7-Pad1)" "/cv_bus4/LEDS_OUT_4" "Net-(C8-Pad2)" "/cv_bus1/IN_1_1" "/cv_bus1/IN_1_2"
+    "/cv_bus1/IN_1_3" "/cv_bus1/IN_1_4" "/cv_bus1/OUT_1_1" "/cv_bus1/OUT_1_2" "/cv_bus1/OUT_1_3" "/cv_bus1/OUT_1_4" "/cv_bus1/LEDS_IN_1" "/cv_bus2/IN_2_1"
+    "/cv_bus2/IN_2_2" "/cv_bus2/IN_2_3" "/cv_bus2/IN_2_4" "/cv_bus2/OUT_2_1" "/cv_bus2/OUT_2_2" "/cv_bus2/OUT_2_3" "/cv_bus2/OUT_2_4" "/cv_bus2/LEDS_IN_2"
+    "/cv_bus3/IN_3_1" "/cv_bus3/IN_3_2" "/cv_bus3/IN_3_3" "/cv_bus3/IN_3_4" "/cv_bus3/OUT_3_1" "/cv_bus3/OUT_3_2" "/cv_bus3/OUT_3_3" "/cv_bus3/OUT_3_4"
+    "/cv_bus3/LEDS_IN_3" "/cv_bus3/LEDS_OUT_3" "/cv_bus4/LEDS_IN_4" "/cv_bus4/OUT_4_4" "/cv_bus4/OUT_4_3" "/cv_bus4/OUT_4_2" "/cv_bus4/OUT_4_1" "/cv_bus4/IN_4_4"
+    "/cv_bus4/IN_4_3" "/cv_bus4/IN_4_2" "/cv_bus4/IN_4_1" "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R3-Pad1)" "Net-(R3-Pad2)" "Net-(R5-Pad2)"
+    "Net-(R5-Pad1)" "Net-(R7-Pad2)" "Net-(R7-Pad1)" "Net-(U1-Pad13)" "Net-(U2-Pad13)" "Net-(U3-Pad13)" "Net-(U4-Pad13)" +12V
+    GND "-12V"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

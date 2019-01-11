@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title "CV Bus 2: Green"
 Date "2019-01-09"
 Rev "1"
@@ -599,36 +599,6 @@ FB_LEDS_OUT_2
 Connection ~ 9250 2250
 Wire Wire Line
 	6100 1700 6600 1700
-Text Label 1600 6450 2    50   ~ 0
-+12V
-Text Label 1600 7050 2    50   ~ 0
--12V
-Text Label 1300 4700 0    50   ~ 0
-FB_GND
-Text Label 1300 4300 0    50   ~ 0
-FB_GND
-Text Label 1300 3900 0    50   ~ 0
-FB_GND
-Text Label 1300 3500 0    50   ~ 0
-FB_GND
-Text Label 3400 3900 2    50   ~ 0
-GND
-Text Label 5100 4000 2    50   ~ 0
-GND
-Text Label 6600 2950 2    50   ~ 0
-GND
-Text Label 9700 2250 0    50   ~ 0
-GND
-Text Label 8150 4100 2    50   ~ 0
-FB_GND
-Text Label 8150 4600 2    50   ~ 0
-FB_GND
-Text Label 8150 5100 2    50   ~ 0
-FB_GND
-Text Label 8150 5600 2    50   ~ 0
-FB_GND
-Text Label 2850 7100 2    50   ~ 0
-GND
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J_FB2
 U 1 1 5C373EB8
@@ -719,22 +689,66 @@ Wire Wire Line
 Connection ~ 9500 1050
 Wire Wire Line
 	9500 1050 9500 1300
-Text HLabel 1250 5850 0    50   Input ~ 0
-+12V_IN
-Text Label 1350 5850 0    50   ~ 0
-+12V
-Text HLabel 1250 6000 0    50   Input ~ 0
--12V_IN
-Text HLabel 1250 6150 0    50   Input ~ 0
-GND_IN
-Text Label 1350 6000 0    50   ~ 0
+Text GLabel 1600 7100 2    50   Input ~ 0
 -12V
-Text Label 1350 6150 0    50   ~ 0
+Text GLabel 1600 6400 2    50   Input ~ 0
++12V
+Wire Wire Line
+	1600 6400 1600 6450
+Wire Wire Line
+	1600 7050 1600 7100
+Text GLabel 2750 7100 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1350 6150 1250 6150
+	2750 7100 2850 7100
+Text GLabel 3300 3900 0    50   Input ~ 0
+GND
 Wire Wire Line
-	1250 6000 1350 6000
+	3300 3900 3400 3900
+Text GLabel 5000 4000 0    50   Input ~ 0
+GND
 Wire Wire Line
-	1350 5850 1250 5850
+	5000 4000 5100 4000
+Text GLabel 6600 2950 0    50   Input ~ 0
+GND
+Text GLabel 9800 2250 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9800 2250 9700 2250
+Text GLabel 1400 3500 2    50   Input ~ 0
+FB_GND
+Wire Wire Line
+	1400 3500 1300 3500
+Connection ~ 1300 3500
+Text GLabel 1400 3900 2    50   Input ~ 0
+FB_GND
+Text GLabel 1400 4300 2    50   Input ~ 0
+FB_GND
+Text GLabel 1400 4700 2    50   Input ~ 0
+FB_GND
+Wire Wire Line
+	1400 4700 1300 4700
+Connection ~ 1300 4700
+Wire Wire Line
+	1400 4300 1300 4300
+Connection ~ 1300 4300
+Wire Wire Line
+	1400 3900 1300 3900
+Connection ~ 1300 3900
+Text GLabel 8050 4100 0    50   Input ~ 0
+FB_GND
+Wire Wire Line
+	8150 4100 8050 4100
+Text GLabel 8050 4600 0    50   Input ~ 0
+FB_GND
+Text GLabel 8050 5100 0    50   Input ~ 0
+FB_GND
+Text GLabel 8050 5600 0    50   Input ~ 0
+FB_GND
+Wire Wire Line
+	8050 5600 8150 5600
+Wire Wire Line
+	8150 5100 8050 5100
+Wire Wire Line
+	8050 4600 8150 4600
 $EndSCHEMATC
