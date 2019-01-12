@@ -1,4 +1,4 @@
-(pcb D:\Documents\Coriolis\EurorackModules\1Utilities\1U_Complex_Bus\hardware\1u_complex_bus\collateral\1u_complex_bus_frontboard.dsn
+(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\1Utilities\1U_Complex_Bus\hardware\1u_complex_bus\collateral\1u_complex_bus_frontboard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -33,40 +33,40 @@
   )
   (placement
     (component LED_THT:LED_D3.0mm
-      (place D_POS_1_3 285500 -5000 front 0 (PN LED))
-      (place D_POS_3_3 345500 -5000 front 0 (PN LED))
-      (place D_POS_2_3 315500 -5000 front 0 (PN LED))
-      (place D_NEG_2_4 435500 -15000 front 0 (PN LED))
-      (place D_NEG_3_3 345500 -15000 front 0 (PN LED))
-      (place D_NEG_4_2 238000 -15000 front 0 (PN LED))
-      (place D_POS_1_2 148000 -5000 front 0 (PN LED))
-      (place D_NEG_4_1 118000 -15000 front 0 (PN LED))
-      (place D_NEG_2_2 178000 -15000 front 0 (PN LED))
-      (place D_NEG_4_4 495500 -15000 front 0 (PN LED))
-      (place D_POS_4_3 375500 -5000 front 0 (PN LED))
-      (place D_NEG_2_1 58000 -15000 front 0 (PN LED))
-      (place D_NEG_3_4 465500 -15000 front 0 (PN LED))
-      (place D_POS_3_4 465500 -5000 front 0 (PN LED))
-      (place D_NEG_1_2 148000 -15000 front 0 (PN LED))
-      (place D_NEG_1_4 405500 -15000 front 0 (PN LED))
+      (place D_POS_1_3 276750 -6500 front 0 (PN LED))
+      (place D_POS_3_3 336750 -6500 front 0 (PN LED))
+      (place D_POS_2_3 306750 -6500 front 0 (PN LED))
+      (place D_NEG_2_4 426750 -13500 front 0 (PN LED))
+      (place D_NEG_3_3 336750 -13500 front 0 (PN LED))
+      (place D_NEG_4_2 246750 -13500 front 0 (PN LED))
+      (place D_POS_1_2 156750 -6500 front 0 (PN LED))
+      (place D_NEG_4_1 126750 -13500 front 0 (PN LED))
+      (place D_NEG_2_2 186750 -13500 front 0 (PN LED))
+      (place D_NEG_4_4 486750 -13500 front 0 (PN LED))
+      (place D_POS_4_3 366750 -6500 front 0 (PN LED))
+      (place D_NEG_2_1 66750 -13500 front 0 (PN LED))
+      (place D_NEG_3_4 456750 -13500 front 0 (PN LED))
+      (place D_POS_3_4 456750 -6500 front 0 (PN LED))
+      (place D_NEG_1_2 156750 -13500 front 0 (PN LED))
+      (place D_NEG_1_4 396750 -13500 front 0 (PN LED))
     )
     (component LED_THT:LED_D3.0mm::1
-      (place D_POS_1_1 28000 -5000 front 0 (PN LED))
-      (place D_POS_2_2 178000 -5000 front 0 (PN LED))
-      (place D_NEG_3_1 88000 -15000 front 0 (PN LED))
-      (place D_POS_3_1 88000 -5000 front 0 (PN LED))
-      (place D_POS_2_1 58000 -5000 front 0 (PN LED))
-      (place D_NEG_3_2 208000 -15000 front 0 (PN LED))
-      (place D_POS_3_2 208000 -5000 front 0 (PN LED))
-      (place D_NEG_2_3 315500 -15000 front 0 (PN LED))
-      (place D_NEG_4_3 375500 -15000 front 0 (PN LED))
-      (place D_POS_2_4 435500 -5000 front 0 (PN LED))
-      (place D_NEG_1_1 28000 -15000 front 0 (PN LED))
-      (place D_POS_4_2 238000 -5000 front 0 (PN LED))
-      (place D_POS_4_4 495500 -5000 front 0 (PN LED))
-      (place D_POS_4_1 118000 -5000 front 0 (PN LED))
-      (place D_NEG_1_3 285500 -15000 front 0 (PN LED))
-      (place D_POS_1_4 405500 -5000 front 0 (PN LED))
+      (place D_POS_1_1 36750 -6500 front 0 (PN LED))
+      (place D_POS_2_2 186750 -6500 front 0 (PN LED))
+      (place D_NEG_3_1 96750 -13500 front 0 (PN LED))
+      (place D_POS_3_1 96750 -6500 front 0 (PN LED))
+      (place D_POS_2_1 66750 -6500 front 0 (PN LED))
+      (place D_NEG_3_2 216750 -13500 front 0 (PN LED))
+      (place D_POS_3_2 216750 -6500 front 0 (PN LED))
+      (place D_NEG_2_3 306750 -13500 front 0 (PN LED))
+      (place D_NEG_4_3 366750 -13500 front 0 (PN LED))
+      (place D_POS_2_4 426750 -6500 front 0 (PN LED))
+      (place D_NEG_1_1 36750 -13500 front 0 (PN LED))
+      (place D_POS_4_2 246750 -6500 front 0 (PN LED))
+      (place D_POS_4_4 486750 -6500 front 0 (PN LED))
+      (place D_POS_4_1 126750 -6500 front 0 (PN LED))
+      (place D_NEG_1_3 276750 -13500 front 0 (PN LED))
+      (place D_POS_1_4 396750 -6500 front 0 (PN LED))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
       (place J_FB2 5000 -13500 back 90 (PN Conn_02x05_Odd_Even))
@@ -79,40 +79,40 @@
       (place J_FB1 5000 -4000 back 90 (PN Conn_02x06_Odd_Even))
     )
     (component "Coriolis-KiCad:MusicThingModular-WQP-PJ301M-12_JACK"
-      (place U_IN_2_1 68000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_2_3 308000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_IN_4_2 248000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_1_1 38000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_IN_1_2 158000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_3_3 338000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_IN_3_4 458000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_1_3 278000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_2_2 188000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_3_1 98000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_3_2 218000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_3_4 458000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_2_3 308000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_4_2 248000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_4_4 488000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_IN_1_1 38000 -5000 front 90 (PN THONKICONNNEW))
+      (place U_IN_2_1 61000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_2_3 301000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_4_2 241000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_1_1 45000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_1_2 151000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_3_3 331000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_3_4 451000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_1_3 285000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_2_2 195000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_3_1 105000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_3_2 225000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_3_4 465000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_2_3 315000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_4_2 255000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_4_4 495000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_1_1 31000 -10000 front 0 (PN THONKICONNNEW))
     )
     (component "Coriolis-KiCad:MusicThingModular-WQP-PJ301M-12_JACK::1"
-      (place U_IN_1_3 278000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_IN_2_2 188000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_2_4 428000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_IN_3_1 98000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_3_2 218000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_4_1 128000 -5000 front 90 (PN THONKICONNNEW))
-      (place U_IN_4_3 368000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_IN_4_4 488000 -5000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_1_4 398000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_1_2 158000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_2_4 428000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_3_3 338000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_4_1 128000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_OUT_4_3 368000 -15000 front 270 (PN THONKICONNNEW))
-      (place U_OUT_2_1 68000 -15000 front 90 (PN THONKICONNNEW))
-      (place U_IN_1_4 398000 -5000 front 270 (PN THONKICONNNEW))
+      (place U_IN_1_3 271000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_2_2 181000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_2_4 421000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_3_1 91000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_3_2 211000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_4_1 121000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_4_3 361000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_4_4 481000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_1_4 405000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_1_2 165000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_2_4 435000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_3_3 345000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_4_1 135000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_4_3 375000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_OUT_2_1 75000 -10000 front 0 (PN THONKICONNNEW))
+      (place U_IN_1_4 391000 -10000 front 0 (PN THONKICONNNEW))
     )
     (component Mounting_Holes:MountingHole_3.2mm_M3
       (place H_FB_1 444500 -10000 front 0 (PN MountingHole))
@@ -613,46 +613,25 @@
         U_OUT_4_2-P$3_SLEEVE U_OUT_4_3-P$3_SLEEVE U_OUT_2_1-P$3_SLEEVE U_OUT_4_4-P$3_SLEEVE
         U_IN_1_1-P$3_SLEEVE U_IN_1_1-P$2_SWITCH U_IN_1_4-P$2_SWITCH U_IN_1_4-P$3_SLEEVE)
     )
-    (class kicad_default "" +12V -12V /cv_bus1/FB_IN_1_1 /cv_bus1/FB_IN_1_2
-      /cv_bus1/FB_IN_1_3 /cv_bus1/FB_IN_1_4 /cv_bus1/FB_LEDS_IN_1 /cv_bus1/FB_LEDS_OUT_1
-      /cv_bus1/FB_OUT_1_1 /cv_bus1/FB_OUT_1_2 /cv_bus1/FB_OUT_1_3 /cv_bus1/FB_OUT_1_4
-      /cv_bus1/IN_1_1 /cv_bus1/IN_1_2 /cv_bus1/IN_1_3 /cv_bus1/IN_1_4 /cv_bus1/LEDS_IN_1
-      /cv_bus1/LEDS_OUT_1 /cv_bus1/OUT_1_1 /cv_bus1/OUT_1_2 /cv_bus1/OUT_1_3
-      /cv_bus1/OUT_1_4 /cv_bus2/FB_IN_2_1 /cv_bus2/FB_IN_2_2 /cv_bus2/FB_IN_2_3
-      /cv_bus2/FB_IN_2_4 /cv_bus2/FB_LEDS_IN_2 /cv_bus2/FB_LEDS_OUT_2 /cv_bus2/FB_OUT_2_1
-      /cv_bus2/FB_OUT_2_2 /cv_bus2/FB_OUT_2_3 /cv_bus2/FB_OUT_2_4 /cv_bus2/IN_2_1
-      /cv_bus2/IN_2_2 /cv_bus2/IN_2_3 /cv_bus2/IN_2_4 /cv_bus2/LEDS_IN_2 /cv_bus2/LEDS_OUT_2
-      /cv_bus2/OUT_2_1 /cv_bus2/OUT_2_2 /cv_bus2/OUT_2_3 /cv_bus2/OUT_2_4
-      /cv_bus3/FB_IN_3_1 /cv_bus3/FB_IN_3_2 /cv_bus3/FB_IN_3_3 /cv_bus3/FB_IN_3_4
-      /cv_bus3/FB_LEDS_IN_3 /cv_bus3/FB_LEDS_OUT_3 /cv_bus3/FB_OUT_3_1 /cv_bus3/FB_OUT_3_2
-      /cv_bus3/FB_OUT_3_3 /cv_bus3/FB_OUT_3_4 /cv_bus3/IN_3_1 /cv_bus3/IN_3_2
-      /cv_bus3/IN_3_3 /cv_bus3/IN_3_4 /cv_bus3/LEDS_IN_3 /cv_bus3/LEDS_OUT_3
-      /cv_bus3/OUT_3_1 /cv_bus3/OUT_3_2 /cv_bus3/OUT_3_3 /cv_bus3/OUT_3_4
-      /cv_bus4/FB_IN_4_1 /cv_bus4/FB_IN_4_2 /cv_bus4/FB_IN_4_3 /cv_bus4/FB_IN_4_4
-      /cv_bus4/FB_LEDS_IN_4 /cv_bus4/FB_LEDS_OUT_4 /cv_bus4/FB_OUT_4_1 /cv_bus4/FB_OUT_4_2
-      /cv_bus4/FB_OUT_4_3 /cv_bus4/FB_OUT_4_4 /cv_bus4/IN_4_1 /cv_bus4/IN_4_2
-      /cv_bus4/IN_4_3 /cv_bus4/IN_4_4 /cv_bus4/LEDS_IN_4 /cv_bus4/LEDS_OUT_4
-      /cv_bus4/OUT_4_1 /cv_bus4/OUT_4_2 /cv_bus4/OUT_4_3 /cv_bus4/OUT_4_4
-      FB_GND GND "Net-(C5-Pad2)" "Net-(C6-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)"
-      "Net-(C8-Pad2)" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D_NEG_1_1-Pad2)"
-      "Net-(D_NEG_1_2-Pad2)" "Net-(D_NEG_1_3-Pad2)" "Net-(D_NEG_2_1-Pad2)"
-      "Net-(D_NEG_2_2-Pad2)" "Net-(D_NEG_2_3-Pad2)" "Net-(D_NEG_3_1-Pad2)"
-      "Net-(D_NEG_3_2-Pad2)" "Net-(D_NEG_3_3-Pad2)" "Net-(D_NEG_4_1-Pad2)"
-      "Net-(D_NEG_4_2-Pad2)" "Net-(D_NEG_4_3-Pad2)" "Net-(D_POS_1_1-Pad1)"
-      "Net-(D_POS_1_2-Pad1)" "Net-(D_POS_1_3-Pad1)" "Net-(D_POS_2_1-Pad1)"
-      "Net-(D_POS_2_2-Pad1)" "Net-(D_POS_2_3-Pad1)" "Net-(D_POS_3_1-Pad1)"
-      "Net-(D_POS_3_2-Pad1)" "Net-(D_POS_3_3-Pad1)" "Net-(D_POS_4_1-Pad1)"
-      "Net-(D_POS_4_2-Pad1)" "Net-(D_POS_4_3-Pad1)" "Net-(J_FB1-Pad11)" "Net-(J_MB1-Pad11)"
-      "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R3-Pad1)" "Net-(R3-Pad2)" "Net-(R5-Pad1)"
-      "Net-(R5-Pad2)" "Net-(R7-Pad1)" "Net-(R7-Pad2)" "Net-(R_Split_1_1-Pad2)"
-      "Net-(R_Split_2_1-Pad2)" "Net-(R_Split_3_1-Pad2)" "Net-(R_Split_4_1-Pad2)"
-      "Net-(U1-Pad13)" "Net-(U2-Pad13)" "Net-(U3-Pad13)" "Net-(U4-Pad13)"
-      "Net-(U_OUT_1_1-PadP$2_SWITCH)" "Net-(U_OUT_1_2-PadP$2_SWITCH)" "Net-(U_OUT_1_3-PadP$2_SWITCH)"
-      "Net-(U_OUT_1_4-PadP$2_SWITCH)" "Net-(U_OUT_2_1-PadP$2_SWITCH)" "Net-(U_OUT_2_2-PadP$2_SWITCH)"
-      "Net-(U_OUT_2_3-PadP$2_SWITCH)" "Net-(U_OUT_2_4-PadP$2_SWITCH)" "Net-(U_OUT_3_1-PadP$2_SWITCH)"
-      "Net-(U_OUT_3_2-PadP$2_SWITCH)" "Net-(U_OUT_3_3-PadP$2_SWITCH)" "Net-(U_OUT_3_4-PadP$2_SWITCH)"
-      "Net-(U_OUT_4_1-PadP$2_SWITCH)" "Net-(U_OUT_4_2-PadP$2_SWITCH)" "Net-(U_OUT_4_3-PadP$2_SWITCH)"
-      "Net-(U_OUT_4_4-PadP$2_SWITCH)"
+    (class kicad_default "" /cv_bus1/FB_IN_1_1 /cv_bus1/FB_IN_1_2 /cv_bus1/FB_IN_1_3
+      /cv_bus1/FB_IN_1_4 /cv_bus1/FB_LEDS_IN_1 /cv_bus1/FB_LEDS_OUT_1 /cv_bus1/FB_OUT_1_1
+      /cv_bus1/FB_OUT_1_2 /cv_bus1/FB_OUT_1_3 /cv_bus1/FB_OUT_1_4 /cv_bus2/FB_IN_2_1
+      /cv_bus2/FB_IN_2_2 /cv_bus2/FB_IN_2_3 /cv_bus2/FB_IN_2_4 /cv_bus2/FB_LEDS_IN_2
+      /cv_bus2/FB_LEDS_OUT_2 /cv_bus2/FB_OUT_2_1 /cv_bus2/FB_OUT_2_2 /cv_bus2/FB_OUT_2_3
+      /cv_bus2/FB_OUT_2_4 /cv_bus3/FB_IN_3_1 /cv_bus3/FB_IN_3_2 /cv_bus3/FB_IN_3_3
+      /cv_bus3/FB_IN_3_4 /cv_bus3/FB_LEDS_IN_3 /cv_bus3/FB_LEDS_OUT_3 /cv_bus3/FB_OUT_3_1
+      /cv_bus3/FB_OUT_3_2 /cv_bus3/FB_OUT_3_3 /cv_bus3/FB_OUT_3_4 /cv_bus4/FB_IN_4_1
+      /cv_bus4/FB_IN_4_2 /cv_bus4/FB_IN_4_3 /cv_bus4/FB_IN_4_4 /cv_bus4/FB_LEDS_IN_4
+      /cv_bus4/FB_LEDS_OUT_4 /cv_bus4/FB_OUT_4_1 /cv_bus4/FB_OUT_4_2 /cv_bus4/FB_OUT_4_3
+      /cv_bus4/FB_OUT_4_4 FB_GND "Net-(D_NEG_1_1-Pad2)" "Net-(D_NEG_1_2-Pad2)"
+      "Net-(D_NEG_1_3-Pad2)" "Net-(D_NEG_2_1-Pad2)" "Net-(D_NEG_2_2-Pad2)"
+      "Net-(D_NEG_2_3-Pad2)" "Net-(D_NEG_3_1-Pad2)" "Net-(D_NEG_3_2-Pad2)"
+      "Net-(D_NEG_3_3-Pad2)" "Net-(D_NEG_4_1-Pad2)" "Net-(D_NEG_4_2-Pad2)"
+      "Net-(D_NEG_4_3-Pad2)" "Net-(D_POS_1_1-Pad1)" "Net-(D_POS_1_2-Pad1)"
+      "Net-(D_POS_1_3-Pad1)" "Net-(D_POS_2_1-Pad1)" "Net-(D_POS_2_2-Pad1)"
+      "Net-(D_POS_2_3-Pad1)" "Net-(D_POS_3_1-Pad1)" "Net-(D_POS_3_2-Pad1)"
+      "Net-(D_POS_3_3-Pad1)" "Net-(D_POS_4_1-Pad1)" "Net-(D_POS_4_2-Pad1)"
+      "Net-(D_POS_4_3-Pad1)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
