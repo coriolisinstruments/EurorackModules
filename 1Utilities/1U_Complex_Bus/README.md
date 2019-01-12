@@ -1,10 +1,10 @@
-# 1U Bus
+# 1U 4x4/4 Bus
 
-Bus for the distribution of CV signals. In essence just a very big passive mult with (active) signal indicators. Basically a simplified DIY Make Noise CV bus clone.
+Bus for the distribution of CV signals. In essence just a very big 4 times 4-in/4-out mult with signal indicators. Basically DIY Make Noise CV bus clone meets Links.
 
 *prototyping*
 
-<img src="hardware/1u_bus_panel/collateral/panel_render_2.png" alt="Preview" height="180px">
+<img src="hardware/1u_complex_bus_panel/collateral/panel_render_2.png" alt="Preview" height="180px">
 
 ## About
 
@@ -12,16 +12,18 @@ Like the other modules in the 1Utilities series, this module is designed accordi
 
 ## Remarks
 
-It's big? There's still 4 busses with 4 in- or outputs. Like with a passive mult, any jack can be in or out; **just make sure you have one (1) and only one (!) input.** Having multiple inputs could damage your modules (connecting outputs with outputs).
+It's big? There's still 4 busses with 4 inputs and 4 outputs. You can use multiple inputs to combine signals (triggers, lfo's) like you would with an averager mixer and distribute these signals around your case.
 
-Even though this module multing is passive, it still requires power to run the signal indicators. Makes for a pretty light show too. The values of the resistors in the design assume Red/Green/Blue/White leds for channels 1 to 4 respectively. You can of course substitute your own led/resistor values to taste!
+The values of the resistors in the design assume Red/Green/Blue/White leds for channels 1 to 4 respectively. You can of course substitute your own led/resistor values to taste!
 
 ## BOM
+
+TODO: revise
 
 | Component | Quantity    | Component     |
 | :------------- | :------------- | :------------- |
 | J1 | 1 | 2x5 male header pins (2.54mm pitch), boxed or plain | 
-| U1 | 1 | TL074 OpAmp |
+| U1 | 4 | TL074 OpAmp |
 | U2-U17 | 16 | Thonkiconn mono jacks |
 | C1,C2 | 2 | 10uF (>25V) polarized capacitors |
 | C3,C4 | 2 | 100nF capacitors |
