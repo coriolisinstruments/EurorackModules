@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4609)
+    (start_pass_no 7952)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,9 +69,9 @@
     "/cv_bus2/IN_2_2" "/cv_bus2/IN_2_3" "/cv_bus2/IN_2_4" "/cv_bus2/OUT_2_1" "/cv_bus2/OUT_2_2" "/cv_bus2/OUT_2_3" "/cv_bus2/OUT_2_4" "/cv_bus2/LEDS_IN_2"
     "/cv_bus3/IN_3_1" "/cv_bus3/IN_3_2" "/cv_bus3/IN_3_3" "/cv_bus3/IN_3_4" "/cv_bus3/OUT_3_1" "/cv_bus3/OUT_3_2" "/cv_bus3/OUT_3_3" "/cv_bus3/OUT_3_4"
     "/cv_bus3/LEDS_IN_3" "/cv_bus3/LEDS_OUT_3" "/cv_bus4/LEDS_IN_4" "/cv_bus4/OUT_4_4" "/cv_bus4/OUT_4_3" "/cv_bus4/OUT_4_2" "/cv_bus4/OUT_4_1" "/cv_bus4/IN_4_4"
-    "/cv_bus4/IN_4_3" "/cv_bus4/IN_4_2" "/cv_bus4/IN_4_1" "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R3-Pad1)" "Net-(R3-Pad2)" "Net-(R5-Pad2)"
-    "Net-(R5-Pad1)" "Net-(R7-Pad2)" "Net-(R7-Pad1)" "Net-(U1-Pad13)" "Net-(U2-Pad13)" "Net-(U3-Pad13)" "Net-(U4-Pad13)" +12V
-    GND "-12V"
+    "/cv_bus4/IN_4_3" "/cv_bus4/IN_4_2" "/cv_bus4/IN_4_1" "Net-(U1-Pad13)" "Net-(U2-Pad13)" "Net-(U3-Pad13)" "Net-(U4-Pad13)" +12V
+    GND "-12V" "/cv_bus1/POT_1" "/cv_bus1/POT_2" "/cv_bus2/POT_2" "/cv_bus2/POT_1" "/cv_bus3/POT_1" "/cv_bus3/POT_2"
+    "/cv_bus4/POT_2" "/cv_bus4/POT_1"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

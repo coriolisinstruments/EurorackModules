@@ -458,4 +458,50 @@ F 3 "~" H 6450 1850 50  0001 C CNN
 	1    6450 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H_RV_1
+U 1 1 5C43E32D
+P 3500 2550
+F 0 "H_RV_1" H 3600 2596 50  0000 L CNN
+F 1 "MountingHole" H 3600 2505 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_0.25in_bushing" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_RV_2
+U 1 1 5C43E333
+P 3500 2800
+F 0 "H_RV_2" H 3600 2846 50  0000 L CNN
+F 1 "MountingHole" H 3600 2755 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_0.25in_bushing" H 3500 2800 50  0001 C CNN
+F 3 "~" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_RV_3
+U 1 1 5C43E339
+P 3500 3050
+F 0 "H_RV_3" H 3600 3096 50  0000 L CNN
+F 1 "MountingHole" H 3600 3005 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_0.25in_bushing" H 3500 3050 50  0001 C CNN
+F 3 "~" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H_RV_4
+U 1 1 5C43E33F
+P 3500 3300
+F 0 "H_RV_4" H 3600 3346 50  0000 L CNN
+F 1 "MountingHole" H 3600 3255 50  0000 L CNN
+F 2 "Coriolis-KiCad:panel_0.25in_bushing" H 3500 3300 50  0001 C CNN
+F 3 "~" H 3500 3300 50  0001 C CNN
+	1    3500 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 3400 2350 0    50   ~ 0
+Pot mounting holes
 $EndSCHEMATC
