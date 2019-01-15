@@ -4,7 +4,7 @@ Bus for the distribution of CV signals. In essence just a very big 4 times 4-in/
 
 *prototyping*
 
-<img src="hardware/1u_complex_bus_panel/collateral/panel_render_2.png" alt="Preview" height="180px">
+<img src="hardware/1u_complex_bus_panel/collateral/panel_render_jlcpcb.png" alt="Preview" >
 
 ## About
 

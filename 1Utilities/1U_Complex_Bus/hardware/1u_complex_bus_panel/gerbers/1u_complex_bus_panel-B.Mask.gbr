@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0)*
-G04 #@! TF.CreationDate,2019-01-12T21:55:11+01:00*
+G04 #@! TF.CreationDate,2019-01-13T21:50:17+01:00*
 G04 #@! TF.ProjectId,1u_complex_bus_panel,31755F636F6D706C65785F6275735F70,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.0)) date 01/12/19 21:55:11*
+G04 Created by KiCad (PCBNEW (5.0.0)) date 01/13/19 21:50:17*
 %MOMM*%
 %LPD*%
 G01*
@@ -14,6 +14,7 @@ G04 APERTURE LIST*
 %ADD10C,0.150000*%
 %ADD11C,7.500000*%
 %ADD12C,3.600000*%
+%ADD13C,7.900000*%
 G04 APERTURE END LIST*
 D10*
 G36*
@@ -522,5 +523,18 @@ X466000000Y-19800000D03*
 G04 #@! TD*
 G04 #@! TO.C,H_Jack_32*
 X496000000Y-19800000D03*
+G04 #@! TD*
+D13*
+G04 #@! TO.C,H_RV_1*
+X7500000Y-19800000D03*
+G04 #@! TD*
+G04 #@! TO.C,H_RV_2*
+X20500000Y-19800000D03*
+G04 #@! TD*
+G04 #@! TO.C,H_RV_3*
+X507500000Y-19800000D03*
+G04 #@! TD*
+G04 #@! TO.C,H_RV_4*
+X520500000Y-19800000D03*
 G04 #@! TD*
 M02*

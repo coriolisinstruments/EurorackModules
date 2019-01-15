@@ -500,17 +500,6 @@ Connection ~ 6100 3200
 Wire Wire Line
 	6600 1700 6600 1850
 $Comp
-L Device:R R1
-U 1 1 5C373EB0
-P 3650 3300
-F 0 "R1" V 3450 3300 50  0000 R CNN
-F 1 "25K" V 3550 3400 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3580 3300 50  0001 C CNN
-F 3 "" H 3650 3300 50  0001 C CNN
-	1    3650 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 5C373EB4
 P 5400 2950
@@ -542,11 +531,6 @@ Wire Wire Line
 	4000 3800 4150 3800
 Wire Wire Line
 	2800 4100 2800 4500
-Wire Wire Line
-	2800 3300 3500 3300
-Connection ~ 2800 3300
-Wire Wire Line
-	3800 3300 4150 3300
 Wire Wire Line
 	4150 3300 4150 3800
 Connection ~ 4150 3800
@@ -600,23 +584,23 @@ Connection ~ 9250 2250
 Wire Wire Line
 	6100 1700 6600 1700
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J_FB1
+L Connector_Generic:Conn_02x05_Odd_Even J_FB1.1
 U 1 1 5C373EB6
 P 1550 1200
-F 0 "J_FB1" H 1600 1617 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 1600 1526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1550 1200 50  0001 C CNN
+F 0 "J_FB1.1" H 1600 1650 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1600 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1550 1200 50  0001 C CNN
 F 3 "~" H 1550 1200 50  0001 C CNN
 	1    1550 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J_MB1
+L Connector_Generic:Conn_02x05_Odd_Even J_MB1.1
 U 1 1 5C373EBB
 P 1550 2350
-F 0 "J_MB1" H 1600 2767 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 1600 2676 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
+F 0 "J_MB1.1" H 1600 2800 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1600 2700 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
 F 3 "~" H 1550 2350 50  0001 C CNN
 	1    1550 2350
 	1    0    0    -1  
@@ -642,9 +626,9 @@ FB_LEDS_IN_1
 Text Label 1850 1400 0    50   ~ 0
 FB_LEDS_OUT_1
 Text Notes 700  700  0    50   ~ 0
-front board connector
+front board connectors
 Text Notes 700  1850 0    50   ~ 0
-main board connector
+main board connectors
 Text Label 1350 2150 2    50   ~ 0
 IN_1_1
 Text Label 1350 2250 2    50   ~ 0
@@ -689,8 +673,7 @@ Wire Wire Line
 Connection ~ 9500 1050
 Wire Wire Line
 	9500 1050 9500 1300
-NoConn ~ 1350 1500
-NoConn ~ 1350 2650
+NoConn ~ 1350 1600
 Text GLabel 3300 3900 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -703,20 +686,20 @@ Text GLabel 5000 4000 0    50   Input ~ 0
 GND
 Wire Wire Line
 	5000 4000 5100 4000
-Text GLabel 1950 2650 2    50   Input ~ 0
+Text GLabel 2850 2350 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1950 2650 1850 2650
+	2850 2350 2950 2350
 Text GLabel 6600 2950 0    50   Input ~ 0
 GND
 Wire Wire Line
 	9700 2250 9800 2250
 Text GLabel 9800 2250 2    50   Input ~ 0
 GND
-Text GLabel 1950 1500 2    50   Input ~ 0
+Text GLabel 2900 1150 0    50   Input ~ 0
 FB_GND
 Wire Wire Line
-	1950 1500 1850 1500
+	2900 1150 3000 1150
 Text GLabel 1400 3500 2    50   Input ~ 0
 FB_GND
 Text GLabel 1400 3900 2    50   Input ~ 0
@@ -761,4 +744,71 @@ Wire Wire Line
 	1600 7100 1600 7050
 Wire Wire Line
 	1600 6450 1600 6400
+$Comp
+L Device:R_POT RV1
+U 1 1 5C3C733C
+P 3400 3050
+F 0 "RV1" H 3330 3004 50  0000 R CNN
+F 1 "B100K" H 3330 3095 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3300 4150 3300
+Text Label 2950 3300 0    50   ~ 0
+POT_2
+Text Label 4050 3300 2    50   ~ 0
+POT_1
+Text Label 3150 3050 2    50   ~ 0
+FB_POT_2
+Text Label 3400 3300 0    50   ~ 0
+FB_POT_1
+Wire Wire Line
+	3400 3300 3400 3200
+Wire Wire Line
+	2950 3300 2800 3300
+Connection ~ 2800 3300
+Wire Wire Line
+	3150 3050 3200 3050
+Wire Wire Line
+	3400 2900 3400 2800
+Wire Wire Line
+	3400 2800 3200 2800
+Wire Wire Line
+	3200 2800 3200 3050
+Connection ~ 3200 3050
+Wire Wire Line
+	3200 3050 3250 3050
+Text Label 3000 1050 2    50   ~ 0
+FB_POT_2
+Text Label 3000 950  2    50   ~ 0
+FB_POT_1
+Text Label 2950 2250 2    50   ~ 0
+POT_2
+Text Label 2950 2150 2    50   ~ 0
+POT_1
+$Comp
+L Connector_Generic:Conn_01x03 J_FB1.2
+U 1 1 5C41765F
+P 3200 1050
+F 0 "J_FB1.2" H 3280 1092 50  0000 L CNN
+F 1 "Conn_01x03" H 3280 1001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3200 1050 50  0001 C CNN
+F 3 "~" H 3200 1050 50  0001 C CNN
+	1    3200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J_MB1.2
+U 1 1 5C420D4A
+P 3150 2250
+F 0 "J_MB1.2" H 3230 2292 50  0000 L CNN
+F 1 "Conn_01x03" H 3230 2201 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3150 2250 50  0001 C CNN
+F 3 "~" H 3150 2250 50  0001 C CNN
+	1    3150 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

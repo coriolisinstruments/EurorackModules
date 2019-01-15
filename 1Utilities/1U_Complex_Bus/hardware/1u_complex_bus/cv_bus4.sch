@@ -500,17 +500,6 @@ Connection ~ 6100 3200
 Wire Wire Line
 	6600 1700 6600 1850
 $Comp
-L Device:R R7
-U 1 1 5C3815D2
-P 3650 3300
-F 0 "R7" V 3450 3300 50  0000 R CNN
-F 1 "25K" V 3550 3400 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3580 3300 50  0001 C CNN
-F 3 "" H 3650 3300 50  0001 C CNN
-	1    3650 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C8
 U 1 1 5C373EB3
 P 5400 2950
@@ -539,19 +528,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 3300 2800 3700
 Wire Wire Line
-	4000 3800 4150 3800
-Wire Wire Line
 	2800 4100 2800 4500
-Wire Wire Line
-	2800 3300 3500 3300
-Connection ~ 2800 3300
-Wire Wire Line
-	3800 3300 4150 3300
-Wire Wire Line
-	4150 3300 4150 3800
-Connection ~ 4150 3800
-Wire Wire Line
-	4150 3800 4350 3800
 Text Label 2150 3700 2    50   ~ 0
 IN_4_2
 Wire Wire Line
@@ -600,10 +577,10 @@ Connection ~ 9250 2250
 Wire Wire Line
 	6100 1700 6600 1700
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J_FB4
+L Connector_Generic:Conn_02x05_Odd_Even J_FB4.1
 U 1 1 5C373EB7
 P 1550 1200
-F 0 "J_FB4" H 1600 1617 50  0000 C CNN
+F 0 "J_FB4.1" H 1600 1617 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1600 1526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1550 1200 50  0001 C CNN
 F 3 "~" H 1550 1200 50  0001 C CNN
@@ -611,10 +588,10 @@ F 3 "~" H 1550 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J_MB4
+L Connector_Generic:Conn_02x05_Odd_Even J_MB4.1
 U 1 1 5C373EBA
 P 1550 2350
-F 0 "J_MB4" H 1600 2767 50  0000 C CNN
+F 0 "J_MB4.1" H 1600 2767 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1600 2676 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
 F 3 "~" H 1550 2350 50  0001 C CNN
@@ -751,4 +728,91 @@ Text GLabel 8050 5600 0    50   Input ~ 0
 FB_GND
 Wire Wire Line
 	8050 5600 8150 5600
+Wire Wire Line
+	4000 3800 4150 3800
+$Comp
+L Device:R_POT RV?
+U 1 1 5C40BB64
+P 3400 3050
+AR Path="/5C326E31/5C40BB64" Ref="RV?"  Part="1" 
+AR Path="/5C32B85A/5C40BB64" Ref="RV4"  Part="1" 
+F 0 "RV4" H 3330 3004 50  0000 R CNN
+F 1 "B100K" H 3330 3095 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3300 4150 3300
+Text Label 2950 3300 0    50   ~ 0
+POT_2
+Text Label 4050 3300 2    50   ~ 0
+POT_1
+Text Label 3150 3050 2    50   ~ 0
+FB_POT_2
+Text Label 3400 3300 0    50   ~ 0
+FB_POT_1
+Wire Wire Line
+	3400 3300 3400 3200
+Wire Wire Line
+	2950 3300 2800 3300
+Wire Wire Line
+	3150 3050 3200 3050
+Wire Wire Line
+	3400 2900 3400 2800
+Wire Wire Line
+	3400 2800 3200 2800
+Wire Wire Line
+	3200 2800 3200 3050
+Connection ~ 3200 3050
+Wire Wire Line
+	3200 3050 3250 3050
+Wire Wire Line
+	4150 3300 4150 3800
+Connection ~ 4150 3800
+Wire Wire Line
+	4150 3800 4350 3800
+Text GLabel 3100 2450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3100 2450 3200 2450
+Text GLabel 3150 1250 0    50   Input ~ 0
+FB_GND
+Wire Wire Line
+	3150 1250 3250 1250
+Text Label 3250 1150 2    50   ~ 0
+FB_POT_2
+Text Label 3250 1050 2    50   ~ 0
+FB_POT_1
+Text Label 3200 2350 2    50   ~ 0
+POT_2
+Text Label 3200 2250 2    50   ~ 0
+POT_1
+$Comp
+L Connector_Generic:Conn_01x03 J_FB1_?
+U 1 1 5C4394DC
+P 3450 1150
+AR Path="/5C326E31/5C4394DC" Ref="J_FB1_?"  Part="1" 
+AR Path="/5C32B85A/5C4394DC" Ref="J_FB4.2"  Part="1" 
+F 0 "J_FB4.2" H 3530 1192 50  0000 L CNN
+F 1 "Conn_01x03" H 3530 1101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3450 1150 50  0001 C CNN
+F 3 "~" H 3450 1150 50  0001 C CNN
+	1    3450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J_MB1_?
+U 1 1 5C4394E3
+P 3400 2350
+AR Path="/5C326E31/5C4394E3" Ref="J_MB1_?"  Part="1" 
+AR Path="/5C32B85A/5C4394E3" Ref="J_MB4.2"  Part="1" 
+F 0 "J_MB4.2" H 3480 2392 50  0000 L CNN
+F 1 "Conn_01x03" H 3480 2301 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
