@@ -2,7 +2,7 @@
 
 A companion board designed for Bel / Condor / Power One linear power supplies. Goes inbetween the power supply unit (PSU) and your busboards. Might be useful for other kinds of power supplies too.
 
-status: breadboarding (2018.11.10)
+status: build and working
 
 <img src="psucompanion.png" alt="Kicad render" height="240px">
 
