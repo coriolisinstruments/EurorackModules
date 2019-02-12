@@ -1,0 +1,101 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LED3MM-kinks_v41_7-eagle-import
+#
+DEF LED3MM-kinks_v41_7-eagle-import LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "LED3MM-kinks_v41_7-eagle-import" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C K 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LM321?MF-kinks_v41_7-eagle-import
+#
+DEF LM321?MF-kinks_v41_7-eagle-import IC 0 40 Y Y 1 L N
+F0 "IC" 100 125 59 H V L BNN
+F1 "LM321?MF-kinks_v41_7-eagle-import" 100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 50 125 27 0 1 0 V+ Normal 0 L B
+T 900 50 -175 27 0 1 0 V- Normal 0 L B
+P 2 1 0 0 -200 -200 200 0 N
+P 2 1 0 0 -200 200 -200 -200 N
+P 2 1 0 0 -175 -100 -125 -100 N
+P 2 1 0 0 -175 100 -125 100 N
+P 2 1 0 0 -150 125 -150 75 N
+P 2 1 0 0 200 0 -200 200 N
+X +IN 1 -300 100 100 R 50 0 1 0 I
+X V- 2 0 -300 200 U 50 0 1 0 W
+X -IN 3 -300 -100 100 R 50 0 1 0 I
+X OUT 4 300 0 100 L 50 0 1 0 O
+X V+ 5 0 300 200 D 50 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# R-US_R0402-kinks_v41_7-eagle-import
+#
+DEF R-US_R0402-kinks_v41_7-eagle-import R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "R-US_R0402-kinks_v41_7-eagle-import" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# VCC-kinks_v41_7-eagle-import
+#
+DEF VCC-kinks_v41_7-eagle-import #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "VCC-kinks_v41_7-eagle-import" -40 140 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -30 50 N
+P 2 1 0 0 30 50 0 100 N
+X VCC 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# VEE-kinks_v41_7-eagle-import
+#
+DEF VEE-kinks_v41_7-eagle-import #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "VEE-kinks_v41_7-eagle-import" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VEE 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

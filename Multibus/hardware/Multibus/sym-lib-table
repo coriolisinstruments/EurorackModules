@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 1u_multbus-eagle-import)(type Legacy)(uri ${KIPRJMOD}/1u_multbus-eagle-import.lib)(options "")(descr ""))
+  (lib (name 1u_multbus-rescue)(type Legacy)(uri ${KIPRJMOD}/1u_multbus-rescue.lib)(options "")(descr ""))
+)
