@@ -8,7 +8,7 @@ Or intentionally clip your mixed audio of course ;)
 
 *prototyping*
 
-<img src="hardware/multibus_panel/collateral/panel_render_jlcpcb_mg.png" alt="Preview" height="180px">
+<img src="hardware/Multibus_panel/collateral/panel_render_jlcpcb_mg.png" alt="Preview" height="80px">
 
 ## About
 
