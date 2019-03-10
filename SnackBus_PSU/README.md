@@ -10,7 +10,7 @@ A small, easy to DIY, power supply for Eurorack modules. Designed to be used in 
 
 ## About
 
-This power supply was design as a even lower-cost, even smaller, alternative to the excellent Befaco LunchBus skiff PSU. In terms of circuitry, the SnackBus is almost identical. Why use this? Well, the SnackBus fits into a Moog 60 HP skiff (from the Mother-32 or DFAM), whereas the LunchBus does not.
+This power supply was design as a even lower-cost (the total cost is about €30), even smaller, alternative to the excellent Befaco LunchBus skiff PSU. In terms of circuitry, the SnackBus is almost identical. Why use this? Well, the SnackBus fits into a Moog 60 HP skiff (from the Mother-32 or DFAM), whereas the LunchBus does not.
 
 ## On power output
 
