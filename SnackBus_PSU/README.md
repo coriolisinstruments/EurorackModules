@@ -1,6 +1,6 @@
 # SnackBus PSU
 
-A small, easy to DIY, power supply for Eurorack modules. Designed to be used in a surplus Moog Mother-32 or DFAM skiff, utilizing the existing wall-wart and internal connector. You can also use it as a benchtop power supply for your eurorack breadboarding experiments.
+A small, easy to DIY, power supply for Eurorack modules. Designed to be used in a surplus Moog Mother-32 or DFAM skiff, utilizing the existing wall-wart and internal connector. Add some spacers as feet and you can also use it as a benchtop power supply for your eurorack breadboarding experiments.
 
 *status:* build and tested
 
