@@ -1,0 +1,24 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.2)-1*
+G04 #@! TF.CreationDate,2019-03-10T17:56:26+01:00*
+G04 #@! TF.ProjectId,SnackBus_PSU,536e6163-6b42-4757-935f-5053552e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.0.2)-1) date 10-3-2019 17:56:26*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,2.540000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,M1*
+X30710000Y-31090000D03*
+X35790000Y-31090000D03*
+X23090000Y-51410000D03*
+X33250000Y-51410000D03*
+X43410000Y-51410000D03*
+G04 #@! TD*
+M02*
