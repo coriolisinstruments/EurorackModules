@@ -1,4 +1,4 @@
-(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\Corona_KiCad\Corona_mainBoard.dsn
+(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\Corona_KiCad\collateral\Corona_mainBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -57,39 +57,39 @@
       (place M4 30500 -3500 front 0 (PN MountingHole_3.2mm_M3))
     )
     (component "Package_DIP:DIP-14_W7.62mm_Socket"
-      (place U5 28500 -52500 front 0 (PN TL074))
+      (place U5 27500 -55760 front 0 (PN TL074))
     )
     (component Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
-      (place C1 36000 -32500 front 270 (PN 47nF))
-      (place C7 2000 -95000 front 0 (PN 100nF))
-      (place C9 31000 -95000 front 0 (PN 22nF))
+      (place C1 36000 -33250 front 270 (PN 47nF))
+      (place C7 2000 -91500 front 0 (PN 100nF))
+      (place C9 25500 -93000 front 0 (PN 22nF))
     )
     (component Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm::1
-      (place C2 12500 -31500 front 180 (PN 47nF))
-      (place C6 31000 -91000 front 0 (PN 100nF))
-      (place C11 2000 -91000 front 0 (PN 100nF))
+      (place C2 14000 -31000 front 180 (PN 47nF))
+      (place C6 25500 -89000 front 0 (PN 100nF))
+      (place C11 2000 -87500 front 0 (PN 100nF))
     )
     (component Capacitor_THT:CP_Radial_D4.0mm_P2.00mm
-      (place C3 32000 -41000 front 0 (PN "10uF (25V)"))
-      (place C4 32000 -47500 front 0 (PN "10uF (25V)"))
-      (place C10 33500 -83500 front 0 (PN 0.22uF))
+      (place C3 34000 -44000 front 0 (PN "10uF (25V)"))
+      (place C4 34000 -50000 front 0 (PN "10uF (25V)"))
+      (place C10 18000 -40000 front 0 (PN 0.22uF))
     )
     (component Capacitor_THT:CP_Radial_D4.0mm_P2.00mm::1
-      (place C5 33500 -77000 front 0 (PN "1uF (25V)"))
-      (place C8 23000 -65500 front 0 (PN "1uF (25V)"))
+      (place C5 33500 -87000 front 0 (PN "1uF (25V)"))
+      (place C8 33500 -80500 front 0 (PN "1uF (25V)"))
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-      (place D1 13500 -71000 front 180 (PN IN4001))
+      (place D1 13500 -83500 front 180 (PN IN4001))
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal::1"
-      (place D2 34500 -71000 front 180 (PN IN4001))
+      (place D2 30160 -83500 front 180 (PN IN4001))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-      (place D4 10500 -39000 front 270 (PN IN4148))
+      (place D4 23500 -44500 front 0 (PN IN4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
-      (place D5 7500 -39000 front 270 (PN IN4148))
-      (place D6 4500 -39000 front 270 (PN IN4148))
+      (place D5 23500 -47500 front 0 (PN IN4148))
+      (place D6 23500 -50500 front 0 (PN IN4148))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical
       (place J3 2000 -1500 front 0 (PN Conn_01x10))
@@ -101,18 +101,18 @@
       (place J7 24080 -78540 back 270 (PN Conn_02x05_Odd_Even))
     )
     (component "Package_TO_SOT_THT:TO-92_Inline"
-      (place Q1 20960 -47000 front 0 (PN BC547))
-      (place Q3 21000 -41000 front 0 (PN BC547))
+      (place Q1 12000 -38460 front 270 (PN BC547))
+      (place Q3 30500 -38500 front 270 (PN BC547))
     )
     (component "Package_TO_SOT_THT:TO-92_Inline::1"
-      (place Q2 14500 -47000 front 0 (PN BC547))
-      (place Q4 14500 -41000 front 0 (PN BC557))
+      (place Q2 7500 -41000 front 90 (PN BC547))
+      (place Q4 26000 -41000 front 90 (PN BC557))
     )
     (component "Package_DIP:DIP-14_W7.62mm_Socket::1"
-      (place U1 2000 -51000 front 0 (PN TL074))
+      (place U1 3000 -55760 front 0 (PN TL074))
     )
     (component "Package_DIP:DIP-8_W7.62mm_Socket"
-      (place U2 15000 -52000 front 0 (PN TL072))
+      (place U2 13500 -87000 front 0 (PN TL072))
     )
     (component OptoDevice:PerkinElmer_VTL5C
       (place U3 36500 -100000 back 0 (PN VTL5C))
@@ -124,46 +124,46 @@
       (place J9 7500 -35000 back 90 (PN Conn_01x10))
     )
     (component "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext"
-      (place R2 26475 -27000 front 0 (PN 200K))
-      (place R3 26475 -30500 front 0 (PN 200K))
-      (place R4 2525 -75000 front 0 (PN 200K))
-      (place R8 8525 -79000 front 0 (PN 10K))
-      (place R9 31025 -23500 front 0 (PN 10K))
-      (place R11 30975 -27000 front 0 (PN 10K))
-      (place R12 8525 -83000 front 0 (PN 10K))
-      (place R13 19025 -63500 front 0 (PN 10K))
-      (place R18 14025 -91000 front 0 (PN 10K))
-      (place R21 19025 -87000 front 0 (PN 10K))
-      (place R23 30975 -30500 front 0 (PN 1M))
-      (place R24 19025 -83000 front 0 (PN 220K))
-      (place R26 28025 -43000 front 0 (PN 470K))
-      (place R29 29525 -83000 front 0 (PN 10K))
-      (place R31 6975 -27000 front 0 (PN 5K))
-      (place R32 26975 -99500 front 0 (PN 1K))
-      (place R35 28025 -46500 front 0 (PN 1K))
+      (place R2 25025 -28000 front 0 (PN 200K))
+      (place R3 9025 -95500 front 180 (PN 200K))
+      (place R4 22525 -54000 front 0 (PN 200K))
+      (place R8 12475 -51000 front 0 (PN 10K))
+      (place R9 30025 -24500 front 0 (PN 10K))
+      (place R11 30025 -28000 front 0 (PN 10K))
+      (place R12 16025 -54000 front 0 (PN 10K))
+      (place R13 11475 -104500 front 180 (PN 10K))
+      (place R18 22525 -64500 front 0 (PN 10K))
+      (place R21 4025 -78500 front 0 (PN 10K))
+      (place R23 25025 -31500 front 0 (PN 1M))
+      (place R24 5025 -31000 front 0 (PN 220K))
+      (place R26 16025 -61000 front 0 (PN 470K))
+      (place R29 6475 -101000 front 0 (PN 10K))
+      (place R31 6025 -48000 front 180 (PN 5K))
+      (place R32 10525 -44500 front 0 (PN 1K))
+      (place R35 16025 -64500 front 0 (PN 1K))
       (place R40 6525 -104500 front 0 (PN 100K))
-      (place R41 11525 -104500 front 0 (PN 100K))
-      (place R43 6525 -99500 front 0 (PN 5K))
+      (place R41 20025 -48000 front 180 (PN 100K))
+      (place R43 15025 -44500 front 0 (PN 5K))
     )
     (component "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext::1"
-      (place R5 8525 -75000 front 0 (PN 200K))
-      (place R6 28000 -39500 front 0 (PN 200K))
-      (place R7 2525 -79000 front 0 (PN 200K))
-      (place R10 2525 -83000 front 0 (PN 10K))
-      (place R15 2525 -87000 front 0 (PN 10K))
-      (place R16 8500 -87000 front 0 (PN 10K))
-      (place R17 14025 -87000 front 0 (PN 10K))
-      (place R19 19025 -91000 front 0 (PN 10K))
-      (place R20 24025 -91000 front 0 (PN 10K))
-      (place R22 14025 -83000 front 0 (PN 1K))
-      (place R25 24025 -83000 front 0 (PN 100K))
-      (place R27 29525 -75000 front 0 (PN 100K))
-      (place R28 29525 -79000 front 0 (PN 1K))
-      (place R30 6975 -23500 front 0 (PN 10K))
-      (place R33 29525 -87000 front 0 (PN 1K))
-      (place R34 14525 -63500 front 0 (PN 1M))
-      (place R38 24025 -87000 front 0 (PN 10K))
-      (place R42 26975 -104500 front 0 (PN 10K))
+      (place R5 2525 -51000 front 0 (PN 200K))
+      (place R6 11500 -101000 front 180 (PN 200K))
+      (place R7 7475 -51000 front 0 (PN 200K))
+      (place R10 16025 -57500 front 0 (PN 10K))
+      (place R15 22525 -57500 front 0 (PN 10K))
+      (place R16 22525 -61000 front 0 (PN 10K))
+      (place R17 4025 -75000 front 0 (PN 10K))
+      (place R19 32525 -104500 front 0 (PN 10K))
+      (place R20 9525 -75000 front 0 (PN 10K))
+      (place R22 9525 -78500 front 0 (PN 1K))
+      (place R25 32475 -101000 front 0 (PN 100K))
+      (place R27 28025 -75000 front 0 (PN 100K))
+      (place R28 28025 -79000 front 0 (PN 1K))
+      (place R30 7725 -23500 front 0 (PN 10K))
+      (place R33 33025 -75000 front 0 (PN 1K))
+      (place R34 6025 -44500 front 0 (PN 1M))
+      (place R38 15025 -48000 front 180 (PN 10K))
+      (place R42 20025 -44500 front 180 (PN 10K))
     )
     (component "Coriolis-KiCad:R_Axial_DIN0207_smalltext"
       (place R.fuse1 2000 -37380 back 90 (PN 10R))
@@ -1239,27 +1239,16 @@
     (net /tube.3
       (pins U3-4 J9-3)
     )
-    (class kicad_default "" /+12V /+12V.cb /+12V.tb /+1V "/-12V" "/-12V.tb"
-      "/-6.3V" "/-6.3V.tb" /R.gain.1 /R.gain.1.cb /R.gain.3 /R.gain.3.cb /audio.in
-      /audio.in.cb /audio.out /audio.out.cb /audio.out.tb /cv.drv /cv.fb /cv.tone
-      /drv.cv.in /drv.cv.in.cb /drv.cv.level /drv.cv.level.cb /drv.level /drv.level.cb
-      /fb.cv.in /fb.cv.in.cb /fb.cv.level /fb.cv.level.cb /fb.level /fb.level.cb
-      /gnd /gnd.cb /gnd.tb /led.clip.in /led.clip.in.cb /led.clip.out /led.clip.out.cb
-      /led.fb.in /led.fb.in.cb /led.fb.out /led.fb.out.cb /tone.cv.in /tone.cv.in.cb
-      /tone.cv.level /tone.cv.level.cb /tone.level /tone.level.cb /tube.1
-      /tube.1.tb /tube.2 /tube.2.tb /tube.3 /tube.3.tb /tube.4 /tube.4.tb
-      /tube.6 /tube.6.tb /tube.7 /tube.7.tb /tube.8 /tube.8.tb /tube.gnd.cb
-      /tube.in /tube.out "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C5-Pad2)"
-      "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D_TUBE1-Pad1)"
-      "Net-(D_TUBE1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J3-Pad4)"
-      "Net-(J5-Pad2)" "Net-(J8-Pad2)" "Net-(J_IN1-Pad1)" "Net-(J_IN1-Pad3)"
-      "Net-(J_IN_DRV1-Pad3)" "Net-(J_IN_FB1-Pad3)" "Net-(J_IN_TONE1-Pad3)"
-      "Net-(J_OUT1-Pad1)" "Net-(J_OUT1-Pad3)" "Net-(Q1-Pad1)" "Net-(Q1-Pad2)"
-      "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(R1-Pad1)" "Net-(R10-Pad1)"
-      "Net-(R10-Pad2)" "Net-(R12-Pad2)" "Net-(R13-Pad2)" "Net-(R15-Pad2)"
-      "Net-(R16-Pad2)" "Net-(R17-Pad2)" "Net-(R2-Pad1)" "Net-(R25-Pad2)" "Net-(R29-Pad1)"
-      "Net-(R3-Pad1)" "Net-(R33-Pad1)" "Net-(R37-Pad2)" "Net-(R4-Pad1)" "Net-(R40-Pad2)"
-      "Net-(RFBB1-Pad3)" "Net-(SX1-Pad9)" "Net-(U6-Pad6)"
+    (class kicad_default "" /+12V /+1V "/-12V" /R.gain.1 /R.gain.3 /audio.in
+      /audio.out /cv.drv /cv.fb /cv.tone /drv.cv.in /drv.cv.level /drv.level
+      /fb.cv.in /fb.cv.level /fb.level /gnd /led.clip.in /led.clip.out /led.fb.in
+      /led.fb.out /tone.cv.in /tone.cv.level /tone.level /tube.1 /tube.2 /tube.3
+      /tube.6 /tube.7 /tube.8 /tube.in /tube.out "Net-(C10-Pad1)" "Net-(C11-Pad1)"
+      "Net-(C5-Pad2)" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D4-Pad1)" "Net-(D5-Pad1)"
+      "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)"
+      "Net-(R10-Pad1)" "Net-(R10-Pad2)" "Net-(R12-Pad2)" "Net-(R13-Pad2)"
+      "Net-(R15-Pad2)" "Net-(R16-Pad2)" "Net-(R17-Pad2)" "Net-(R2-Pad1)" "Net-(R25-Pad2)"
+      "Net-(R29-Pad1)" "Net-(R3-Pad1)" "Net-(R33-Pad1)" "Net-(R4-Pad1)" "Net-(R40-Pad2)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
