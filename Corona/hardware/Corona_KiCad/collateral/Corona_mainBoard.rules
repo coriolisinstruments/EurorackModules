@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1467)
+    (start_pass_no 8667)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,14 +63,13 @@
     )
   )
   (class "kicad_default"
-    /gnd /tube.2 /tube.in /tube.1 /tube.7 /+12V "/-12V" "Net-(C5-Pad2)"
-    /tube.6 /tube.out /R.gain.1 /led.fb.in "Net-(C10-Pad1)" /audio.out "Net-(C11-Pad1)" "Net-(D1-Pad1)"
-    "Net-(D2-Pad2)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" /led.clip.in /audio.in /led.clip.out /led.fb.out /R.gain.3
-    /fb.cv.in /fb.cv.level /fb.level /drv.cv.in /drv.cv.level /drv.level /tone.cv.in /tone.cv.level
-    /tone.level /tube.8 "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(R2-Pad1)"
-    "Net-(R3-Pad1)" "Net-(R4-Pad1)" "Net-(R12-Pad2)" "Net-(R13-Pad2)" "Net-(R10-Pad2)" /+1V "Net-(R10-Pad1)" "Net-(R15-Pad2)"
-    "Net-(R16-Pad2)" "Net-(R17-Pad2)" /cv.fb /cv.drv /cv.tone "Net-(R25-Pad2)" "Net-(R29-Pad1)" "Net-(R33-Pad1)"
-    "Net-(R40-Pad2)" /tube.3
+    /tube.2 /tube.in /tube.1 /tube.7 /+12V /gnd "/-12V" /tube.6
+    /tube.out /R.gain.1 /led.fb.in "Net-(C10-Pad1)" /audio.out "Net-(C11-Pad1)" "Net-(D1-Pad1)" "Net-(D2-Pad2)"
+    "Net-(D4-Pad1)" "Net-(D5-Pad1)" /led.clip.in /audio.in /led.clip.out /led.fb.out /R.gain.3 /fb.cv.in
+    /fb.cv.level /fb.level /drv.cv.in /drv.cv.level /drv.level /tone.cv.in /tone.cv.level /tone.level
+    /tube.8 "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(R13-Pad2)" /+1V
+    "Net-(R10-Pad1)" /cv.fb /cv.drv /cv.tone /tube.3 "Net-(C7-Pad2)" "Net-(R11-Pad1)" "Net-(R15-Pad1)"
+    "Net-(R18-Pad2)" "Net-(R20-Pad1)" "Net-(R23-Pad2)" "Net-(R32-Pad2)" "Net-(R40-Pad1)" "Net-(R42-Pad1)" "Net-(R44-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

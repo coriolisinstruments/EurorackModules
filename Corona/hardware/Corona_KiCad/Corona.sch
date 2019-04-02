@@ -57,7 +57,7 @@ AR Path="/5CA2959D/5CA46143" Ref="U?"  Part="3"
 AR Path="/5CA46143" Ref="U1"  Part="3" 
 F 0 "U1" H 5100 4550 50  0000 C CNN
 F 1 "TL074" H 5150 4650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4950 4900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4950 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5050 5000 50  0001 C CNN
 	3    5000 4800
 	1    0    0    -1  
@@ -84,8 +84,8 @@ U 1 1 5CA46152
 P 4200 5600
 AR Path="/5A65BCAF/5AA9A38A/5CA46152" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46152" Ref="R?"  Part="1" 
-AR Path="/5CA46152" Ref="R11"  Part="1" 
-F 0 "R11" V 3993 5600 50  0000 C CNN
+AR Path="/5CA46152" Ref="R12"  Part="1" 
+F 0 "R12" V 3993 5600 50  0000 C CNN
 F 1 "10K" V 4084 5600 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4130 5600 50  0001 C CNN
 F 3 "" H 4200 5600 50  0001 C CNN
@@ -98,8 +98,8 @@ U 1 1 5CA46159
 P 5050 5400
 AR Path="/5A65BCAF/5AA9A38A/5CA46159" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46159" Ref="R?"  Part="1" 
-AR Path="/5CA46159" Ref="R18"  Part="1" 
-F 0 "R18" V 4843 5400 50  0000 C CNN
+AR Path="/5CA46159" Ref="R13"  Part="1" 
+F 0 "R13" V 4843 5400 50  0000 C CNN
 F 1 "10K" V 4934 5400 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4980 5400 50  0001 C CNN
 F 3 "" H 5050 5400 50  0001 C CNN
@@ -132,8 +132,8 @@ U 1 1 5CA4616D
 P 4600 5700
 AR Path="/5A65BCAF/5AA9A38A/5CA4616D" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA4616D" Ref="R?"  Part="1" 
-AR Path="/5CA4616D" Ref="R15"  Part="1" 
-F 0 "R15" V 4393 5700 50  0000 C CNN
+AR Path="/5CA4616D" Ref="R14"  Part="1" 
+F 0 "R14" V 4393 5700 50  0000 C CNN
 F 1 "10K" V 4484 5700 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4530 5700 50  0001 C CNN
 F 3 "" H 4600 5700 50  0001 C CNN
@@ -183,7 +183,7 @@ AR Path="/5CA2959D/5CA46185" Ref="U?"  Part="4"
 AR Path="/5CA46185" Ref="U1"  Part="4" 
 F 0 "U1" H 5100 6950 50  0000 C CNN
 F 1 "TL074" H 5150 7050 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4950 7300 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4950 7300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5050 7400 50  0001 C CNN
 	4    5000 7200
 	1    0    0    -1  
@@ -210,8 +210,8 @@ U 1 1 5CA46195
 P 4200 7100
 AR Path="/5A65BCAF/5AA9A38A/5CA46195" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46195" Ref="R?"  Part="1" 
-AR Path="/5CA46195" Ref="R12"  Part="1" 
-F 0 "R12" V 3993 7100 50  0000 C CNN
+AR Path="/5CA46195" Ref="R16"  Part="1" 
+F 0 "R16" V 3993 7100 50  0000 C CNN
 F 1 "10K" V 4084 7100 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4130 7100 50  0001 C CNN
 F 3 "" H 4200 7100 50  0001 C CNN
@@ -224,8 +224,8 @@ U 1 1 5CA4619C
 P 4150 8000
 AR Path="/5A65BCAF/5AA9A38A/5CA4619C" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA4619C" Ref="R?"  Part="1" 
-AR Path="/5CA4619C" Ref="R8"  Part="1" 
-F 0 "R8" V 3943 8000 50  0000 C CNN
+AR Path="/5CA4619C" Ref="R17"  Part="1" 
+F 0 "R17" V 3943 8000 50  0000 C CNN
 F 1 "10K" V 4034 8000 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4080 8000 50  0001 C CNN
 F 3 "" H 4150 8000 50  0001 C CNN
@@ -240,8 +240,8 @@ U 1 1 5CA461A4
 P 5050 7800
 AR Path="/5A65BCAF/5AA9A38A/5CA461A4" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461A4" Ref="R?"  Part="1" 
-AR Path="/5CA461A4" Ref="R19"  Part="1" 
-F 0 "R19" V 4843 7800 50  0000 C CNN
+AR Path="/5CA461A4" Ref="R18"  Part="1" 
+F 0 "R18" V 4843 7800 50  0000 C CNN
 F 1 "10K" V 4934 7800 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4980 7800 50  0001 C CNN
 F 3 "" H 5050 7800 50  0001 C CNN
@@ -272,8 +272,8 @@ U 1 1 5CA461B8
 P 4600 8100
 AR Path="/5A65BCAF/5AA9A38A/5CA461B8" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461B8" Ref="R?"  Part="1" 
-AR Path="/5CA461B8" Ref="R16"  Part="1" 
-F 0 "R16" V 4393 8100 50  0000 C CNN
+AR Path="/5CA461B8" Ref="R19"  Part="1" 
+F 0 "R19" V 4393 8100 50  0000 C CNN
 F 1 "10K" V 4484 8100 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4530 8100 50  0001 C CNN
 F 3 "" H 4600 8100 50  0001 C CNN
@@ -283,15 +283,15 @@ $EndComp
 $Comp
 L Corona-rescue:R-device R?
 U 1 1 5CA461C0
-P 2900 4300
+P 2450 4300
 AR Path="/5A65BCAF/5AA9A38A/5CA461C0" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461C0" Ref="R?"  Part="1" 
-AR Path="/5CA461C0" Ref="R4"  Part="1" 
-F 0 "R4" V 2693 4300 50  0000 C CNN
-F 1 "200K" V 2784 4300 50  0000 C CNN
-F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2830 4300 50  0001 C CNN
-F 3 "" H 2900 4300 50  0001 C CNN
-	1    2900 4300
+AR Path="/5CA461C0" Ref="R1"  Part="1" 
+F 0 "R1" V 2243 4300 50  0000 C CNN
+F 1 "200K" V 2334 4300 50  0000 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2380 4300 50  0001 C CNN
+F 3 "" H 2450 4300 50  0001 C CNN
+	1    2450 4300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -300,8 +300,8 @@ U 1 1 5CA461C7
 P 3500 4150
 AR Path="/5A65BCAF/5AA9A38A/5CA461C7" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461C7" Ref="R?"  Part="1" 
-AR Path="/5CA461C7" Ref="R7"  Part="1" 
-F 0 "R7" V 3293 4150 50  0000 C CNN
+AR Path="/5CA461C7" Ref="R10"  Part="1" 
+F 0 "R10" V 3293 4150 50  0000 C CNN
 F 1 "200K" V 3384 4150 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 3430 4150 50  0001 C CNN
 F 3 "" H 3500 4150 50  0001 C CNN
@@ -339,8 +339,8 @@ U 1 1 5CA461DE
 P 4200 4700
 AR Path="/5A65BCAF/5AA9A38A/5CA461DE" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461DE" Ref="R?"  Part="1" 
-AR Path="/5CA461DE" Ref="R10"  Part="1" 
-F 0 "R10" V 3993 4700 50  0000 C CNN
+AR Path="/5CA461DE" Ref="R11"  Part="1" 
+F 0 "R11" V 3993 4700 50  0000 C CNN
 F 1 "10K" V 4084 4700 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4130 4700 50  0001 C CNN
 F 3 "" H 4200 4700 50  0001 C CNN
@@ -372,7 +372,7 @@ AR Path="/5CA2959D/5CA461EE" Ref="U?"  Part="1"
 AR Path="/5CA461EE" Ref="U1"  Part="1" 
 F 0 "U1" H 3550 6850 50  0000 C CNN
 F 1 "TL074" H 3600 6950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3400 7200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3400 7200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3500 7300 50  0001 C CNN
 	1    3450 7100
 	1    0    0    1   
@@ -384,15 +384,15 @@ Wire Wire Line
 $Comp
 L Corona-rescue:R-device R?
 U 1 1 5CA461FA
-P 2850 6700
+P 2450 6700
 AR Path="/5A65BCAF/5AA9A38A/5CA461FA" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA461FA" Ref="R?"  Part="1" 
 AR Path="/5CA461FA" Ref="R2"  Part="1" 
-F 0 "R2" V 2643 6700 50  0000 C CNN
-F 1 "200K" V 2734 6700 50  0000 C CNN
-F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2780 6700 50  0001 C CNN
-F 3 "" H 2850 6700 50  0001 C CNN
-	1    2850 6700
+F 0 "R2" V 2243 6700 50  0000 C CNN
+F 1 "200K" V 2334 6700 50  0000 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2380 6700 50  0001 C CNN
+F 3 "" H 2450 6700 50  0001 C CNN
+	1    2450 6700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -401,8 +401,8 @@ U 1 1 5CA46201
 P 3400 6500
 AR Path="/5A65BCAF/5AA9A38A/5CA46201" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46201" Ref="R?"  Part="1" 
-AR Path="/5CA46201" Ref="R5"  Part="1" 
-F 0 "R5" V 3193 6500 50  0000 C CNN
+AR Path="/5CA46201" Ref="R15"  Part="1" 
+F 0 "R15" V 3193 6500 50  0000 C CNN
 F 1 "200K" V 3284 6500 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 3330 6500 50  0001 C CNN
 F 3 "" H 3400 6500 50  0001 C CNN
@@ -471,7 +471,7 @@ AR Path="/5CA2959D/5CA46224" Ref="U?"  Part="2"
 AR Path="/5CA46224" Ref="U2"  Part="2" 
 F 0 "U2" H 5100 9300 50  0000 C CNN
 F 1 "TL072" H 5150 9400 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 4950 9650 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4950 9650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5050 9750 50  0001 C CNN
 	2    5000 9550
 	1    0    0    -1  
@@ -498,8 +498,8 @@ U 1 1 5CA46234
 P 4200 9450
 AR Path="/5A65BCAF/5AA9A38A/5CA46234" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46234" Ref="R?"  Part="1" 
-AR Path="/5CA46234" Ref="R13"  Part="1" 
-F 0 "R13" V 3993 9450 50  0000 C CNN
+AR Path="/5CA46234" Ref="R21"  Part="1" 
+F 0 "R21" V 3993 9450 50  0000 C CNN
 F 1 "10K" V 4084 9450 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4130 9450 50  0001 C CNN
 F 3 "" H 4200 9450 50  0001 C CNN
@@ -512,8 +512,8 @@ U 1 1 5CA4623B
 P 4150 10350
 AR Path="/5A65BCAF/5AA9A38A/5CA4623B" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA4623B" Ref="R?"  Part="1" 
-AR Path="/5CA4623B" Ref="R9"  Part="1" 
-F 0 "R9" V 3943 10350 50  0000 C CNN
+AR Path="/5CA4623B" Ref="R22"  Part="1" 
+F 0 "R22" V 3943 10350 50  0000 C CNN
 F 1 "10K" V 4034 10350 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4080 10350 50  0001 C CNN
 F 3 "" H 4150 10350 50  0001 C CNN
@@ -528,8 +528,8 @@ U 1 1 5CA46243
 P 5050 10150
 AR Path="/5A65BCAF/5AA9A38A/5CA46243" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46243" Ref="R?"  Part="1" 
-AR Path="/5CA46243" Ref="R20"  Part="1" 
-F 0 "R20" V 4843 10150 50  0000 C CNN
+AR Path="/5CA46243" Ref="R23"  Part="1" 
+F 0 "R23" V 4843 10150 50  0000 C CNN
 F 1 "10K" V 4934 10150 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4980 10150 50  0001 C CNN
 F 3 "" H 5050 10150 50  0001 C CNN
@@ -562,8 +562,8 @@ U 1 1 5CA46255
 P 4600 10450
 AR Path="/5A65BCAF/5AA9A38A/5CA46255" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46255" Ref="R?"  Part="1" 
-AR Path="/5CA46255" Ref="R17"  Part="1" 
-F 0 "R17" V 4393 10450 50  0000 C CNN
+AR Path="/5CA46255" Ref="R24"  Part="1" 
+F 0 "R24" V 4393 10450 50  0000 C CNN
 F 1 "10K" V 4484 10450 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4530 10450 50  0001 C CNN
 F 3 "" H 4600 10450 50  0001 C CNN
@@ -586,7 +586,7 @@ AR Path="/5CA2959D/5CA46261" Ref="U?"  Part="1"
 AR Path="/5CA46261" Ref="U2"  Part="1" 
 F 0 "U2" H 3550 9200 50  0000 C CNN
 F 1 "TL072" H 3600 9300 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3400 9550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 9550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3500 9650 50  0001 C CNN
 	1    3450 9450
 	1    0    0    1   
@@ -598,15 +598,15 @@ Wire Wire Line
 $Comp
 L Corona-rescue:R-device R?
 U 1 1 5CA4626D
-P 2850 9050
+P 2450 9050
 AR Path="/5A65BCAF/5AA9A38A/5CA4626D" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA4626D" Ref="R?"  Part="1" 
 AR Path="/5CA4626D" Ref="R3"  Part="1" 
-F 0 "R3" V 2643 9050 50  0000 C CNN
-F 1 "200K" V 2734 9050 50  0000 C CNN
-F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2780 9050 50  0001 C CNN
-F 3 "" H 2850 9050 50  0001 C CNN
-	1    2850 9050
+F 0 "R3" V 2243 9050 50  0000 C CNN
+F 1 "200K" V 2334 9050 50  0000 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2380 9050 50  0001 C CNN
+F 3 "" H 2450 9050 50  0001 C CNN
+	1    2450 9050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -615,8 +615,8 @@ U 1 1 5CA46274
 P 3400 8850
 AR Path="/5A65BCAF/5AA9A38A/5CA46274" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46274" Ref="R?"  Part="1" 
-AR Path="/5CA46274" Ref="R6"  Part="1" 
-F 0 "R6" V 3193 8850 50  0000 C CNN
+AR Path="/5CA46274" Ref="R20"  Part="1" 
+F 0 "R20" V 3193 8850 50  0000 C CNN
 F 1 "200K" V 3284 8850 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 3330 8850 50  0001 C CNN
 F 3 "" H 3400 8850 50  0001 C CNN
@@ -662,7 +662,7 @@ AR Path="/5CA2959D/5CA4628D" Ref="U?"  Part="3"
 AR Path="/5CA4628D" Ref="U2"  Part="3" 
 F 0 "U2" H 5758 10296 50  0000 L CNN
 F 1 "TL072" H 5758 10205 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5800 10250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 10250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5800 10250 50  0001 C CNN
 	3    5800 10250
 	1    0    0    -1  
@@ -673,8 +673,8 @@ U 1 1 5CA46294
 P 11650 3400
 AR Path="/5A65BCAF/5AA9A38A/5CA46294" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA46294" Ref="R?"  Part="1" 
-AR Path="/5CA46294" Ref="R21"  Part="1" 
-F 0 "R21" V 11443 3400 50  0000 C CNN
+AR Path="/5CA46294" Ref="R.pwr.1"  Part="1" 
+F 0 "R.pwr.1" V 11443 3400 50  0000 C CNN
 F 1 "10K" V 11534 3400 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 11580 3400 50  0001 C CNN
 F 3 "" H 11650 3400 50  0001 C CNN
@@ -687,8 +687,8 @@ U 1 1 5CA4629B
 P 11650 3900
 AR Path="/5A65BCAF/5AA9A38A/5CA4629B" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA4629B" Ref="R?"  Part="1" 
-AR Path="/5CA4629B" Ref="R22"  Part="1" 
-F 0 "R22" V 11443 3900 50  0000 C CNN
+AR Path="/5CA4629B" Ref="R.pwr.2"  Part="1" 
+F 0 "R.pwr.2" V 11443 3900 50  0000 C CNN
 F 1 "1K" V 11534 3900 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 11580 3900 50  0001 C CNN
 F 3 "" H 11650 3900 50  0001 C CNN
@@ -731,10 +731,10 @@ U 1 1 5CA462B3
 P 4250 11500
 AR Path="/5A65BCAF/5CA462B3" Ref="R?"  Part="1" 
 AR Path="/5CA2959D/5CA462B3" Ref="R?"  Part="1" 
-AR Path="/5CA462B3" Ref="R14"  Part="1" 
-F 0 "R14" V 4043 11500 50  0000 C CNN
-F 1 "470r" V 4134 11500 50  0000 C CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 4180 11500 50  0001 C CNN
+AR Path="/5CA462B3" Ref="R5"  Part="1" 
+F 0 "R5" V 4043 11500 50  0000 C CNN
+F 1 "470R" V 4134 11500 50  0000 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 4180 11500 50  0001 C CNN
 F 3 "" H 4250 11500 50  0001 C CNN
 	1    4250 11500
 	0    1    1    0   
@@ -792,7 +792,7 @@ AR Path="/5CA2959D/5CA462D3" Ref="U?"  Part="2"
 AR Path="/5CA462D3" Ref="U1"  Part="2" 
 F 0 "U1" H 3650 4450 50  0000 C CNN
 F 1 "TL074" H 3700 4550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 4800 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3600 4900 50  0001 C CNN
 	2    3550 4700
 	1    0    0    1   
@@ -838,32 +838,32 @@ gnd.cb
 $Comp
 L coriolis-kicad:POT RV_GAIN?
 U 1 1 5CA462EF
-P 7750 4000
+P 7750 4650
 AR Path="/5A65BCAF/5CA462EF" Ref="RV_GAIN?"  Part="1" 
 AR Path="/5CA2959D/5CA462EF" Ref="RV_GAIN?"  Part="1" 
 AR Path="/5CA462EF" Ref="RV_GAIN1"  Part="1" 
-F 0 "RV_GAIN1" H 7680 3954 50  0000 R CNN
-F 1 "A500K" H 7680 4045 50  0000 R CNN
-F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 7750 4000 50  0001 C CNN
-F 3 "" H 7750 4000 50  0001 C CNN
-	1    7750 4000
+F 0 "RV_GAIN1" H 7680 4604 50  0000 R CNN
+F 1 "A500K" H 7680 4695 50  0000 R CNN
+F 2 "Coriolis-KiCad:9MM_SNAP-IN_POT" H 7750 4650 50  0001 C CNN
+F 3 "" H 7750 4650 50  0001 C CNN
+	1    7750 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 4150 7750 4400
+	7750 4800 7750 5050
 Wire Wire Line
-	7900 4000 8000 4000
+	7900 4650 8000 4650
 Wire Wire Line
-	8000 4000 8000 4400
+	8000 4650 8000 5050
 Wire Wire Line
-	8000 4400 7750 4400
+	8000 5050 7750 5050
 Text Label 1900 1950 0    50   ~ 0
 R.gain.1.cb
-Text Label 7750 3850 0    50   ~ 0
+Text Label 7750 4500 0    50   ~ 0
 R.gain.1.cb
 Text Label 1900 1850 0    50   ~ 0
 R.gain.3.cb
-Text Label 7750 4400 2    50   ~ 0
+Text Label 7750 5050 2    50   ~ 0
 R.gain.3.cb
 NoConn ~ 2150 11600
 Wire Wire Line
@@ -886,10 +886,10 @@ L Corona-rescue:R-device R?
 U 1 1 5CA46307
 P 2550 11500
 AR Path="/5CA2959D/5CA46307" Ref="R?"  Part="1" 
-AR Path="/5CA46307" Ref="R1"  Part="1" 
-F 0 "R1" V 2343 11500 50  0000 C CNN
+AR Path="/5CA46307" Ref="R4"  Part="1" 
+F 0 "R4" V 2343 11500 50  0000 C CNN
 F 1 "47K" V 2434 11500 50  0000 C CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 2480 11500 50  0001 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 2480 11500 50  0001 C CNN
 F 3 "" H 2550 11500 50  0001 C CNN
 	1    2550 11500
 	0    1    1    0   
@@ -1233,8 +1233,8 @@ L Corona-rescue:CP-device C?
 U 1 1 5CA56086
 P 12050 2100
 AR Path="/5A65BCAF/5CA56086" Ref="C?"  Part="1" 
-AR Path="/5CA56086" Ref="C4"  Part="1" 
-F 0 "C4" H 12168 2146 50  0000 L CNN
+AR Path="/5CA56086" Ref="C2"  Part="1" 
+F 0 "C2" H 12168 2146 50  0000 L CNN
 F 1 "10uF (25V)" H 12168 2055 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 12088 1950 50  0001 C CNN
 F 3 "" H 12050 2100 50  0001 C CNN
@@ -1246,8 +1246,8 @@ L Corona-rescue:CP-device C?
 U 1 1 5CA5608D
 P 12050 1600
 AR Path="/5A65BCAF/5CA5608D" Ref="C?"  Part="1" 
-AR Path="/5CA5608D" Ref="C3"  Part="1" 
-F 0 "C3" H 12168 1646 50  0000 L CNN
+AR Path="/5CA5608D" Ref="C1"  Part="1" 
+F 0 "C1" H 12168 1646 50  0000 L CNN
 F 1 "10uF (25V)" H 12168 1555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 12088 1450 50  0001 C CNN
 F 3 "" H 12050 1600 50  0001 C CNN
@@ -1259,8 +1259,8 @@ L Corona-rescue:C-device C?
 U 1 1 5CA56094
 P 12750 2100
 AR Path="/5A65BCAF/5CA56094" Ref="C?"  Part="1" 
-AR Path="/5CA56094" Ref="C7"  Part="1" 
-F 0 "C7" H 12865 2146 50  0000 L CNN
+AR Path="/5CA56094" Ref="C4"  Part="1" 
+F 0 "C4" H 12865 2146 50  0000 L CNN
 F 1 "100nF" H 12865 2055 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 12788 1950 50  0001 C CNN
 F 3 "" H 12750 2100 50  0001 C CNN
@@ -1272,8 +1272,8 @@ L Corona-rescue:C-device C?
 U 1 1 5CA5609B
 P 12750 1600
 AR Path="/5A65BCAF/5CA5609B" Ref="C?"  Part="1" 
-AR Path="/5CA5609B" Ref="C6"  Part="1" 
-F 0 "C6" H 12865 1646 50  0000 L CNN
+AR Path="/5CA5609B" Ref="C3"  Part="1" 
+F 0 "C3" H 12865 1646 50  0000 L CNN
 F 1 "100nF" H 12865 1555 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 12788 1450 50  0001 C CNN
 F 3 "" H 12750 1600 50  0001 C CNN
@@ -1336,7 +1336,7 @@ AR Path="/5A65BCAF/5CA560BD" Ref="U?"  Part="2"
 AR Path="/5CA560BD" Ref="U5"  Part="3" 
 F 0 "U5" H 18450 2650 50  0000 C CNN
 F 1 "TL074" H 18500 2750 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 18300 3000 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 18300 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 18400 3100 50  0001 C CNN
 	3    18350 2900
 	1    0    0    -1  
@@ -1349,7 +1349,7 @@ AR Path="/5A65BCAF/5CA560C4" Ref="U?"  Part="1"
 AR Path="/5CA560C4" Ref="U5"  Part="2" 
 F 0 "U5" H 15800 2750 50  0000 C CNN
 F 1 "TL074" H 15850 2850 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 15650 3100 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 15650 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 15750 3200 50  0001 C CNN
 	2    15700 3000
 	1    0    0    1   
@@ -1362,7 +1362,7 @@ AR Path="/5A65BCAF/5CA560CB" Ref="U?"  Part="4"
 AR Path="/5CA560CB" Ref="U5"  Part="4" 
 F 0 "U5" H 19950 2850 50  0000 C CNN
 F 1 "TL074" H 20000 2950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 19800 3200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 19800 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 19900 3300 50  0001 C CNN
 	4    19850 3100
 	1    0    0    1   
@@ -1375,7 +1375,7 @@ AR Path="/5A65BCAF/5CA560D2" Ref="U?"  Part="3"
 AR Path="/5CA560D2" Ref="U5"  Part="1" 
 F 0 "U5" H 14350 12300 50  0000 C CNN
 F 1 "TL074" H 14400 12400 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 14200 12650 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 14200 12650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 14300 12750 50  0001 C CNN
 	1    14250 12550
 	1    0    0    -1  
@@ -1385,8 +1385,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA560D9
 P 12150 12250
 AR Path="/5A65BCAF/5CA560D9" Ref="R?"  Part="1" 
-AR Path="/5CA560D9" Ref="R27"  Part="1" 
-F 0 "R27" H 12080 12204 50  0000 R CNN
+AR Path="/5CA560D9" Ref="R34"  Part="1" 
+F 0 "R34" H 12080 12204 50  0000 R CNN
 F 1 "100K" H 12080 12295 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 12080 12250 50  0001 C CNN
 F 3 "" H 12150 12250 50  0001 C CNN
@@ -1398,8 +1398,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA560E0
 P 10250 12250
 AR Path="/5A65BCAF/5CA560E0" Ref="R?"  Part="1" 
-AR Path="/5CA560E0" Ref="R24"  Part="1" 
-F 0 "R24" H 10180 12204 50  0000 R CNN
+AR Path="/5CA560E0" Ref="R31"  Part="1" 
+F 0 "R31" H 10180 12204 50  0000 R CNN
 F 1 "220K" H 10180 12295 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 10180 12250 50  0001 C CNN
 F 3 "" H 10250 12250 50  0001 C CNN
@@ -1411,8 +1411,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA560E7
 P 9250 13950
 AR Path="/5A65BCAF/5CA560E7" Ref="R?"  Part="1" 
-AR Path="/5CA560E7" Ref="R23"  Part="1" 
-F 0 "R23" H 9180 13904 50  0000 R CNN
+AR Path="/5CA560E7" Ref="R30"  Part="1" 
+F 0 "R30" H 9180 13904 50  0000 R CNN
 F 1 "1M" H 9180 13995 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 9180 13950 50  0001 C CNN
 F 3 "" H 9250 13950 50  0001 C CNN
@@ -1424,8 +1424,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA560EE
 P 13600 12650
 AR Path="/5A65BCAF/5CA560EE" Ref="R?"  Part="1" 
-AR Path="/5CA560EE" Ref="R28"  Part="1" 
-F 0 "R28" V 13393 12650 50  0000 C CNN
+AR Path="/5CA560EE" Ref="R35"  Part="1" 
+F 0 "R35" V 13393 12650 50  0000 C CNN
 F 1 "1K" V 13484 12650 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 13530 12650 50  0001 C CNN
 F 3 "" H 13600 12650 50  0001 C CNN
@@ -1437,8 +1437,8 @@ L Corona-rescue:C-device C?
 U 1 1 5CA560F5
 P 8900 13350
 AR Path="/5A65BCAF/5CA560F5" Ref="C?"  Part="1" 
-AR Path="/5CA560F5" Ref="C1"  Part="1" 
-F 0 "C1" V 8648 13350 50  0000 C CNN
+AR Path="/5CA560F5" Ref="C5"  Part="1" 
+F 0 "C5" V 8648 13350 50  0000 C CNN
 F 1 "47nF" V 8739 13350 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 8938 13200 50  0001 C CNN
 F 3 "" H 8900 13350 50  0001 C CNN
@@ -1450,8 +1450,8 @@ L Corona-rescue:C-device C?
 U 1 1 5CA560FC
 P 10800 12650
 AR Path="/5A65BCAF/5CA560FC" Ref="C?"  Part="1" 
-AR Path="/5CA560FC" Ref="C2"  Part="1" 
-F 0 "C2" V 10548 12650 50  0000 C CNN
+AR Path="/5CA560FC" Ref="C6"  Part="1" 
+F 0 "C6" V 10548 12650 50  0000 C CNN
 F 1 "47nF" V 10639 12650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 10838 12500 50  0001 C CNN
 F 3 "" H 10800 12650 50  0001 C CNN
@@ -1463,8 +1463,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56103
 P 11350 13850
 AR Path="/5A65BCAF/5CA56103" Ref="R?"  Part="1" 
-AR Path="/5CA56103" Ref="R26"  Part="1" 
-F 0 "R26" H 11280 13804 50  0000 R CNN
+AR Path="/5CA56103" Ref="R33"  Part="1" 
+F 0 "R33" H 11280 13804 50  0000 R CNN
 F 1 "470K" H 11280 13895 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 11280 13850 50  0001 C CNN
 F 3 "" H 11350 13850 50  0001 C CNN
@@ -1476,8 +1476,8 @@ L Corona-rescue:CP-device C?
 U 1 1 5CA5610A
 P 12700 12650
 AR Path="/5A65BCAF/5CA5610A" Ref="C?"  Part="1" 
-AR Path="/5CA5610A" Ref="C5"  Part="1" 
-F 0 "C5" V 12955 12650 50  0000 C CNN
+AR Path="/5CA5610A" Ref="C7"  Part="1" 
+F 0 "C7" V 12955 12650 50  0000 C CNN
 F 1 "1uF (25V)" V 12864 12650 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 12738 12500 50  0001 C CNN
 F 3 "" H 12700 12650 50  0001 C CNN
@@ -1516,8 +1516,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56120
 P 18950 12050
 AR Path="/5A65BCAF/5CA56120" Ref="R?"  Part="1" 
-AR Path="/5CA56120" Ref="R38"  Part="1" 
-F 0 "R38" V 18743 12050 50  0000 C CNN
+AR Path="/5CA56120" Ref="R50"  Part="1" 
+F 0 "R50" V 18743 12050 50  0000 C CNN
 F 1 "10K" V 18834 12050 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18880 12050 50  0001 C CNN
 F 3 "" H 18950 12050 50  0001 C CNN
@@ -1529,8 +1529,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56127
 P 20000 12850
 AR Path="/5A65BCAF/5CA56127" Ref="R?"  Part="1" 
-AR Path="/5CA56127" Ref="R41"  Part="1" 
-F 0 "R41" H 19930 12804 50  0000 R CNN
+AR Path="/5CA56127" Ref="R52"  Part="1" 
+F 0 "R52" H 19930 12804 50  0000 R CNN
 F 1 "100K" H 19930 12895 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 19930 12850 50  0001 C CNN
 F 3 "" H 20000 12850 50  0001 C CNN
@@ -1542,8 +1542,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA5612E
 P 20400 12250
 AR Path="/5A65BCAF/5CA5612E" Ref="R?"  Part="1" 
-AR Path="/5CA5612E" Ref="R42"  Part="1" 
-F 0 "R42" V 20193 12250 50  0000 C CNN
+AR Path="/5CA5612E" Ref="R51"  Part="1" 
+F 0 "R51" V 20193 12250 50  0000 C CNN
 F 1 "10K" V 20284 12250 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 20330 12250 50  0001 C CNN
 F 3 "" H 20400 12250 50  0001 C CNN
@@ -1555,8 +1555,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56135
 P 21000 12850
 AR Path="/5A65BCAF/5CA56135" Ref="R?"  Part="1" 
-AR Path="/5CA56135" Ref="R43"  Part="1" 
-F 0 "R43" H 20930 12804 50  0000 R CNN
+AR Path="/5CA56135" Ref="R53"  Part="1" 
+F 0 "R53" H 20930 12804 50  0000 R CNN
 F 1 "5K" H 20930 12895 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 20930 12850 50  0001 C CNN
 F 3 "" H 21000 12850 50  0001 C CNN
@@ -1568,8 +1568,8 @@ L Corona-rescue:CP-device C?
 U 1 1 5CA5613C
 P 19500 12500
 AR Path="/5A65BCAF/5CA5613C" Ref="C?"  Part="1" 
-AR Path="/5CA5613C" Ref="C10"  Part="1" 
-F 0 "C10" H 19618 12546 50  0000 L CNN
+AR Path="/5CA5613C" Ref="C11"  Part="1" 
+F 0 "C11" H 19618 12546 50  0000 L CNN
 F 1 "0.22uF" H 19618 12455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 19538 12350 50  0001 C CNN
 F 3 "" H 19500 12500 50  0001 C CNN
@@ -1704,8 +1704,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56186
 P 16900 6350
 AR Path="/5A65BCAF/5CA56186" Ref="R?"  Part="1" 
-AR Path="/5CA56186" Ref="R31"  Part="1" 
-F 0 "R31" V 16693 6350 50  0000 C CNN
+AR Path="/5CA56186" Ref="R47"  Part="1" 
+F 0 "R47" V 16693 6350 50  0000 C CNN
 F 1 "5K" V 16784 6350 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 16830 6350 50  0001 C CNN
 F 3 "" H 16900 6350 50  0001 C CNN
@@ -1721,8 +1721,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA5618F
 P 18350 5900
 AR Path="/5A65BCAF/5CA5618F" Ref="R?"  Part="1" 
-AR Path="/5CA5618F" Ref="R34"  Part="1" 
-F 0 "R34" V 18143 5900 50  0000 C CNN
+AR Path="/5CA5618F" Ref="R45"  Part="1" 
+F 0 "R45" V 18143 5900 50  0000 C CNN
 F 1 "1M" V 18234 5900 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18280 5900 50  0001 C CNN
 F 3 "" H 18350 5900 50  0001 C CNN
@@ -1765,8 +1765,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561A6
 P 17250 6100
 AR Path="/5A65BCAF/5CA561A6" Ref="R?"  Part="1" 
-AR Path="/5CA561A6" Ref="R32"  Part="1" 
-F 0 "R32" V 17043 6100 50  0000 C CNN
+AR Path="/5CA561A6" Ref="R46"  Part="1" 
+F 0 "R46" V 17043 6100 50  0000 C CNN
 F 1 "1K" V 17134 6100 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 17180 6100 50  0001 C CNN
 F 3 "" H 17250 6100 50  0001 C CNN
@@ -1800,8 +1800,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561BC
 P 10650 14500
 AR Path="/5A65BCAF/5CA561BC" Ref="R?"  Part="1" 
-AR Path="/5CA561BC" Ref="R25"  Part="1" 
-F 0 "R25" H 10580 14454 50  0000 R CNN
+AR Path="/5CA561BC" Ref="R32"  Part="1" 
+F 0 "R32" H 10580 14454 50  0000 R CNN
 F 1 "100K" H 10580 14545 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 10580 14500 50  0001 C CNN
 F 3 "" H 10650 14500 50  0001 C CNN
@@ -1826,8 +1826,8 @@ L Corona-rescue:C-device C?
 U 1 1 5CA561CA
 P 20550 3350
 AR Path="/5A65BCAF/5CA561CA" Ref="C?"  Part="1" 
-AR Path="/5CA561CA" Ref="C11"  Part="1" 
-F 0 "C11" H 20665 3396 50  0000 L CNN
+AR Path="/5CA561CA" Ref="C10"  Part="1" 
+F 0 "C10" H 20665 3396 50  0000 L CNN
 F 1 "100nF" H 20665 3305 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 20588 3200 50  0001 C CNN
 F 3 "" H 20550 3350 50  0001 C CNN
@@ -1847,8 +1847,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561D5
 P 18400 3600
 AR Path="/5A65BCAF/5CA561D5" Ref="R?"  Part="1" 
-AR Path="/5CA561D5" Ref="R35"  Part="1" 
-F 0 "R35" V 18193 3600 50  0000 C CNN
+AR Path="/5CA561D5" Ref="R43"  Part="1" 
+F 0 "R43" V 18193 3600 50  0000 C CNN
 F 1 "1K" V 18284 3600 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18330 3600 50  0001 C CNN
 F 3 "" H 18400 3600 50  0001 C CNN
@@ -1860,8 +1860,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561DC
 P 17800 3000
 AR Path="/5A65BCAF/5CA561DC" Ref="R?"  Part="1" 
-AR Path="/5CA561DC" Ref="R33"  Part="1" 
-F 0 "R33" V 17593 3000 50  0000 C CNN
+AR Path="/5CA561DC" Ref="R42"  Part="1" 
+F 0 "R42" V 17593 3000 50  0000 C CNN
 F 1 "1K" V 17684 3000 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 17730 3000 50  0001 C CNN
 F 3 "" H 17800 3000 50  0001 C CNN
@@ -1891,8 +1891,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561ED
 P 15050 2500
 AR Path="/5A65BCAF/5CA561ED" Ref="R?"  Part="1" 
-AR Path="/5CA561ED" Ref="R29"  Part="1" 
-F 0 "R29" V 14843 2500 50  0000 C CNN
+AR Path="/5CA561ED" Ref="R40"  Part="1" 
+F 0 "R40" V 14843 2500 50  0000 C CNN
 F 1 "10K" V 14934 2500 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 14980 2500 50  0001 C CNN
 F 3 "" H 15050 2500 50  0001 C CNN
@@ -1909,8 +1909,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA561F7
 P 15800 2500
 AR Path="/5A65BCAF/5CA561F7" Ref="R?"  Part="1" 
-AR Path="/5CA561F7" Ref="R30"  Part="1" 
-F 0 "R30" V 15593 2500 50  0000 C CNN
+AR Path="/5CA561F7" Ref="R41"  Part="1" 
+F 0 "R41" V 15593 2500 50  0000 C CNN
 F 1 "10K" V 15684 2500 50  0000 C CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 15730 2500 50  0001 C CNN
 F 3 "" H 15800 2500 50  0001 C CNN
@@ -1962,8 +1962,8 @@ L Corona-rescue:R-device R?
 U 1 1 5CA56213
 P 19900 4250
 AR Path="/5A65BCAF/5CA56213" Ref="R?"  Part="1" 
-AR Path="/5CA56213" Ref="R40"  Part="1" 
-F 0 "R40" H 19830 4204 50  0000 R CNN
+AR Path="/5CA56213" Ref="R44"  Part="1" 
+F 0 "R44" H 19830 4204 50  0000 R CNN
 F 1 "100K" H 19830 4295 50  0000 R CNN
 F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 19830 4250 50  0001 C CNN
 F 3 "" H 19900 4250 50  0001 C CNN
@@ -2124,7 +2124,7 @@ AR Path="/5A65BCAF/5CA56268" Ref="RFBT?"  Part="1"
 AR Path="/5CA56268" Ref="RFBT1"  Part="1" 
 F 0 "RFBT1" H 11030 8854 50  0000 R CNN
 F 1 "150R" H 11030 8945 50  0000 R CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 11030 8900 50  0001 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 11030 8900 50  0001 C CNN
 F 3 "" H 11100 8900 50  0001 C CNN
 	1    11100 8900
 	-1   0    0    1   
@@ -2139,7 +2139,7 @@ AR Path="/5A65BCAF/5CA5626F" Ref="U?"  Part="1"
 AR Path="/5CA5626F" Ref="U4"  Part="1" 
 F 0 "U4" H 10400 8358 50  0000 C CNN
 F 1 "LM337_TO220" H 10400 8449 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10400 8400 50  0001 C CIN
+F 2 "TO_SOT_Packages_THT:TO-220-4_Horizontal" H 10400 8400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 10400 8600 50  0001 C CNN
 	1    10400 8600
 	1    0    0    1   
@@ -2181,10 +2181,10 @@ P 18750 8600
 AR Path="/5A65C09D/5CA56285" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA296A6/5CA56285" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA56285" Ref="R?"  Part="1" 
-AR Path="/5CA56285" Ref="R36"  Part="1" 
-F 0 "R36" V 18550 8650 50  0000 R CNN
+AR Path="/5CA56285" Ref="R101"  Part="1" 
+F 0 "R101" V 18550 8700 50  0000 R CNN
 F 1 "680K" V 18650 8700 50  0000 R CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 18680 8600 50  0001 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18680 8600 50  0001 C CNN
 F 3 "" H 18750 8600 50  0001 C CNN
 	1    18750 8600
 	0    1    1    0   
@@ -2217,8 +2217,8 @@ P 7300 2850
 AR Path="/5A65C09D/5CA56296" Ref="MK?"  Part="1" 
 AR Path="/5A65BCAF/5CA296A6/5CA56296" Ref="MK?"  Part="1" 
 AR Path="/5A65BCAF/5CA56296" Ref="MK?"  Part="1" 
-AR Path="/5CA56296" Ref="MK1"  Part="1" 
-F 0 "MK1" H 7400 2896 50  0000 L CNN
+AR Path="/5CA56296" Ref="MK.cb1"  Part="1" 
+F 0 "MK.cb1" H 7400 2896 50  0000 L CNN
 F 1 "Mounting_Hole" H 7400 2805 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7300 2850 50  0001 C CNN
 F 3 "" H 7300 2850 50  0001 C CNN
@@ -2232,8 +2232,8 @@ P 7300 3100
 AR Path="/5A65C09D/5CA5629D" Ref="MK?"  Part="1" 
 AR Path="/5A65BCAF/5CA296A6/5CA5629D" Ref="MK?"  Part="1" 
 AR Path="/5A65BCAF/5CA5629D" Ref="MK?"  Part="1" 
-AR Path="/5CA5629D" Ref="MK2"  Part="1" 
-F 0 "MK2" H 7400 3146 50  0000 L CNN
+AR Path="/5CA5629D" Ref="MK.mb1"  Part="1" 
+F 0 "MK.mb1" H 7400 3146 50  0000 L CNN
 F 1 "Mounting_Hole" H 7400 3055 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7300 3100 50  0001 C CNN
 F 3 "" H 7300 3100 50  0001 C CNN
@@ -2306,10 +2306,10 @@ P 19000 9450
 AR Path="/5A65C09D/5CA562C1" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA296A6/5CA562C1" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA562C1" Ref="R?"  Part="1" 
-AR Path="/5CA562C1" Ref="R39"  Part="1" 
-F 0 "R39" V 19200 9500 50  0000 R CNN
+AR Path="/5CA562C1" Ref="R103"  Part="1" 
+F 0 "R103" V 19200 9550 50  0000 R CNN
 F 1 "1M" V 19100 9500 50  0000 R CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 18930 9450 50  0001 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18930 9450 50  0001 C CNN
 F 3 "" H 19000 9450 50  0001 C CNN
 	1    19000 9450
 	-1   0    0    1   
@@ -2324,7 +2324,7 @@ AR Path="/5A65BCAF/5CA562CF" Ref="U?"  Part="1"
 AR Path="/5CA562CF" Ref="U6"  Part="1" 
 F 0 "U6" H 19400 8700 50  0000 C CNN
 F 1 "TL072" H 19450 8800 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 19400 9000 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 19400 9000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 19400 9000 50  0001 C CNN
 	1    19400 9000
 	1    0    0    1   
@@ -2338,10 +2338,10 @@ P 18750 9100
 AR Path="/5A65C09D/5CA562D7" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA296A6/5CA562D7" Ref="R?"  Part="1" 
 AR Path="/5A65BCAF/5CA562D7" Ref="R?"  Part="1" 
-AR Path="/5CA562D7" Ref="R37"  Part="1" 
-F 0 "R37" V 18950 9150 50  0000 R CNN
+AR Path="/5CA562D7" Ref="R102"  Part="1" 
+F 0 "R102" V 18950 9200 50  0000 R CNN
 F 1 "1M" V 18850 9150 50  0000 R CNN
-F 2 "Coriolis-KiCad:R_Axial_DIN0207_smalltext" V 18680 9100 50  0001 C CNN
+F 2 "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext" V 18680 9100 50  0001 C CNN
 F 3 "" H 18750 9100 50  0001 C CNN
 	1    18750 9100
 	0    -1   -1   0   
@@ -2389,7 +2389,7 @@ AR Path="/5A65BCAF/5CA562F0" Ref="U?"  Part="3"
 AR Path="/5CA562F0" Ref="U6"  Part="3" 
 F 0 "U6" H 19808 9596 50  0000 L CNN
 F 1 "TL072" H 19808 9505 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 19850 9550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 19850 9550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 19850 9550 50  0001 C CNN
 	3    19850 9550
 	1    0    0    -1  
@@ -2406,7 +2406,7 @@ AR Path="/5A65BCAF/5CA562F8" Ref="U?"  Part="2"
 AR Path="/5CA562F8" Ref="U6"  Part="2" 
 F 0 "U6" H 21600 9267 50  0000 C CNN
 F 1 "TL072" H 21600 9176 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 21600 8900 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 21600 8900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 21600 8900 50  0001 C CNN
 	2    21600 8900
 	1    0    0    -1  
@@ -2478,17 +2478,17 @@ F 3 "~" H 2850 1550 50  0001 C CNN
 $EndComp
 Text Label 3050 1550 0    50   ~ 0
 audio.in
-Text Label 2300 4300 1    50   ~ 0
+Text Label 2700 4300 1    50   ~ 0
 fb.cv.in.cb
-Text Label 2750 4300 1    50   ~ 0
+Text Label 3050 4300 1    50   ~ 0
 fb.cv.in
 Text Label 2500 4800 3    50   ~ 0
 fb.cv.level.cb
 Text Label 3250 4800 3    50   ~ 0
 fb.cv.level
-Text Label 2300 6700 1    50   ~ 0
-drv.cv.in.cb
 Text Label 2700 6700 1    50   ~ 0
+drv.cv.in.cb
+Text Label 3000 6700 1    50   ~ 0
 drv.cv.in
 Text Label 2500 7200 3    50   ~ 0
 drv.cv.level.cb
@@ -2503,7 +2503,7 @@ AR Path="/5CA2959D/5CCA553D" Ref="U?"  Part="3"
 AR Path="/5CCA553D" Ref="U1"  Part="5" 
 F 0 "U1" H 5850 6000 50  0000 C CNN
 F 1 "TL074" H 5850 6150 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5700 6200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 6200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5800 6300 50  0001 C CNN
 	5    5750 6100
 	1    0    0    -1  
@@ -2574,9 +2574,9 @@ Text Label 4000 10350 3    50   ~ 0
 tone.level
 Wire Wire Line
 	2500 9550 2350 9550
-Text Label 2300 9050 1    50   ~ 0
-tone.cv.in.cb
 Text Label 2700 9050 1    50   ~ 0
+tone.cv.in.cb
+Text Label 3000 9050 1    50   ~ 0
 tone.cv.in
 Text Label 4600 8250 3    50   ~ 0
 gnd
@@ -2773,5 +2773,101 @@ F 2 "" H 6350 2700 50  0001 C CNN
 F 3 "" H 6350 2700 50  0001 C CNN
 	1    6350 2700
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 4300 2600 4300
+Wire Wire Line
+	2600 6700 2700 6700
+Wire Wire Line
+	2600 9050 2700 9050
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK?
+U 1 1 5CAAA23F
+P 7300 3350
+AR Path="/5A65C09D/5CAAA23F" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAA23F" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5CAAA23F" Ref="MK?"  Part="1" 
+AR Path="/5CAAA23F" Ref="MK.mb2"  Part="1" 
+F 0 "MK.mb2" H 7400 3396 50  0000 L CNN
+F 1 "Mounting_Hole" H 7400 3305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7300 3350 50  0001 C CNN
+F 3 "" H 7300 3350 50  0001 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK?
+U 1 1 5CAAA345
+P 8200 3100
+AR Path="/5A65C09D/5CAAA345" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAA345" Ref="MK?"  Part="1" 
+AR Path="/5A65BCAF/5CAAA345" Ref="MK?"  Part="1" 
+AR Path="/5CAAA345" Ref="MK.mb3"  Part="1" 
+F 0 "MK.mb3" H 8300 3146 50  0000 L CNN
+F 1 "Mounting_Hole" H 8300 3055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK.mb?
+U 1 1 5CAAA9DA
+P 8200 3350
+AR Path="/5A65C09D/5CAAA9DA" Ref="MK.mb?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAA9DA" Ref="MK.mb?"  Part="1" 
+AR Path="/5A65BCAF/5CAAA9DA" Ref="MK.mb?"  Part="1" 
+AR Path="/5CAAA9DA" Ref="MK.mb4"  Part="1" 
+F 0 "MK.mb4" H 8300 3396 50  0000 L CNN
+F 1 "Mounting_Hole" H 8300 3305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8200 3350 50  0001 C CNN
+F 3 "" H 8200 3350 50  0001 C CNN
+	1    8200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK.mb?
+U 1 1 5CAAABCD
+P 9050 2850
+AR Path="/5A65C09D/5CAAABCD" Ref="MK.mb?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAABCD" Ref="MK.mb?"  Part="1" 
+AR Path="/5A65BCAF/5CAAABCD" Ref="MK.mb?"  Part="1" 
+AR Path="/5CAAABCD" Ref="MK.tb1"  Part="1" 
+F 0 "MK.tb1" H 9150 2896 50  0000 L CNN
+F 1 "Mounting_Hole" H 9150 2805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9050 2850 50  0001 C CNN
+F 3 "" H 9050 2850 50  0001 C CNN
+	1    9050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK.tb?
+U 1 1 5CAAAE00
+P 9050 3100
+AR Path="/5A65C09D/5CAAAE00" Ref="MK.tb?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAAE00" Ref="MK.tb?"  Part="1" 
+AR Path="/5A65BCAF/5CAAAE00" Ref="MK.tb?"  Part="1" 
+AR Path="/5CAAAE00" Ref="MK.tb2"  Part="1" 
+F 0 "MK.tb2" H 9150 3146 50  0000 L CNN
+F 1 "Mounting_Hole" H 9150 3055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9050 3100 50  0001 C CNN
+F 3 "" H 9050 3100 50  0001 C CNN
+	1    9050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Corona-rescue:Mounting_Hole-Mechanical MK.tb?
+U 1 1 5CAAB073
+P 9050 3350
+AR Path="/5A65C09D/5CAAB073" Ref="MK.tb?"  Part="1" 
+AR Path="/5A65BCAF/5CA296A6/5CAAB073" Ref="MK.tb?"  Part="1" 
+AR Path="/5A65BCAF/5CAAB073" Ref="MK.tb?"  Part="1" 
+AR Path="/5CAAB073" Ref="MK.tb3"  Part="1" 
+F 0 "MK.tb3" H 9150 3396 50  0000 L CNN
+F 1 "Mounting_Hole" H 9150 3305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9050 3350 50  0001 C CNN
+F 3 "" H 9050 3350 50  0001 C CNN
+	1    9050 3350
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
