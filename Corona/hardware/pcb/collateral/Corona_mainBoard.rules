@@ -1,0 +1,81 @@
+
+(rules PCB Corona_mainBoard
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6602)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /tube.2 /tube.in /tube.1 /tube.7 /+12V /gnd "/-12V" /tube.6
+    /tube.out /R.gain.1 /led.fb.in /audio.out "Net-(C11-Pad1)" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D4-Pad1)"
+    "Net-(D5-Pad1)" /led.clip.in /audio.in /led.clip.out /led.fb.out /R.gain.3 /fb.cv.in /fb.cv.level
+    /fb.level /drv.cv.in /drv.cv.level /drv.level /tone.level /tube.8 "Net-(Q1-Pad1)" "Net-(Q1-Pad2)"
+    "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(R13-Pad2)" /+1V "Net-(R10-Pad1)" /cv.fb /cv.drv
+    /tube.3 "Net-(C7-Pad2)" "Net-(R11-Pad1)" "Net-(R15-Pad1)" "Net-(R18-Pad2)" "Net-(R32-Pad2)" "Net-(R40-Pad1)" "Net-(R42-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
