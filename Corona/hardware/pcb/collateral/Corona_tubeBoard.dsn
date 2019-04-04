@@ -1,4 +1,4 @@
-(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\Corona_KiCad\collateral\Corona_tubeBoard.dsn
+(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\pcb\collateral\Corona_tubeBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -23,8 +23,6 @@
     (boundary
       (path pcb 0  38000 -66000  0 -66000  0 0  38000 0  38000 -66000)
     )
-    (plane /gnd.tb (polygon F.Cu 0  38000 -66000  38000 0  0 0  0 -66000  38000 -66000))
-    (plane /gnd.tb (polygon B.Cu 0  0 -66000  0 0  38000 0  38000 -66000  0 -66000))
     (plane "/-12V.tb" (polygon B.Cu 0  0 -27000  11500 -27000  11500 -47000  0 -47000  0 -27000))
     (plane "/-12V.tb" (polygon F.Cu 0  13.569 -27000  11513.6 -27000  11513.6 -47000  13.569 -47000
             13.569 -27000))
@@ -528,28 +526,10 @@
     (net "Net-(RFBB1-Pad2)"
       (pins U4-1 RFBB1-2 RFBT1-1)
     )
-    (class kicad_default "" /+12V /+12V.cb /+12V.tb /+1V "/-12V" "/-12V.tb"
-      "/-6.3V.tb" /R.gain.1 /R.gain.1.cb /R.gain.3 /R.gain.3.cb /audio.in
-      /audio.in.cb /audio.out /audio.out.cb /audio.out.tb /cv.drv /cv.fb /cv.tone
-      /drv.cv.in /drv.cv.in.cb /drv.cv.level /drv.cv.level.cb /drv.level /drv.level.cb
-      /fb.cv.in /fb.cv.in.cb /fb.cv.level /fb.cv.level.cb /fb.level /fb.level.cb
-      /gnd /gnd.cb /gnd.tb /led.clip.in /led.clip.in.cb /led.clip.out /led.clip.out.cb
-      /led.fb.in /led.fb.in.cb /led.fb.out /led.fb.out.cb /tone.cv.in /tone.cv.in.cb
-      /tone.cv.level /tone.cv.level.cb /tone.level /tone.level.cb /tube.1
-      /tube.1.tb /tube.2 /tube.2.tb /tube.3 /tube.3.tb /tube.4.tb /tube.6
-      /tube.6.tb /tube.7 /tube.7.tb /tube.8 /tube.8.tb /tube.gnd.cb /tube.in
-      /tube.out "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C7-Pad2)" "Net-(D1-Pad1)"
-      "Net-(D2-Pad2)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D_TUBE1-Pad1)"
-      "Net-(D_TUBE1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J3-Pad4)"
-      "Net-(J5-Pad2)" "Net-(J8-Pad2)" "Net-(J_IN1-Pad1)" "Net-(J_IN1-Pad3)"
-      "Net-(J_IN_DRV1-Pad1)" "Net-(J_IN_DRV1-Pad3)" "Net-(J_IN_FB1-Pad1)"
-      "Net-(J_IN_FB1-Pad3)" "Net-(J_IN_TONE1-Pad1)" "Net-(J_IN_TONE1-Pad3)"
-      "Net-(J_OUT1-Pad1)" "Net-(J_OUT1-Pad3)" "Net-(Q1-Pad1)" "Net-(Q1-Pad2)"
-      "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(R10-Pad1)" "Net-(R102-Pad2)"
-      "Net-(R11-Pad1)" "Net-(R13-Pad2)" "Net-(R15-Pad1)" "Net-(R18-Pad2)"
-      "Net-(R20-Pad1)" "Net-(R23-Pad2)" "Net-(R32-Pad2)" "Net-(R4-Pad1)" "Net-(R40-Pad1)"
-      "Net-(R42-Pad1)" "Net-(R44-Pad2)" "Net-(RFBB1-Pad2)" "Net-(SX1-Pad9)"
-      "Net-(U6-Pad6)"
+    (class kicad_default "" /+12V.tb "/-12V.tb" "/-6.3V.tb" /audio.out.tb
+      /gnd.tb /tube.1.tb /tube.2.tb /tube.3.tb /tube.4.tb /tube.6.tb /tube.7.tb
+      /tube.8.tb "Net-(D_TUBE1-Pad1)" "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)"
+      "Net-(J8-Pad2)" "Net-(R102-Pad2)" "Net-(RFBB1-Pad2)" "Net-(U6-Pad6)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
@@ -560,7 +540,8 @@
     )
   )
   (wiring
-    (wire (path F.Cu 250  6000 -50000  6000 -45500  6000 -45500)(net "/-12V.tb")(type protect))
+    (wire (path F.Cu 250  6000 -50000  6000 -45500)(net "/-12V.tb")(type protect))
+    (wire (path F.Cu 250  6000 -46000  6000 -45500  6000 -46000)(net "/-12V.tb")(type protect))
     (via "Via[0-1]_800:400_um"  6000 -45500 (net "/-12V.tb")(type protect))
   )
 )

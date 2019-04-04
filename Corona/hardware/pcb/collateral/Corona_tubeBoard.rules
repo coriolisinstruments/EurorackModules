@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 90)
+    (start_pass_no 858)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,8 +63,8 @@
     )
   )
   (class "kicad_default"
-    /gnd.tb "/-12V.tb" "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(D_TUBE1-Pad1)" "Net-(J8-Pad2)" "Net-(U6-Pad6)" /tube.4.tb
-    "/-6.3V.tb" /tube.1.tb /tube.2.tb /tube.3.tb /tube.6.tb /tube.7.tb /tube.8.tb /+12V.tb
+    "/-12V.tb" "Net-(D_TUBE1-Pad2)" "Net-(J5-Pad2)" "Net-(D_TUBE1-Pad1)" "Net-(J8-Pad2)" "Net-(U6-Pad6)" /tube.4.tb "/-6.3V.tb"
+    /gnd.tb /tube.1.tb /tube.2.tb /tube.3.tb /tube.6.tb /tube.7.tb /tube.8.tb /+12V.tb
     /audio.out.tb "Net-(R102-Pad2)" "Net-(RFBB1-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)

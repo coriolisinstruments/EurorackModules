@@ -129,7 +129,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5CA4FC36)
-    (at 26 95.2)
+    (at 26 96.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -141,7 +141,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5CA4FC2E)
-    (at 14 95.2)
+    (at 14 96.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -153,7 +153,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5BE9D94F)
-    (at 20 63.2)
+    (at 20 64.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -201,7 +201,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5BE9D4EE)
-    (at 32 81.2)
+    (at 32 82.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -213,7 +213,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5BE9D2AF)
-    (at 8 81.2)
+    (at 8 82.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -225,7 +225,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5BE9D200)
-    (at 8 45.2)
+    (at 8 46.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -237,7 +237,7 @@
   )
 
   (module Coriolis-KiCad:panel_9mm_pot (layer F.Cu) (tedit 5B77EBF4) (tstamp 5BE9D007)
-    (at 32 45.2)
+    (at 32 46.2)
     (attr virtual)
     (fp_text reference MH6 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -261,7 +261,7 @@
   )
 
   (module Coriolis-KiCad:panel_0.25in_bushing (layer F.Cu) (tedit 5B79279F) (tstamp 5BE9D9AF)
-    (at 20 42.7)
+    (at 20 45.2)
     (attr virtual)
     (fp_text reference MH5 (at 6.5532 -1.3716) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
