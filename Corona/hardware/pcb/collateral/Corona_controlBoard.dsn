@@ -1,4 +1,4 @@
-(pcb D:\Documents\Coriolis\EurorackModules\Corona\hardware\pcb\collateral\Corona_controlBoard.dsn
+(pcb C:\Users\krisp\Documents\Coriolis\GitHub\EurorackModules\Corona\hardware\pcb\collateral\Corona_controlBoard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -55,28 +55,28 @@
       (place J_IN_DRV1 14250 -102000 front 180 (PN "Audio-Jack-2_Switch"))
     )
     (component "Coriolis-KiCad:9MM_SNAP-IN_POT"
-      (place RV_FB1 31000 -36000 front 0 (PN 100K))
-      (place RV_DRV1 19000 -54000 front 0 (PN 100K))
-      (place RV_TONE1 7000 -36000 front 0 (PN 100K))
+      (place RV_FB1 31000 -34500 front 0 (PN 100K))
+      (place RV_DRV1 19000 -53500 front 0 (PN 100K))
+      (place RV_TONE1 7000 -34500 front 0 (PN 100K))
     )
     (component "Coriolis-KiCad:SUBMINI_TOGGLE"
-      (place SW1 19000 -35000 front 90 (PN SW_SPDT))
+      (place SW1 19000 -34500 front 90 (PN SW_SPDT))
     )
     (component "Coriolis-KiCad:9MM_SNAP-IN_POT::1"
-      (place RV_GAIN1 31000 -72000 front 0 (PN A500K))
-      (place RV_DRV_CV1 13000 -86000 front 0 (PN 100K))
-      (place RV_FB_CV1 25000 -86000 front 0 (PN 100K))
-      (place RV_IN1 7000 -72000 front 0 (PN 100K))
+      (place RV_GAIN1 31000 -72500 front 0 (PN A500K))
+      (place RV_DRV_CV1 13000 -89000 front 180 (PN 100K))
+      (place RV_FB_CV1 25000 -89000 front 180 (PN 100K))
+      (place RV_IN1 7000 -72500 front 0 (PN 100K))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical
       (place J1 2000 -1500 back 0 (PN Conn_01x10))
       (place J2 36000 -1500 back 0 (PN Conn_01x10))
     )
     (component LED_THT:LED_D3.0mm
-      (place D3 35000 -54000 front 180 (PN LED))
+      (place D3 35250 -53500 front 180 (PN LED))
     )
     (component LED_THT:LED_D3.0mm::1
-      (place D7 35000 -86000 front 180 (PN LED))
+      (place D7 35250 -89000 front 180 (PN LED))
     )
     (component "Coriolis-KiCad:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_smalltext"
       (place R1 4000 -49000 front 0 (PN 200K))
