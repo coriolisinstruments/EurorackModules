@@ -1,6 +1,6 @@
 # EurorackModules
 
-Open-source eurorack synthesizer modules. All our schematics and pcbs are developed with [KiCad.](http://kicad-pcb.org/)
+Open-source eurorack synthesizer modules. All our schematics and pcbs are developed with [KiCad.](http://kicad.org/)
 
 ## 1U modules
 
